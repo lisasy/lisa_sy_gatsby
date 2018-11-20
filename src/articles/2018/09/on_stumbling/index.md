@@ -1,13 +1,12 @@
 ---
-
+path: "/writing/on_stumbling"
 title: On Stumbling
-date: 2018-09-13 09:31 UTC
+date: "2018-09-13"
+featured_image: "./featured_image.jpg"
 image_description: "Trees in Lyon"
 subtitle: "Pushing oneself towards the edge of their comfort zone when learning a new language in a foreign country"
-tags: 
 
 ---
-
 
 During one of my many aimless strolls the other day, it dawned on me that I
 have been in France for 6 weeks, which is the midway point of my sojourn here.

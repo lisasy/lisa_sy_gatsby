@@ -15,15 +15,15 @@ const About = () => (
             Hello, my name is Lisa Sy. I'm an interdisciplinary digital designer,
             illustrator, and artist based in the San Francisco Bay Area.
             Having worked with many people I've admired at <a
-            href="https://facebook.design/">Facebook</a> and <a
-            href="http://thoughtbot.com">thoughtbot</a>, I am now an independent
+            href="https://facebook.design/" rel="noopener noreferrer">Facebook</a> and <a
+            href="http://thoughtbot.com" rel="noopener noreferrer">thoughtbot</a>, I am now an independent
             freelance designer and illustrator. I bring 7 years of professional
             experience from leading design in content moderation and reporting at
             Facebook, to working with engineers and clients on shipping production-ready code for numerous startups and enterprises, to
             collaborating with good, curious folks working on compelling projects and
             initiatives. If you think we can work well together, feel free to reach out to me at <a href="mailto:lisasyis@gmail.com">lisasyis@gmail.com</a>.
           </p>
-          <a href="https://www.dropbox.com/s/4di8zdq1viki8qa/lisa_sy_resume_2018.pdf?dl=0" target="_blank" class="button_primary">
+          <a href="https://www.dropbox.com/s/4di8zdq1viki8qa/lisa_sy_resume_2018.pdf?dl=0" target="_blank" rel="noopener noreferrer" class="button_primary">
             <p class="button_title">View Resume</p>
           </a>
         </div>
@@ -142,19 +142,19 @@ const About = () => (
 
           <p>
           Since early 2017, I’ve been a board member of <a
-            href="http://oaklanddigital.org/" target="_blank">Oakland Digital</a>,
+            href="http://oaklanddigital.org/" target="_blank" rel="noopener noreferrer">Oakland Digital</a>,
           a non-profit in Oakland focused on empowering early-career creative
           professionals with relevant skills and practice.
           </p>
 
           <p> 
           As a first-generation college graduate in my family, I graduated from <a
-            href="https://www.wesleyan.edu/amst/" target="_blank">Wesleyan
+            href="https://www.wesleyan.edu/amst/" target="_blank" rel="noopener noreferrer">Wesleyan
             University with a B.A. in American Studies</a> with an emphasis on Race
           and Ethnic Studies. There is no way for me to discredit the value of my
           <a
           href="https://medium.com/@lisasy/how-i-went-from-liberal-arts-to-tech-4d32f78f30d6"
-        target="_blank"> liberal arts education emphasizing the development of
+        target="_blank" rel="noopener noreferrer"> liberal arts education emphasizing the development of
         foundational, interdisciplinary skills</a>, such as writing,
       critical-thinking, collaboration, and reading.  As a student, I founded and
       managed the premier student-run design agency called TypeClub. I was the only
@@ -174,17 +174,17 @@ const About = () => (
         <div class="col_secondary featured">
           <h5 class="header_title_h3">Featured</h5>
           <section class="button_stack">
-            <a href="https://spec.fm/podcasts/design-details/45158" class="button_stack_li">
+            <a href="https://spec.fm/podcasts/design-details/45158" class="button_stack_li" rel="noopener noreferrer">
               <h6 class="li_source">August 24, 2016 · Podcast</h6>
               <h5 class="li_title">Design Details #159 Twe-Mail</h5>
             </a>
 
-            <a href="https://techiesproject.com/lisa-sy/" class="button_stack_li">
+            <a href="https://techiesproject.com/lisa-sy/" class="button_stack_li" rel="noopener noreferrer">
               <h6 class="li_source">March 5, 2016 · Interview</h6>
               <h5 class="li_title">The Techies Project</h5>
             </a>
 
-            <a href="https://techiesproject.com/lisa-sy/" class="button_stack_li">
+            <a href="https://techiesproject.com/lisa-sy/" class="button_stack_li" rel="noopener noreferrer">
               <h6 class="li_source">January 17, 2016 · Television Interview</h6>
               <h5 class="li_title">Oakland Digital on NBC Bay Area</h5>
             </a>

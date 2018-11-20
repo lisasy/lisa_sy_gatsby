@@ -16,8 +16,8 @@ const IndexPage = () => (
           <p>
             Hello, I am a interdisciplinary digital designer and illustrator
             based in the San Francisco Bay Area in California.  Formerly at <a
-              href="http://facebook.com" target="_blank">Facebook</a> and <a
-              href="http://thoughtbot.com" target="_blank">thoughtbot</a>, I'm
+              href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a> and <a
+              href="http://thoughtbot.com" target="_blank" rel="noopener noreferrer">thoughtbot</a>, I'm
             currently seeking contract opportunities, and open to full-time
             opportunities for the right role.
           </p>

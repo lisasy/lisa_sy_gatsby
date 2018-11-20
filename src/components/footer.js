@@ -8,10 +8,10 @@ const Footer = () => {
           <div class="col_primary">
             <p>
               This <a href="http://github.com/lisasy/lisasy.github.io"
-                      target="_blank">site</a> was made using <a
+                      target="_blank" rel="noopener noreferrer">site</a> was made using <a
                       href="https://gatsbyjs.org/"
                       target="_blank">Gatsby.js</a> and is hosted on <a
-                      href="https://www.netlify.com/" target="_blank">Netlify</a>.
+                      href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a>.
                     All design and development created by Lisa Sy.
             </p>
             <p>
@@ -32,7 +32,7 @@ const Footer = () => {
                   <a href="/about">About</a>
                 </li>
                 <li>
-                  <a href="mailto:lisasyis@gmail.com">Contact</a>
+                  <a href="mailto:lisasyis@gmail.com" rel="noopener noreferrer">Contact</a>
                 </li>
               </ul>
             </nav>
@@ -40,16 +40,16 @@ const Footer = () => {
             <nav class="site_footer_nav">
               <ul>
                 <li>
-                  <a href="https://twitter.com/lisasy" target="_blank">Twitter</a>
+                  <a href="https://twitter.com/lisasy" target="_blank" rel="noopener noreferrer">Twitter</a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/lisasy/" target="_blank">LinkedIn</a>
+                  <a href="https://www.linkedin.com/in/lisasy/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </li>
                 <li>
-                  <a href="https://github.com/lisasy/" target="_blank">Github</a>
+                  <a href="https://github.com/lisasy/" target="_blank" rel="noopener noreferrer">Github</a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/lisasyart/" target="_blank">Instagram</a>
+                  <a href="https://www.instagram.com/lisasyart/" target="_blank" rel="noopener noreferrer">Instagram</a>
                 </li>
               </ul>
             </nav>
