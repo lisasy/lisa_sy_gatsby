@@ -1,5 +1,7 @@
 ---
 
+visible: false
+order: 3
 title: "Plurals and Noun"
 subtitle: "Comics about queer and weird things that happen."
 date: 2018-11-22
@@ -14,6 +16,7 @@ card_cta: "See Project"
 featured_image: "./images/header_bg.png"
 featured_image_alt: "./images/header_bg.png"
 type: "work"
+external_url: "http://pluralsandnoun.com"
 
 ---
 

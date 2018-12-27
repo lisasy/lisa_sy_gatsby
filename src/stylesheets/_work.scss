@@ -1,9 +1,10 @@
+$card_height: 620px;
+$card_border_radius: 4px;
+
 .work_section_container {
   @include flex_gutter();
   @include flex_display();
 }
-
-$card_height: 620px;
 
 .work_card_container {
   background: white;
@@ -17,12 +18,13 @@ $card_height: 620px;
   text-decoration: none;
   transition: all 0.25s ease-in;
   box-shadow: 0 1px 3px rgba(0,0,0,0.25);
-  border-radius: 4px;
+  border-radius: $card_border_radius;
   margin-bottom: 2em;
   color: $color_base;
 
   &:hover {
     color: $color_base;
+    transform: translateY(-0.25em);
   }
 
   > div {
@@ -56,6 +58,12 @@ $card_height: 620px;
     }
   }
 
+  .pn {
+    .card_source_container {
+      display: none;
+    }
+  }
+
   .card_body_container {
     margin-bottom: 2em;
     .card_title {
@@ -63,10 +71,6 @@ $card_height: 620px;
       font-weight: 800;
       font-family: $tf_serif;
     }
-  }
-
-  .card_cta_container {
-    //text-align: center;
   }
 }
 

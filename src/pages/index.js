@@ -14,14 +14,21 @@ const IndexPage = ({data}) => {
         <article class="index_section_container">
           <div class="col_primary">
             <h1 class="index_site_header">
-              Crafting products & services to help organizations prosper sustainably.
+              Crafting products & services to help organizations prosper
+              sustainably.
             </h1>
             <p>
-              Hello <i class="em em-wave emoji"></i> I'm a digital product designer, strategist, and illustrator
-              based in the San Francisco Bay Area in California.  I have designed products at places like <a
-                href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>, <a
-                  href="http://dropbox.com" target="_blank" rel="noopener noreferrer">Dropbox</a>, and <a href="http://thoughtbot.com"
-                target="_blank" rel="noopener noreferrer">thoughtbot</a>, and I'm eager to collaborate on solving compelling user and business problems. I am available for freelance/contract opportunities in July 2019.
+              Hello <i class="em em-wave emoji"></i> I'm a digital product
+              designer, strategist, and illustrator based in the San Francisco
+              Bay Area in California.  I've championed design and enhanced
+              product experiences at places like <a href="http://facebook.com"
+                target="_blank" rel="noopener noreferrer">Facebook</a>, <a
+                href="http://dropbox.com" target="_blank" rel="noopener
+                noreferrer">Dropbox</a>, and <a href="http://thoughtbot.com"
+    target="_blank" rel="noopener noreferrer">thoughtbot</a>. I'm eager to
+    collaborate with good, curious folks working on compelling projects and
+    initiatives; my next availability for freelance and contract opportunities
+    is during July 2019.
             </p>
           </div>
           <div class="col_secondary">
@@ -44,6 +51,7 @@ const IndexPage = ({data}) => {
                 <Link to={fields.slug} className={frontmatter.reference + " " + frontmatter.layout + " work_card_container"}>
 
                     <div class="card_content">
+
                       <div class="card_source_container">
                         <h5 class="card_source">
                           {frontmatter.source}
@@ -56,7 +64,6 @@ const IndexPage = ({data}) => {
                         <h1 class="card_title">
                           {frontmatter.title}
                         </h1>
-
                         <p class="card_subtitle">
                           {frontmatter.subtitle}
                         </p>
@@ -67,10 +74,9 @@ const IndexPage = ({data}) => {
                         </a>
                       </div>
                     </div>
+
                     <div class="card_img" style={{backgroundImage: `url(${cardImage})`}}>
                     </div>
-
-
                 </Link>
               </article>
               );
@@ -103,13 +109,14 @@ const IndexPage = ({data}) => {
 export const query = graphql`
   query IndexWorkQuery {
     allMarkdownRemark (
-      filter: { frontmatter: { type: { eq: "work" } } }
+      filter: { frontmatter: { type: { eq: "work" }, visible: { eq: true } } }
     ) {
       edges {
         node {
           id
           frontmatter {
             title
+            order
             subtitle
             source
             duration

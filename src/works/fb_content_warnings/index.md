@@ -1,5 +1,7 @@
 ---
 
+visible: true
+order: 1
 title: "Content Warnings on Facebook"
 subtitle: "Led full-stack product design of content warnings and moderation on Facebook, from problem definition to execution across multiple validation cycles, international research, and cross-organizational alignment."
 date: 2018-08-21

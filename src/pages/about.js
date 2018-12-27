@@ -12,15 +12,19 @@ const About = () => (
           </h1>
 
           <p>
-            Hello <i class="em em-wave emoji"></i> I'm a digital product designer, strategist, and illustrator
-            based in the San Francisco Bay Area in California.  I've championed design and enhanced product experiences at places like <a
-              href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>, <a
-                href="http://dropbox.com" target="_blank" rel="noopener noreferrer">Dropbox</a>, and <a href="http://thoughtbot.com"
-              target="_blank" rel="noopener noreferrer">thoughtbot</a>.
+            Hello <i class="em em-wave emoji"></i> I'm a digital product
+            designer, strategist, and illustrator based in the San Francisco Bay
+  Area in California.  I have championed design and enhanced product experiences
+  at places like <a href="http://facebook.com" target="_blank" rel="noopener
+    noreferrer">Facebook</a>, <a href="http://dropbox.com" target="_blank"
+    rel="noopener noreferrer">Dropbox</a>, and <a href="http://thoughtbot.com"
+  target="_blank" rel="noopener noreferrer">thoughtbot</a>.
           </p>
           <p>
-            As an independent designer, I'm eager to collaborate with good, curious folks working on compelling projects and
-            initiatives. If you think we can work well together, feel free to reach out to me at <a href="mailto:lisasyis@gmail.com">lisasyis@gmail.com</a>.
+            As an independent designer, I'm eager to collaborate with good,
+            curious folks working on compelling projects and initiatives. If you
+            think we can work well together, feel free to reach out to me at <a
+  href="mailto:lisasyis@gmail.com">lisasyis@gmail.com</a>.
           </p>
           <a href="https://www.dropbox.com/s/4di8zdq1viki8qa/lisa_sy_resume_2018.pdf?dl=0" target="_blank" rel="noopener noreferrer" class="button_primary">
             <p class="button_title">View Resume</p>
@@ -138,7 +142,7 @@ const About = () => (
           webcomic Plurals and Noun, curate art and literary events with local Bay
           Area artists, and volunteer with my local community.
           </p>
-          
+
           <p>
           Born and raised in Los Angeles, I became a first-generation college graduate in my family when I graduated from <a
             href="https://www.wesleyan.edu/amst/" target="_blank" rel="noopener noreferrer">Wesleyan

@@ -1,6 +1,8 @@
 ---
 
-title: "Reporting Sensitive or Offensive Live Videos"
+visible: true
+order: 2
+title: "Reporting Sensitive Live Videos"
 subtitle: "Designed and launched the reporting flow on Facebook's Live Videos globally on all platforms, ensuring that people can report any violating content they see."
 date: 2018-08-21
 reference: "fb_live_reporting"
@@ -26,7 +28,7 @@ type: "work"
       content from Live Videos. I conceived, coordinated, designed, executed,
       and ship a product resulting in higher report volumes of objectionable
       content that our Community Operations organization was able to remove
-      (with a 39.7% form completion compared to 3.11% previously.). This
+      (with a 39.7% form completion compared to 3.11% previously). This
       enables Facebook to become a safer platform for people to be their
       authentic selves.
     </p>
@@ -58,13 +60,13 @@ type: "work"
     </h5>
     <p>
       Up until this project, I had been investigating how to improve Facebook's
-      existing reporting flow so that people can better flag objectionable
-      content anywhere from Facebook. The existing reporting flow wasn't
-      efficient nor ideal in meeting users' needs. Furthermore, it was built
-      on a legacy code base constrained making meaningful iterative design and engineering changes.
-      Furthermore, it was a product that many cross-functional teams had much
-      stake and voice in, such as the Policy, Communications, and Community
-      Operations teams.
+existing reporting flow so that people can better flag objectionable content
+anywhere from Facebook. The existing reporting flow wasn't efficient nor ideal
+in meeting users' needs. Furthermore, it was built on a legacy code base
+constrained making meaningful iterative design and engineering changes.
+Furthermore, it was a product that many cross-functional teams had much stake
+and voice in, such as the Policy, Communications, and Community Operations
+teams.
     </p>
     <p>
       Through ample user research, our team highlighted that these were the
@@ -154,7 +156,7 @@ type: "work"
     </div>
     <hr>
     <figure>
-      <img src="./images/fb_reporting_live_videos/existing_flow.png" />
+      <img src="./images/existing_flow.png" />
     </figure>
   </div>
 </div>

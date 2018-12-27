@@ -5,6 +5,7 @@ import { Link } from 'gatsby'
 
 const Work = ({data}) => {
   const {edges: posts} = data.allMarkdownRemark;
+
   return (
     <Layout>
       <section class="work_container">
@@ -13,30 +14,41 @@ const Work = ({data}) => {
           {posts.map (({node: post}) => {
             const {frontmatter} = post;
             const {fields} = post;
-            return (
+            const cardImage = frontmatter.card_image.childImageSharp.fixed.src;
 
+            return (
             <article class="col">
               <Link to={fields.slug} className={frontmatter.layout + " work_card_container"}>
                 <div class="card_content">
-                  <h4 class="card_source">
-                    {frontmatter.source}
-                  </h4>
-                  <h1 class="card_title">
-                    {frontmatter.title}
-                  </h1>
-                  <p class="card_subtitle">
-                    {frontmatter.subtitle}
-                  </p>
+
+                  <div class="card_source_container">
+                    <h5 class="card_source">
+                      {frontmatter.source}
+                    </h5>
+                    <h5 class="card_source_detail">
+                      {frontmatter.duration} · {frontmatter.role}
+                    </h5>
+                  </div>
+                  <div class="card_body_container">
+                    <h1 class="card_title">
+                      {frontmatter.title}
+                    </h1>
+                    <p class="card_subtitle">
+                      {frontmatter.subtitle}
+                    </p>
+                  </div>
+                  <div class="card_cta_container">
+                    <a href={fields.slug} target="_blank" rel="noopener noreferrer" class="button_primary">
+                      <p class="button_title">View Project</p>
+                    </a>
+                  </div>
                 </div>
-                <div class="card_img">
-                  <figure>
-                    <img
-                      src={frontmatter.card_image.childImageSharp.fixed.src}
-              alt="test alt" class="card_image" />
-                  </figure>
+
+                <div class="card_img" style={{backgroundImage: `url(${cardImage})`}}>
                 </div>
               </Link>
             </article>
+
             );
           })}
 
@@ -58,6 +70,8 @@ export const query = graphql`
             title
             subtitle
             source
+            duration
+            role
             layout
             card_image {
               childImageSharp {
