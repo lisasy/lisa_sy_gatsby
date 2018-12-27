@@ -1,9 +1,9 @@
 ---
 
 title: "Watching America From a Distance #BelieveChristine"
+type: "writing"
 date: "2018-09-28"
-tags:
-featured_image: "./featured_image.jpg"
+featured_image: "./images/featured_image.jpg"
 image_description: "Christine Blasey Ford"
 subtitle: "Reflecting on American politics while in France"
 
@@ -55,7 +55,7 @@ life, set against the backdrop of a major political and social events elsewhere
 some, those days cut them directly, whereas for others, they feel more like a
 bruise. With struggle and oppression come resistance and empowerment. I think
 that is why the entire nation gripped itself to the courage and heroism of Dr.
-Ford’s confession. 
+Ford’s confession.
 
 It’s hard to follow the dialogue around Kavanaugh’s possible confirmation to
 the highest court of the country because it reiterates the despicable privilege
@@ -69,7 +69,7 @@ elsewhere. Those that listen and support, even if the ways in which one
 supports may not always be clear. Those that begin to acknowledge how their
 current or past behaviors have perpetuated misogyny or sexual violence, and
 seek to unlearn and untrain such habits. Those that begin to see what a more
-just world could look like, and then slowly walk towards that path. 
+just world could look like, and then slowly walk towards that path.
 
 Being far away from America on a day like yesterday reminded me of the heart
 and soul that people posess so deeply to fight even despite the seemingly
@@ -78,5 +78,3 @@ results of today. But to help me deal with it, I want to focus on what I’m
 capable of doing for my country in the skill I know best: drawing. So I’m going
 to continue to try to draw and make art to help spread messages and build
 awareness and empathy.
-
-

@@ -6,6 +6,7 @@ $col_3: percentage(3/$columns); // 4 items per row
 $col_4: percentage(4/$columns); // 3 items per row
 $col_6: percentage(6/$columns); // 2 items per row
 
+.col_1,
 .col_2,
 .col_3,
 .col_4,
@@ -23,6 +24,10 @@ $col_6: percentage(6/$columns); // 2 items per row
 
 [class*="col_"].align_center {
     align-items: center;
+}
+
+.col_1 > .col {
+  width: 100%;
 }
 
 .col_4 > .col {
@@ -73,9 +78,6 @@ $col_6: percentage(6/$columns); // 2 items per row
   }
 }
 
-.col_container > .col {
-}
-
 .col_primary {
   @include media_tablet_portrait() {
     width: 64%;
@@ -94,12 +96,10 @@ $col_6: percentage(6/$columns); // 2 items per row
   }
 
   img {
-    border-radius: 100%;
     height: auto;
     width: 100%;
   }
 }
-
 
 .col {
   .col_2of3 {

@@ -72,7 +72,7 @@ ol {
 @mixin header_title_h3 {
   font-weight: 800;
   display: inline-block;
-  border-bottom: 3px solid;
+  border-bottom: 4px solid;
   padding-bottom: 1em;
 }
 
@@ -108,4 +108,27 @@ hr {
   @include media_desktop() {
     width: 30rem;
   }
+}
+
+blockquote {
+  margin-left: 0;
+  padding-left: 1em;
+  border-left: 4px solid $color_base;
+  font-style: italic;
+}
+
+.round_img {
+  img {
+    border-radius: 100%;
+  }
+}
+
+.em.emoji {
+  height: 1em;
+  width: 1em;
+}
+
+// Gastby Images Override //
+span.gatsby-resp-image-wrapper {
+  max-width: none !important;
 }

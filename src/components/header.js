@@ -12,12 +12,17 @@ const Header = ({ siteTitle }) => (
       <nav class="site_header_nav">
         <ul>
           <li>
-            <Link to="/work/">
+            <Link to={`/work/`}>
               Work
             </Link>
           </li>
           <li>
-            <Link to="/writing/">
+            <a href="https://lisasy.bigcartel.com/" target="_blank" rel="noopener noreferrer">
+              Shop
+            </a>
+          </li>
+          <li>
+            <Link to={`/writing/`}>
               Writing
             </Link>
           </li>

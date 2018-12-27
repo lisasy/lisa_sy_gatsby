@@ -3,6 +3,73 @@
   @include flex_display();
 }
 
+$card_height: 620px;
+
+.work_card_container {
+  background: white;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: $card_height;
+
+  text-decoration: none;
+  transition: all 0.25s ease-in;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+  border-radius: 4px;
+  margin-bottom: 2em;
+  color: $color_base;
+
+  &:hover {
+    color: $color_base;
+  }
+
+  > div {
+    box-sizing: content-box;
+    flex-basis: calc(50% - 40px);
+  }
+
+  .card_content {
+    padding: 3em;
+  }
+
+  .card_img {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: $card_height;
+  }
+
+  .card_source_container {
+    margin-bottom: 2em;
+
+    .card_source {
+      margin: 0;
+      color: #58507f;
+    }
+
+    .card_source_detail {
+      font-weight: 400;
+      color: #777;
+      margin: 0;
+    }
+  }
+
+  .card_body_container {
+    margin-bottom: 2em;
+    .card_title {
+      color: $color_base;
+      font-weight: 800;
+      font-family: $tf_serif;
+    }
+  }
+
+  .card_cta_container {
+    //text-align: center;
+  }
+}
+
 .project_container {
   margin-bottom: 4em;
 
@@ -58,17 +125,11 @@
   }
 }
 
-.project_container.content_warnings {
+.project_container{
   .project_header {
-    background: url(/assets/images/work/fb_content_warnings/header_bg.png) center center no-repeat;
+    background-position: center center;
     background-size: cover;
-  }
-}
-
-.project_container.live_videos {
-  .project_header {
-    background: url(/assets/images/work/fb_reporting_live_videos/cover_header.png) center center no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 

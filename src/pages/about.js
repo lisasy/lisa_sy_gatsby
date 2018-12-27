@@ -8,19 +8,18 @@ const About = () => (
       <div class="about_section_container">
         <div class="col_primary">
           <h1>
-            Using design, illustration, and code to transform human and
-            organization problems into engaging product and services.
+            Crafting products & services to help organizations prosper sustainably.
           </h1>
+
           <p>
-            Hello, my name is Lisa Sy. I'm an interdisciplinary digital designer,
-            illustrator, and artist based in the San Francisco Bay Area.
-            Having worked with many people I've admired at <a
-            href="https://facebook.design/" rel="noopener noreferrer">Facebook</a> and <a
-            href="http://thoughtbot.com" rel="noopener noreferrer">thoughtbot</a>, I am now an independent
-            freelance designer and illustrator. I bring 7 years of professional
-            experience from leading design in content moderation and reporting at
-            Facebook, to working with engineers and clients on shipping production-ready code for numerous startups and enterprises, to
-            collaborating with good, curious folks working on compelling projects and
+            Hello <i class="em em-wave emoji"></i> I'm a digital product designer, strategist, and illustrator
+            based in the San Francisco Bay Area in California.  I've championed design and enhanced product experiences at places like <a
+              href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>, <a
+                href="http://dropbox.com" target="_blank" rel="noopener noreferrer">Dropbox</a>, and <a href="http://thoughtbot.com"
+              target="_blank" rel="noopener noreferrer">thoughtbot</a>.
+          </p>
+          <p>
+            As an independent designer, I'm eager to collaborate with good, curious folks working on compelling projects and
             initiatives. If you think we can work well together, feel free to reach out to me at <a href="mailto:lisasyis@gmail.com">lisasyis@gmail.com</a>.
           </p>
           <a href="https://www.dropbox.com/s/4di8zdq1viki8qa/lisa_sy_resume_2018.pdf?dl=0" target="_blank" rel="noopener noreferrer" class="button_primary">
@@ -28,7 +27,7 @@ const About = () => (
           </a>
         </div>
         <div class="col_secondary">
-          <figure>
+          <figure class="round_img">
             <PortraitImage />
           </figure>
         </div>
@@ -139,16 +138,9 @@ const About = () => (
           webcomic Plurals and Noun, curate art and literary events with local Bay
           Area artists, and volunteer with my local community.
           </p>
-
+          
           <p>
-          Since early 2017, I’ve been a board member of <a
-            href="http://oaklanddigital.org/" target="_blank" rel="noopener noreferrer">Oakland Digital</a>,
-          a non-profit in Oakland focused on empowering early-career creative
-          professionals with relevant skills and practice.
-          </p>
-
-          <p> 
-          As a first-generation college graduate in my family, I graduated from <a
+          Born and raised in Los Angeles, I became a first-generation college graduate in my family when I graduated from <a
             href="https://www.wesleyan.edu/amst/" target="_blank" rel="noopener noreferrer">Wesleyan
             University with a B.A. in American Studies</a> with an emphasis on Race
           and Ethnic Studies. There is no way for me to discredit the value of my
@@ -161,6 +153,13 @@ const About = () => (
       woman and non-engineer at Wesleyan's first hackathon in 2013. Since
       graduating, I've continued to mentor current and recent graduates to pursue
       careers in design and the technology sector.
+          </p>
+
+          <p>
+          Since early 2017, I’ve been a board member of <a
+            href="http://oaklanddigital.org/" target="_blank" rel="noopener noreferrer">Oakland Digital</a>,
+          a non-profit in Oakland, CA empowering early-career creative
+          professionals with relevant skills and practice.
           </p>
 
           <p>

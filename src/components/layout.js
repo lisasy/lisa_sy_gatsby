@@ -32,6 +32,7 @@ const Layout = ({ children }) => (
           <html lang="en" />
           <link rel="icon" href={favicon} />
           <link rel="stylesheet" href="https://use.typekit.net/fjj2fpt.css" />
+          <link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css" />
           <body className="body_container" />
         </Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />

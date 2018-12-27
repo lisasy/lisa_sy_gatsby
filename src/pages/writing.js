@@ -15,7 +15,6 @@ const Writing = ({data}) => {
             return (
               <article class="col">
                 <Link to={fields.slug} className="article_card_container">
-                  <img src={frontmatter.featured_image.childImageSharp.sizes.src} alt={frontmatter.image_description} class="card_image" />
                   <div class="card_title_section">
                     <h5 class="card_source">
                       {frontmatter.date}
@@ -40,7 +39,10 @@ const Writing = ({data}) => {
 
 export const query = graphql`
   query WritingQuery {
-    allMarkdownRemark {
+    allMarkdownRemark (
+      sort: { fields: [frontmatter___date], order: DESC },
+      filter: { frontmatter: { type: { eq: "writing" } } }
+    ) {
       totalCount
       edges {
         node {
@@ -49,14 +51,14 @@ export const query = graphql`
             title
             date(formatString: "MMMM DD, YYYY")
             subtitle
+            image_description
             featured_image {
               childImageSharp {
-                sizes(maxWidth: 640) {
+                sizes(maxWidth: 800) {
                   src
                 }
               }
             }
-            image_description
           }
           fields {
             slug

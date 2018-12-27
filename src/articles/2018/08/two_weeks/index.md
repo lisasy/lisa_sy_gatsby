@@ -1,12 +1,11 @@
 ---
 
-path: "/two-weeks"
-title: Two Weeks
+title: "Two Weeks Living in Lyon, France"
+type: "writing"
 date: "2018-08-18"
-blog: writing
 tags: france
-featured_image: "./featured_image.jpg"
-image_description: Lyon
+featured_image: "./images/featured_image.jpg"
+image_description: "Lyon"
 subtitle: "The initial hurdle of transitioning to a new country"
 
 ---
@@ -58,7 +57,7 @@ always goal-oriented.
 
 I’ve found it helpful to build some structure into my day in order to have some
 sanity. I organize my days into 3 main chunks: the morning, the afternoon, and
-the evening. 
+the evening.
 
 #### Mornings
 I spend my mornings working on my art practice (en plein air or on

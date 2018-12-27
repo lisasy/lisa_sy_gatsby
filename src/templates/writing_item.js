@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
-const Article = ({ data }) => {
+const WritingItem  = ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
@@ -26,7 +26,6 @@ const Article = ({ data }) => {
 
           <div class="article_body_content">
             <p>
-              <img src={post.frontmatter.featured_image.childImageSharp.sizes.src} alt={post.frontmatter.image_description} />
             </p>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
@@ -42,11 +41,11 @@ export const query = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date
         subtitle
         featured_image {
           childImageSharp {
-            sizes(maxWidth: 640) {
+            sizes(maxWidth: 800) {
               src
             }
           }
@@ -56,4 +55,4 @@ export const query = graphql`
   }
 `
 
-export default Article
+export default WritingItem

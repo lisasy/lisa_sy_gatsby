@@ -3,6 +3,7 @@
 path: "/why_france"
 title: Why France?
 date: "2018-08-28"
+type: writing
 featured_image: "./featured_image.jpg"
 image_description: "croissants and cafe"
 subtitle: An explanation, justification, and investigation into my choice to live in France for 3 months

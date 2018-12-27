@@ -1,8 +1,9 @@
 ---
-path: "/writing/on_stumbling"
+
 title: On Stumbling
+type: "writing"
 date: "2018-09-13"
-featured_image: "./featured_image.jpg"
+featured_image: "./images/featured_image.jpg"
 image_description: "Trees in Lyon"
 subtitle: "Pushing oneself towards the edge of their comfort zone when learning a new language in a foreign country"
 
@@ -25,7 +26,7 @@ friend — I tried to actively acknowledge the unique, time-boxed ephermality of
 the quintessential American college experience. How? I would blurt out to
 whomever I was with:
 
->> “you guys, we’re in college!” 
+> “you guys, we’re in college!”
 
 And I keep having a similar feeling while I’m here in France (except I don’t
 exclaim anything out loud because these moments occur most often when I’m

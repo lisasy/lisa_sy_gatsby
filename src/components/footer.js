@@ -10,7 +10,7 @@ const Footer = () => {
               This <a href="http://github.com/lisasy/lisasy.github.io"
                       target="_blank" rel="noopener noreferrer">site</a> was made using <a
                       href="https://gatsbyjs.org/"
-                      target="_blank">Gatsby.js</a> and is hosted on <a
+                      target="_blank" rel="noopener noreferrer">Gatsby.js</a> and is hosted on <a
                       href="https://www.netlify.com/" target="_blank" rel="noopener noreferrer">Netlify</a>.
                     All design and development created by Lisa Sy.
             </p>
