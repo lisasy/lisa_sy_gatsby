@@ -61,7 +61,16 @@ const Work = ({data}) => {
 export const query = graphql`
   query WorkQuery {
     allMarkdownRemark (
-      filter: { frontmatter: { type: { eq: "work" } } }
+      filter: {
+        frontmatter: {
+          type: {
+            eq: "work"
+          },
+          visible: {
+            eq: true
+          }
+        }
+      }
     ) {
       edges {
         node {

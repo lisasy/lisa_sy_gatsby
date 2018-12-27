@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
             </Link>
           </li>
           <li>
-            <a href="https://lisasy.bigcartel.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.etsy.com/shop/LisaSyIllustration" target="_blank" rel="noopener noreferrer">
               Shop
             </a>
           </li>

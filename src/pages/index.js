@@ -99,7 +99,6 @@ const IndexPage = ({data}) => {
           </figure>
         </article>
         <article class="index_section_container email_sign_up">
-          <EmailSignUp />
         </article>
       </section>
     </Layout>
