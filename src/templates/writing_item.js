@@ -26,6 +26,9 @@ const WritingItem  = ({ data }) => {
 
           <div class="article_body_content">
             <p>
+              <img
+                src={post.frontmatter.featured_image.childImageSharp.sizes.src}
+              />
             </p>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
           </div>
@@ -41,8 +44,9 @@ export const query = graphql`
       html
       frontmatter {
         title
-        date
+        date(formatString: "MMMM DD, YYYY")
         subtitle
+        image_description
         featured_image {
           childImageSharp {
             sizes(maxWidth: 800) {

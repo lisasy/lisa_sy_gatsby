@@ -24,7 +24,7 @@ const About = () => (
             As an independent designer, I'm eager to collaborate with good,
             curious folks working on compelling projects and initiatives. If you
             think we can work well together, feel free to reach out to me at <a
-  href="mailto:lisasyis@gmail.com">lisasyis@gmail.com</a>.
+  href="mailto:hello@lisasy.com">hello[at]lisasy.com</a>.
           </p>
           <a href="https://www.dropbox.com/s/4di8zdq1viki8qa/lisa_sy_resume_2018.pdf?dl=0" target="_blank" rel="noopener noreferrer" class="button_primary">
             <p class="button_title">View Resume</p>

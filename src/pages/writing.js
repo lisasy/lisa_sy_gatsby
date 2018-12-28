@@ -15,6 +15,10 @@ const Writing = ({data}) => {
             return (
               <article class="col">
                 <Link to={fields.slug} className="article_card_container">
+                  <img
+                    src={frontmatter.featured_image.childImageSharp.sizes.src}
+                    class="card_image"
+                  />
                   <div class="card_title_section">
                     <h5 class="card_source">
                       {frontmatter.date}

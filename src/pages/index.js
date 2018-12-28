@@ -14,8 +14,8 @@ const IndexPage = ({data}) => {
         <article class="index_section_container">
           <div class="col_primary">
             <h1 class="index_site_header">
-              Crafting products & services to help organizations prosper
-              sustainably.
+              Crafting experiences that connect with people and help
+              organizations prosper sustainably.
             </h1>
             <p>
               Hello <i class="em em-wave emoji"></i> I'm a digital product
@@ -25,10 +25,13 @@ const IndexPage = ({data}) => {
                 target="_blank" rel="noopener noreferrer">Facebook</a>, <a
                 href="http://dropbox.com" target="_blank" rel="noopener
                 noreferrer">Dropbox</a>, and <a href="http://thoughtbot.com"
-    target="_blank" rel="noopener noreferrer">thoughtbot</a>. I'm eager to
-    collaborate with good, curious folks working on compelling projects and
-    initiatives; my next availability for freelance and contract opportunities
-    is during July 2019.
+                target="_blank" rel="noopener noreferrer">thoughtbot</a>. I'm
+              eager to collaborate with good, curious folks working on
+              compelling projects and initiatives.
+            </p>
+            <p>
+              If you think we can work well together, feel free to reach out to
+    me at <a href="mailto:hello@lisasy.com">hello[at]lisasy.com</a>.
             </p>
           </div>
           <div class="col_secondary">

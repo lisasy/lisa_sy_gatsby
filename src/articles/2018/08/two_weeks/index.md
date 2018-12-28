@@ -51,7 +51,7 @@ While this slowness has perturbed my over-active, over-stimulated brain, I also
 think it's been healthy for me to internalize an approach of living that isn't
 always goal-oriented.
 
-<img src="./sunset.png" alt="Lyon" />
+<img src="./images/sunset.png" alt="Lyon" />
 
 ### Despite having 100% of free time, priorities and structure still reign.
 
@@ -64,7 +64,7 @@ I spend my mornings working on my art practice (en plein air or on
 other projects), reading, writing, and hanging out at the local cafe. I’ve
 always loved mornings, and that doesn’t seem to change even in a new locale.
 
-<img src="./art_supplies.png" alt="Lyon" />
+<img src="./images/art_supplies.png" alt="Lyon" />
 
 #### Afternoons
 I can’t quite recall what I’ve done in my afternoons, but it’s
@@ -72,7 +72,7 @@ been filled with miscellaneous activity: going to the museum, shopping for
 groceries, running errands, and apero! When I start my French course next week,
 I will be spending my afternoons doing that.
 
-<img src="./friends_musee.png" alt="Lyon" />
+<img src="./images/friends_musee.png" alt="Lyon" />
 
 *Me with my two friends, Jorge and Amy, at Musée des Confluences.*
 
