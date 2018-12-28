@@ -11,8 +11,8 @@ $card_border_radius: 4px;
   box-sizing: border-box;
 
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column-reverse;
+  padding: 1em;
   max-height: $card_height;
 
   text-decoration: none;
@@ -21,6 +21,12 @@ $card_border_radius: 4px;
   border-radius: $card_border_radius;
   margin-bottom: 2em;
   color: $color_base;
+
+  @include media_tablet_portrait() {
+    align-items: center;
+    flex-direction: row;
+    padding: 0;
+  }
 
   &:hover {
     color: $color_base;
@@ -33,7 +39,9 @@ $card_border_radius: 4px;
   }
 
   .card_content {
-    padding: 3em;
+    @include media_tablet_portrait() {
+      padding: 3em;
+    }
   }
 
   .card_img {
@@ -44,7 +52,11 @@ $card_border_radius: 4px;
   }
 
   .card_source_container {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+
+    @include media_tablet_portrait() {
+      margin-bottom: 2em;
+    }
 
     .card_source {
       margin: 0;
@@ -65,7 +77,12 @@ $card_border_radius: 4px;
   }
 
   .card_body_container {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+
+    @include media_tablet_portrait() {
+      margin-bottom: 2em;
+    }
+
     .card_title {
       color: $color_base;
       font-weight: 800;

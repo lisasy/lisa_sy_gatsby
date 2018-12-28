@@ -1,6 +1,14 @@
 @mixin button($color: $color_base) {
   box-sizing: border-box;
-  display: inline-flex;
+  display: block;
+  text-align: center;
+  width: 100%;
+
+  @include media_tablet_portrait() {
+    display: inline-flex;
+    text-align: left;
+    width: auto;
+  }
 
   color: $color;
   background: rgba(0,0,0,0.07);

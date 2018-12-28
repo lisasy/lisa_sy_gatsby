@@ -4,8 +4,13 @@
 
 .index_section_container {
   @include flex_gutter();
-  @include flex_display();
+  display: flex;
   align-items: center;
+  flex-direction: column-reverse;
+
+  @include media_tablet_portrait() {
+    flex-direction: row;
+  }
 
   h1 {
     margin-top: 0;
