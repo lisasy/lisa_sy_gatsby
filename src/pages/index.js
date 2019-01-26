@@ -18,8 +18,8 @@ const IndexPage = ({data}) => {
               organizations prosper sustainably.
             </h1>
             <p>
-              Hello <i class="em em-wave emoji"></i> I'm a digital product
-              designer, strategist, and illustrator based in the San Francisco
+              Hello <i class="em em-wave emoji"></i> I'm a product
+              designer, illustrator, and artist based in the San Francisco
               Bay Area in California.  I've championed design and enhanced
               product experiences at places like <a href="http://facebook.com"
                 target="_blank" rel="noopener noreferrer">Facebook</a>, <a
