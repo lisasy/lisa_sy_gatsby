@@ -55,6 +55,11 @@ class Header extends Component {
                 </Link>
               </li>
               <li>
+                <Link to={`/gallery/`}>
+                  Gallery
+                </Link>
+              </li>
+              <li>
                 <a href="https://www.etsy.com/shop/LisaSyIllustration" target="_blank" rel="noopener noreferrer">
                   Shop
                 </a>

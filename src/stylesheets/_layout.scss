@@ -20,6 +20,11 @@ body {
   max-width: 100%;
 }
 
+.page_container {
+  @include flex_gutter();
+  @include flex_display();
+}
+
 img {
   height: auto;
   object-fit: cover;
