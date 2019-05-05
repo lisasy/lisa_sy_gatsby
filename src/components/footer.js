@@ -15,7 +15,7 @@ const Footer = () => {
                     All design and development created by Lisa Sy.
             </p>
             <p>
-              Last updated: Wednesday, October 30, 2018
+              Last updated: May 3, 2019
             </p>
           </div>
 

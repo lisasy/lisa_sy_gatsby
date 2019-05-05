@@ -8,13 +8,14 @@ const About = () => (
       <div class="about_section_container">
         <div class="col_primary">
           <h1>
-            Crafting products & services to help organizations prosper sustainably.
+            Crafting products & services to make people's lives a little bit
+            easier
           </h1>
 
           <p>
-            Hello <i class="em em-wave emoji"></i> I'm a digital product
+            Hello <i class="em em-wave emoji"></i> I'm a software/product
             designer, strategist, and illustrator based in the San Francisco Bay
-  Area in California.  I have championed design and enhanced product experiences
+  Area in California.  I have designed and built product experiences
   at places like <a href="http://facebook.com" target="_blank" rel="noopener
     noreferrer">Facebook</a>, <a href="http://dropbox.com" target="_blank"
     rel="noopener noreferrer">Dropbox</a>, and <a href="http://thoughtbot.com"
@@ -37,143 +38,35 @@ const About = () => (
         </div>
       </div>
 
-      <div class="about_section_container highlight">
-
-        <section class="design_approach_content">
-
-          <h5 class="header_title header_title_h3">
-            My Design Approach
-          </h5>
-          <p class="header_content">
-            Product and UX design doesn't start and end at the edges of
-            pixelated screen. Whether I'm building new apps and services, or
-            optimizing existing ones, I bridge the needs and opportunities
-            between businesses/organizations and people. When I'm solving
-            such business and user problems, I uphold these approaches and
-            values:
-          </p>
-
-          <article class="list_item">
-            <div class="list_counter">
-              <h5 class="list_counter_value">
-                01
-              </h5>
-            </div>
-            <div class="list_content">
-              <h4 class="list_content_title">
-                Bold Visioning, Bold Listening
-              </h4>
-              <p class="list_content_description">
-                I want to hear you speak about your vision and your goals.  Period.
-              </p>
-            </div>
-          </article>
-
-          <article class="list_item">
-            <div class="list_counter">
-              <h5 class="list_counter_value">
-                02
-              </h5>
-            </div>
-            <div class="list_content">
-              <h4 class="list_content_title">
-                Scaled Strategy
-              </h4>
-              <p class="list_content_description">
-                The best approaches execute well not only in the short term,
-                but also envision a path forward. Not only do I guide my
-                design practice around the immediate requirements, resources,
-                and goals, but also towards the larger vision.
-              </p>
-            </div>
-          </article>
-
-
-          <article class="list_item">
-            <div class="list_counter">
-              <h5 class="list_counter_value">
-                03
-              </h5>
-            </div>
-            <div class="list_content">
-              <h4 class="list_content_title">
-                Intentional Process
-              </h4>
-              <p class="list_content_description">
-                Let me tell you something: I don't like wasting other peoples'
-                time, nor my own.  That's why each step of my work process is
-                intentional, deliberate, and thoughtful. From meetings to stages of
-                the design sprint, I make sure that each process will deliver
-                certain outcomes that we've prioritized. If not, then why do them?
-              </p>
-            </div>
-          </article>
-
-          <article class="list_item">
-            <div class="list_counter">
-              <h5 class="list_counter_value">
-                04
-              </h5>
-            </div>
-            <div class="list_content">
-              <h4 class="list_content_title">
-                Creative Collaboration
-              </h4>
-              <p class="list_content_description">
-              It may seem unlikely, but some of the best ideas emerge when you're
-              around people of different backgrounds who are yet comfortable enough
-              to share their perspectives and experiences with each other. I enjoy
-              inspiring such an environment with my team, whether I'm leading a UX
-              session to generate new product concepts, or in a 1:1 conversation
-              with a peer.
-              </p>
-            </div>
-          </article>
-
-        </section>
-      </div>
-
       <div class="about_section_container secondary">
         <div class="col_primary">
           <h5 class="header_title_h3">Other</h5>
           <p>
-          Outside of my professional design practice, I engage in personal and
-          community projects. I maintain a visual arts practice, run an independent
-          webcomic Plurals and Noun, curate art and literary events with local Bay
-          Area artists, and volunteer with my local community.
+          Outside of my professional design practice, I maintain a visual arts
+          practice, write and draw graphic stories, climb, curate art and literary
+          events with local Bay Area artists, and volunteer with my local
+          community.
           </p>
 
           <p>
           Born and raised in Los Angeles, I became a first-generation college graduate in my family when I graduated from <a
             href="https://www.wesleyan.edu/amst/" target="_blank" rel="noopener noreferrer">Wesleyan
             University with a B.A. in American Studies</a> with an emphasis on Race
-          and Ethnic Studies. There is no way for me to discredit the value of my
-          <a
-          href="https://medium.com/@lisasy/how-i-went-from-liberal-arts-to-tech-4d32f78f30d6"
-        target="_blank" rel="noopener noreferrer"> liberal arts education emphasizing the development of
-        foundational, interdisciplinary skills</a>, such as writing,
-      critical-thinking, collaboration, and reading.  As a student, I founded and
-      managed the premier student-run design agency called TypeClub. I was the only
-      woman and non-engineer at Wesleyan's first hackathon in 2013. Since
-      graduating, I've continued to mentor current and recent graduates to pursue
-      careers in design and the technology sector.
-          </p>
+          and Ethnic Studies. I got into design by making posters for my
+          friend's theater shows and club meetings. I wondered what it would be
+          like to bring graphic design to the web -- and that's how I got into
+          web design, which led me to software design. The rest is history.
+        </p>
 
           <p>
           Since early 2017, I’ve been a board member of <a
-            href="http://oaklanddigital.org/" target="_blank" rel="noopener noreferrer">Oakland Digital</a>,
-          a non-profit in Oakland, CA empowering early-career creative
-          professionals with relevant skills and practice.
+            href="http://oaklanddigital.org/" target="_blank" rel="noopener noreferrer">Bridgegood</a>,
+          a non-profit in Oakland, CA giving exposure of creative jobs and
+          skills-development to  early-career creative professionals coming from
+          traditionally underrepresented backgrounds.
           </p>
-
-          <p>
-          Lastly, I love learning new languages and exposing myself to different
-          kinds of people, environment, and cultures! I speak English, French,
-          Cantonese, and Mandarin Chinese to varying degrees of proficiency, and
-          I'm currently learning Spanish.
-          </p>
-
         </div>
+
         <div class="col_secondary featured">
           <h5 class="header_title_h3">Featured</h5>
           <section class="button_stack">
@@ -185,11 +78,6 @@ const About = () => (
             <a href="https://techiesproject.com/lisa-sy/" class="button_stack_li" rel="noopener noreferrer">
               <h6 class="li_source">March 5, 2016 · Interview</h6>
               <h5 class="li_title">The Techies Project</h5>
-            </a>
-
-            <a href="https://techiesproject.com/lisa-sy/" class="button_stack_li" rel="noopener noreferrer">
-              <h6 class="li_source">January 17, 2016 · Television Interview</h6>
-              <h5 class="li_title">Oakland Digital on NBC Bay Area</h5>
             </a>
           </section>
         </div>

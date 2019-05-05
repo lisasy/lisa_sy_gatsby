@@ -60,7 +60,7 @@ class Header extends Component {
                 </Link>
               </li>
               <li>
-                <a href="https://www.etsy.com/shop/LisaSyIllustration" target="_blank" rel="noopener noreferrer">
+                <a href="http://lisasy.bigcartel.com" target="_blank" rel="noopener noreferrer">
                   Shop
                 </a>
               </li>
