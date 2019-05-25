@@ -40,7 +40,7 @@ const About = () => (
 
       <div class="about_section_container secondary">
         <div class="col_primary">
-          <h5 class="header_title_h3">Other</h5>
+          <h4 class="header_title_h3">Other</h4>
           <p>
           Outside of my professional design practice, I maintain a visual arts
           practice, write and draw graphic stories, climb, curate art and literary
@@ -68,7 +68,7 @@ const About = () => (
         </div>
 
         <div class="col_secondary featured">
-          <h5 class="header_title_h3">Featured</h5>
+          <h4 class="header_title_h3">Featured</h4>
           <section class="button_stack">
             <a href="https://spec.fm/podcasts/design-details/45158" class="button_stack_li" rel="noopener noreferrer">
               <h6 class="li_source">August 24, 2016 · Podcast</h6>

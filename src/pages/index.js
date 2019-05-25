@@ -19,19 +19,13 @@ const IndexPage = ({data}) => {
             </h1>
             <p>
               Hello <i class="em em-wave emoji"></i> I'm a product
-              designer, illustrator, and artist based in the San Francisco
-              Bay Area in California.  I've championed design and enhanced
-              product experiences at places like <a href="http://facebook.com"
-                target="_blank" rel="noopener noreferrer">Facebook</a>, <a
-                href="http://dropbox.com" target="_blank" rel="noopener
-                noreferrer">Dropbox</a>, and <a href="http://thoughtbot.com"
-                target="_blank" rel="noopener noreferrer">thoughtbot</a>. I'm
-              eager to collaborate with good, curious folks working on
-              compelling projects and initiatives.
+              designer, illustrator, and artist based in California. I've championed design at places like <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>, <a href="http://dropbox.com" target="_blank" rel="noopener noreferrer">Dropbox</a>, and <a href="http://thoughtbot.com"
+                target="_blank" rel="noopener noreferrer">thoughtbot</a>.
             </p>
+
             <p>
-              If you think we can work well together, feel free to reach out to
-    me at <a href="mailto:hello@lisasy.com">hello[at]lisasy.com</a>.
+              Interested in working together? Drop me a line at <a
+                href="mailto:hello@lisasy.com">hello[at]lisasy.com</a>.
             </p>
           </div>
           <div class="col_secondary">
@@ -41,7 +35,7 @@ const IndexPage = ({data}) => {
           </div>
         </article>
 
-        <article class="index_section_container highlight">
+        <article id="work" class="index_section_container highlight">
           <div class="col_container col_1">
 
             {posts.map (({node: post}) => {
@@ -56,12 +50,12 @@ const IndexPage = ({data}) => {
                     <div class="card_content">
 
                       <div class="card_source_container">
-                        <h5 class="card_source">
+                        <h4 class="card_source">
                           {frontmatter.source}
-                        </h5>
-                        <h5 class="card_source_detail">
+                        </h4>
+                        <h4 class="card_source_detail">
                           {frontmatter.duration} · {frontmatter.role}
-                        </h5>
+                        </h4>
                       </div>
                       <div class="card_body_container">
                         <h1 class="card_title">

@@ -2,8 +2,9 @@
 
 visible: true
 order: 1
-title: "Content Warnings on Facebook"
-subtitle: "Led full-stack product design of content warnings and moderation on Facebook, from problem definition to execution across multiple validation cycles, international research, and cross-organizational alignment."
+title: "Content Warnings"
+subtitle: "Led full-stack product design to protect people from seeing unwanted
+content."
 date: 2018-08-21
 reference: "fb_cw"
 source: Facebook
@@ -24,16 +25,7 @@ type: "work"
     <p>
       From 2015-2017, I led the product design to develop content warnings on
       Facebook to help people deal with unexpected, sensitive content that they
-      encounter on Facebook. I understood, strategized, and collaborated with
-      an interdisciplinary team to weigh different considerations and
-      capacities from Facebook’s Policy and Machine-Learning team, to our
-      international research team, with implementing an experience that would
-      best solve our community’s needs. I also presented the strategy and
-      design directly to Mark Zuckerberg to receive his feedback and guidance.
-      <strong>Today, the content warning is accessible on all platforms (web,mobile web,
-      iOS, Android) to 100% of Facebook’s global market, viewable most
-      popularly on the News Feed. <u>It resulted in higher sentiment and decreased
-      reporting of negative content on Facebook.</u></strong>
+      encounter on Facebook. <strong>Today, the content warning is accessible on all platforms (web,mobile web, iOS, Android) to 100% of Facebook’s global market, viewable most popularly on the News Feed. <u>It resulted in higher sentiment and decreased reporting of negative content on Facebook.</u></strong>
     </p>
   </div>
 </div>

@@ -2,7 +2,7 @@ html {
  -webkit-font-smoothing: antialiased;
   color: $color_base;
   font-family: $tf_sans_serif;
-  font-size: $base_font_size;
+  font-size: 1em;
   line-height: $base_leading;
   text-rendering: optimizeLegibility;
 }
@@ -14,6 +14,7 @@ a {
 
 h1 {
   font-family: $tf_serif;
+  font-weight: 700;
   font-size: $base_font_size * 1.25;
 
   @include media_tablet_portrait() {
@@ -27,9 +28,28 @@ h4,
 h5,
 h6 {
   margin-bottom: 0.5em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: $base_font_size * 1.1;
+}
+
+h4 {
+  font-size: $base_font_size;
+}
+
+h5 {
+  font-size: $base_font_size * 0.8;
+}
+
+h6 {
+  font-size: $base_font_size * 0.75;
 }
 
 p {
+  font-size: $base_font_size;
+  line-height: $base_line_height;
   margin-top: 0;
   margin-bottom: 1.25em;
 }
@@ -70,7 +90,7 @@ ol {
 }
 
 @mixin header_title_h3 {
-  font-weight: 800;
+  font-weight: 700;
   display: inline-block;
   border-bottom: 4px solid;
   padding-bottom: 1em;

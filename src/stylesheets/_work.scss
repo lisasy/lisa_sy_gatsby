@@ -40,7 +40,7 @@ $card_border_radius: 4px;
 
   .card_content {
     @include media_tablet_portrait() {
-      padding: 3em;
+      padding: 4em;
     }
   }
 
@@ -60,12 +60,12 @@ $card_border_radius: 4px;
 
     .card_source {
       margin: 0;
-      color: #58507f;
+      // color: #58507f;
     }
 
     .card_source_detail {
       font-weight: 400;
-      color: #777;
+      // color: #777;
       margin: 0;
     }
   }

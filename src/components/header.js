@@ -50,13 +50,8 @@ class Header extends Component {
                 </Link>
               </li>
               <li>
-                <Link to={`/work/`}>
+                <Link to={`/#work`}>
                   Work
-                </Link>
-              </li>
-              <li>
-                <Link to={`/gallery/`}>
-                  Gallery
                 </Link>
               </li>
               <li>
