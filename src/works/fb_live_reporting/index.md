@@ -10,7 +10,7 @@ source: Facebook
 duration: "2016"
 layout: "float_left"
 role: Product Design Lead
-card_image: "./images/card_img.png"
+card_image: "./images/card_img-2.png"
 card_image_alt: "content moderation filters"
 card_cta: "View Case Study"
 featured_image: "./images/header_bg.png"

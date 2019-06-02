@@ -14,16 +14,15 @@ const IndexPage = ({data}) => {
         <article class="index_section_container">
           <div class="col_primary">
             <h1 class="index_site_header">
-              Crafting experiences that connect with people and help
-              organizations prosper sustainably.
+              Hello <i class="em em-wave emoji"></i> I'm a product
+              designer, illustrator, and artist based in California.
             </h1>
             <p>
-              Hello <i class="em em-wave emoji"></i> I'm a product
-              designer, illustrator, and artist based in California. I've championed design at places like <a href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>, <a href="http://dropbox.com" target="_blank" rel="noopener noreferrer">Dropbox</a>, and <a href="http://thoughtbot.com"
-                target="_blank" rel="noopener noreferrer">thoughtbot</a>.
-            </p>
-
-            <p>
+            I've championed design at places like <a href="http://facebook.com"
+            target="_blank" rel="noopener noreferrer">Facebook</a>, <a
+            href="http://dropbox.com" target="_blank" rel="noopener
+            noreferrer">Dropbox</a>, and <a href="http://thoughtbot.com"
+            target="_blank" rel="noopener noreferrer">thoughtbot</a>.
               Interested in working together? Drop me a line at <a
                 href="mailto:hello@lisasy.com">hello[at]lisasy.com</a>.
             </p>
