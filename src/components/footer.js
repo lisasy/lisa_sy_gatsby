@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 const Footer = () => {
   return (
@@ -23,7 +24,9 @@ const Footer = () => {
             <nav class="site_footer_nav">
               <ul>
                 <li>
-                  <a href="/work">Work</a>
+                  <Link to={`/#work`}>
+                    Work
+                  </Link>
                 </li>
                 <li>
                   <a href="/writing">Writing</a>

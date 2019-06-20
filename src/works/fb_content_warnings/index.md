@@ -1,20 +1,18 @@
 ---
 
 visible: true
-order: 1
-title: "Content Warnings"
+order: 3
+title: "Giving people control with content warnings"
 subtitle: "Led full-stack product design to protect people from seeing unwanted
 content."
 date: 2018-08-21
 reference: "fb_cw"
 source: Facebook
-duration: "2015 - 2017"
-layout: "float_left"
 role: Product Design Lead
-card_image: "./images/card_img.png"
+card_image: "./images/01_cover.png"
 card_image_alt: "content moderation filters"
 card_cta: "View Case Study"
-featured_image: "./images/header_bg.png"
+featured_image: "./images/01_cover.png"
 featured_image_alt: "content warnings"
 type: "work"
 

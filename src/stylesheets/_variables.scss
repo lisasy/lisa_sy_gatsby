@@ -1,9 +1,8 @@
-// $tf_serif: "SF Display", "georgia", serif;
-$tf_serif: "le-monde-livre-std", "georgia", serif;
+$tf_serif: "miller-text", serif;
 $tf_sans_serif: "SF Text", "helvetica", sans-serif;
 
 // Sizing
-$base_font_size: 15pt;
+$base_font_size: 16pt;
 $base_line_height: 1.55;
 $base_leading: $base_line_height;
 $scale: 1.414;
@@ -13,6 +12,7 @@ $color_base: #0F1311;
 $color_secondary: #444947;
 $color_accent: #143de2;
 $color_accent_secondary: #3a5dea;
+$color_highlight: #f5f5f5;
 
 // Mapping Variables
 $link_color: $color_accent;

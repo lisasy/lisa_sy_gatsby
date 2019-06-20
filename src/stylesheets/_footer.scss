@@ -39,6 +39,7 @@
 
     li {
       display: block;
+      margin: 4px;
 
       a {
         @include link_secondary_style();

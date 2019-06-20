@@ -18,13 +18,13 @@ const IndexPage = ({data}) => {
               designer, illustrator, and artist based in California.
             </h1>
             <p>
-            I've championed design at places like <a href="http://facebook.com"
-            target="_blank" rel="noopener noreferrer">Facebook</a>, <a
-            href="http://dropbox.com" target="_blank" rel="noopener
-            noreferrer">Dropbox</a>, and <a href="http://thoughtbot.com"
-            target="_blank" rel="noopener noreferrer">thoughtbot</a>.
-              Interested in working together? Drop me a line at <a
-                href="mailto:hello@lisasy.com">hello[at]lisasy.com</a>.
+              Previously at <a href="http://dropbox.com" target="_blank"
+                rel="noopener noreferrer">Dropbox</a>, <a
+                href="http://facebook.com" target="_blank" rel="noopener
+    noreferrer">Facebook</a>, and <a href="http://thoughtbot.com"
+    target="_blank" rel="noopener noreferrer">thoughtbot</a>. Interested in
+  working together? Drop me a line at <a
+    href="mailto:hello@lisasy.com">hello[at]lisasy.com</a>.
             </p>
           </div>
           <div class="col_secondary">
@@ -46,33 +46,17 @@ const IndexPage = ({data}) => {
               <article class="col">
                 <Link to={fields.slug} className={frontmatter.reference + " " + frontmatter.layout + " work_card_container"}>
 
-                    <div class="card_content">
-
-                      <div class="card_source_container">
-                        <h4 class="card_source">
-                          {frontmatter.source}
-                        </h4>
-                        <h4 class="card_source_detail">
-                          {frontmatter.duration} · {frontmatter.role}
-                        </h4>
-                      </div>
-                      <div class="card_body_container">
-                        <h1 class="card_title">
-                          {frontmatter.title}
-                        </h1>
-                        <p class="card_subtitle">
-                          {frontmatter.subtitle}
-                        </p>
-                      </div>
-                      <div class="card_cta_container">
-                        <a href={fields.slug} target="_blank" rel="noopener noreferrer" class="button_primary">
-                          <p class="button_title">View Project</p>
-                        </a>
-                      </div>
-                    </div>
 
                     <div class="card_img" style={{backgroundImage: `url(${cardImage})`}}>
                     </div>
+                    <caption class="card-source__container">
+                      <figcaption class="card-source__title">
+                        {frontmatter.source} · {frontmatter.title}
+                      </figcaption>
+                      <figcaption class="card-source__subtitle">
+                        {frontmatter.role}
+                      </figcaption>
+                    </caption>
                 </Link>
               </article>
               );

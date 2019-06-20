@@ -16,7 +16,7 @@ const WorkItem = ({ data }) => {
               {post.frontmatter.title}
             </h1>
             <h1 class="project_sourceline">
-              {post.frontmatter.duration} · {post.frontmatter.role}
+              {post.frontmatter.source} · {post.frontmatter.role}
             </h1>
           </div>
         </header>
@@ -38,6 +38,7 @@ export const query = graphql`
         title
         duration
         role
+        source
         subtitle
         reference
         featured_image {
