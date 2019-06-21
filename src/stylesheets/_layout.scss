@@ -6,7 +6,6 @@ body {
   @include media_tablet_portrait() {
     padding-left: 0;
     padding-right: 0;
-    padding-top: 1em;
   }
 
   &::after {
@@ -18,6 +17,22 @@ body {
 
 .body_container {
   max-width: 100%;
+}
+
+.container {
+  @include flex_gutter();
+}
+
+.container--column {
+  margin: 0 auto 2em;
+
+  @include media_tablet_landscape() {
+    width: 44rem;
+  }
+
+  @include media_desktop() {
+    width: 48rem;
+  }
 }
 
 .page_container {

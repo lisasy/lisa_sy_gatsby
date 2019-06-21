@@ -11,7 +11,7 @@ const IndexPage = ({data}) => {
   return (
     <Layout>
       <section class="index_container">
-        <article class="index_section_container">
+        <article class="index_section_container p_b_m">
           <div class="col_primary">
             <h1 class="index_site_header">
               Hello <i class="em em-wave emoji"></i> I'm a product
@@ -34,35 +34,31 @@ const IndexPage = ({data}) => {
           </div>
         </article>
 
-        <article id="work" class="index_section_container highlight">
-          <div class="col_container col_1">
+        <article id="work" class="container">
+          {posts.map (({node: post}) => {
+            const {frontmatter} = post;
+            const {fields} = post;
+            const cardImage = frontmatter.card_image.childImageSharp.fixed.src;
+            return (
 
-            {posts.map (({node: post}) => {
-              const {frontmatter} = post;
-              const {fields} = post;
-              const cardImage = frontmatter.card_image.childImageSharp.fixed.src;
-              return (
-
-              <article class="col">
-                <Link to={fields.slug} className={frontmatter.reference + " " + frontmatter.layout + " work_card_container"}>
+            <div class="">
+              <Link to={fields.slug} className={frontmatter.reference + " " + frontmatter.layout + " work_card_container"}>
 
 
-                    <div class="card_img" style={{backgroundImage: `url(${cardImage})`}}>
-                    </div>
-                    <caption class="card-source__container">
-                      <figcaption class="card-source__title">
-                        {frontmatter.source} · {frontmatter.title}
-                      </figcaption>
-                      <figcaption class="card-source__subtitle">
-                        {frontmatter.role}
-                      </figcaption>
-                    </caption>
-                </Link>
-              </article>
-              );
-            })}
-
-          </div>
+                  <div class="card_img" style={{backgroundImage: `url(${cardImage})`}}>
+                  </div>
+                  <caption class="card-source__container text_align--center">
+                    <figcaption class="card-source__title">
+                      {frontmatter.source} · {frontmatter.title}
+                    </figcaption>
+                    <figcaption class="card-source__subtitle">
+                      {frontmatter.role}
+                    </figcaption>
+                  </caption>
+              </Link>
+            </div>
+            );
+          })}
         </article>
 
         <article class="index_section_container quotation">

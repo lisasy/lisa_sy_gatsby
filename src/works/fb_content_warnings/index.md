@@ -1,6 +1,6 @@
 ---
 
-visible: true
+visible: false
 order: 3
 title: "Giving people control with content warnings"
 subtitle: "Led full-stack product design to protect people from seeing unwanted

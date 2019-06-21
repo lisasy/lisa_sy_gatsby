@@ -6,7 +6,7 @@ const About = () => (
   <Layout>
     <section class="about_container">
       <div class="about_section_container">
-        <div class="col_primary">
+        <div class="col_primary p_b_m">
           <h1>
             Crafting products & services to make people's lives a little bit
             easier
@@ -27,8 +27,8 @@ const About = () => (
             think we can work well together, feel free to reach out to me at <a
   href="mailto:hello@lisasy.com">hello[at]lisasy.com</a>.
           </p>
-          <a href="https://www.dropbox.com/s/4di8zdq1viki8qa/lisa_sy_resume_2018.pdf?dl=0" target="_blank" rel="noopener noreferrer" class="button_primary">
-            <p class="button_title">View Resume</p>
+          <a href="mailto:hello@lisasy.com" target="_blank" rel="noopener noreferrer" class="button_primary">
+            <p class="button_title">Contact Me</p>
           </a>
         </div>
         <div class="col_secondary">

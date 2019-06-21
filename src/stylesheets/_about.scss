@@ -62,7 +62,7 @@
   }
 
   .li_source {
-    color: #777;
+    color: $color_secondary;
     font-weight: 400;
     margin: 0;
   }
@@ -75,7 +75,7 @@
 
 .button_stack .button_stack_li {
   display: block;
-  margin-bottom: 0.5em;
+  margin-bottom: 12px;
 }
 
 .list_item {

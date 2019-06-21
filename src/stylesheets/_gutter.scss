@@ -5,7 +5,7 @@
   margin: 0;
 
   @include media_tablet_portrait() {
-    margin: 0 auto 4em;
+    margin: 2em auto;
     max-width: 72em;
   }
 }
@@ -60,6 +60,65 @@
 
 .mg_dw_m {
   margin-bottom: 4em;
+}
+
+$value_s: 2em;
+$value_m: 4em;
+$value_l: 8em;
+
+.p_t_s {
+  padding-top: $value_s;
+}
+
+.p_b_s {
+  padding-bottom: $value_s !important;
+}
+
+.p_b_null {
+  padding-bottom: 0 !important;
+}
+
+.p_tb_s {
+  padding-top: $value_s;
+  padding-bottom: $value_s;
+}
+
+.p_all_s {
+  padding: $value_s;
+}
+
+.p_t_m {
+  padding-top: $value_m !important;
+}
+
+.p_b_m {
+  padding-bottom: $value_m !important;
+}
+
+.p_tb_m {
+  padding-top: $value_m !important;
+  padding-bottom: $value_m !important;
+}
+
+.p_t_l {
+  padding-top: $value_l;
+}
+
+.p_b_l {
+  padding-bottom: $value_l;
+}
+
+.p_tb_l {
+  padding-top: $value_l;
+  padding-bottom: $value_l;
+}
+
+.null_m_b {
+  margin-bottom: 0;
+}
+
+.text_align--center {
+  text-align: center;
 }
 
 // mrgn

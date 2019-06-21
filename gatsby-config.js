@@ -56,6 +56,12 @@ module.exports = {
               maxWidth: 960
             },
           },
+          {
+            resolve: `gatsby-remark-embed-video`,
+            options: {
+              width: 960
+            },
+          }
         ]
       },
     },

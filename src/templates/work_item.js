@@ -9,23 +9,26 @@ const WorkItem = ({ data }) => {
   const featuredImage = post.frontmatter.featured_image.childImageSharp.sizes.src
   return (
     <Layout>
-      <section class="project_container">
-        <header className="project_header work_section col_full" style={{backgroundImage: `url(${featuredImage})`}}>
-          <div class="project_header_content col">
-            <h1 class="project_title">
-              {post.frontmatter.title}
-            </h1>
-            <h1 class="project_sourceline">
-              {post.frontmatter.source} · {post.frontmatter.role}
-            </h1>
-          </div>
+      <section class="work">
+        <header class="work_display">
+          <section class="work_display--headline">
+            <div class="container">
+              <h4 class="subtitle">
+                {post.frontmatter.source} · {post.frontmatter.role}
+              </h4>
+              <h1 class="title">
+                {post.frontmatter.title}
+              </h1>
+            </div>
+          </section>
+          <section class="work_display--graphic">
+            <img src={featuredImage} />
+          </section>
         </header>
-        <div class="project_body_container">
-          <article class="project_body">
-              <div dangerouslySetInnerHTML = {{ __html: post.html }} />
-          </article>
-        </div>
-      </section>
+        <article class="work_body">
+          <div dangerouslySetInnerHTML = {{ __html: post.html }} />
+        </article>
+     </section>
     </Layout>
   )
 }

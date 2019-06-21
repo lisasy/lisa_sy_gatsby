@@ -26,10 +26,6 @@ $col_6: percentage(6/$columns); // 2 items per row
     align-items: center;
 }
 
-.col_1 > .col {
-  width: 100%;
-}
-
 .col_4 > .col {
   padding-bottom: $gutter;
 
@@ -65,6 +61,7 @@ $col_6: percentage(6/$columns); // 2 items per row
 }
 
 /* define column container */
+.grid_column_container,
 .col_container {
   @include flex_gutter();
   padding: 0;
@@ -101,17 +98,6 @@ $col_6: percentage(6/$columns); // 2 items per row
   }
 }
 
-.col {
-  .col_2of3 {
-    box-sizing: border-box;
-    width: 66%;
-  }
-  .col_1of3 {
-    box-sizing: border-box;
-    width: 33%;
-  }
-}
-
 .col_standard_col {
   margin: 0 auto 2em;
   @include media_tablet_landscape() {
@@ -120,5 +106,11 @@ $col_6: percentage(6/$columns); // 2 items per row
 
   @include media_desktop() {
     width: 30rem;
+  }
+}
+
+.col {
+  figure {
+    margin-top: 52px;
   }
 }

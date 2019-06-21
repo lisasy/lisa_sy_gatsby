@@ -8,7 +8,7 @@
   margin: 0;
 
   p {
-    font-size: 12pt;
+    font-size: 14pt;
   }
 }
 
@@ -39,22 +39,20 @@
 
     li {
       display: block;
-      margin: 4px;
+      margin: 4px 4px 8px;
 
       a {
         @include link_secondary_style();
-        padding: 4px;
+        padding: 4px 8px;
         border-radius: 4px;
         color: $color_base;
 
         &:hover {
           background: rgba(0,0,0,0.07);
-          color: #777;
           color: $color_base;
           text-decoration: none;
         }
       }
     }
   }
-
 }

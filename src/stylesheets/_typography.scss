@@ -13,7 +13,7 @@ a {
 
 
 h1 {
-  font-family: $tf_serif;
+  font-family: $tf_sans_serif;
   font-weight: 800;
   font-size: $base_font_size * 1.25;
 
@@ -36,7 +36,7 @@ h2 {
 }
 
 h3 {
-  font-size: $base_font_size * 1.1;
+  font-size: $base_font_size * 1.2;
 }
 
 h4 {
@@ -68,7 +68,6 @@ ul.styled {
 
     &::before {
       content: "—";
-      color: #777;
       position: absolute;
       left: -2em;
     }
@@ -81,7 +80,6 @@ ol {
 
   li::before {
     font-weight: 400;
-    color: #777;
     padding-right: 1em;
     content: counter(my-counter);
   }
