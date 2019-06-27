@@ -17,7 +17,7 @@ type: "work"
 ---
 
 <div class="work_body--section primary">
-  <div class="container">
+  <div class="container--column">
     <p>
       In Spring 2016, I led product design to improve Facebook's reporting
       platform so that people can flag inappropriate, sensitive content streaming on
@@ -35,9 +35,9 @@ type: "work"
     </h2>
     <p>
       When they see inappropriate content on Facebook, they can report it to get
-it removed. However, there were ample problems  with our existing reporting
-flow, making it challenging for people to iscover, express their problem, and
-find the help they needed.
+      it removed. However, there were ample problems  with our existing reporting
+      flow, making it challenging for people to iscover, express their problem, and
+      find the help they needed.
     </p>
   </div>
   <figure>
@@ -57,29 +57,14 @@ find the help they needed.
       </p>
       <ol>
         <li>
-          Protect other people from seeing this on Facebook. (37%)
+          Protect other people from seeing this on Facebook. (37%*)
         </li>
         <li>
           Tell Facebook that I don’t want to see things like this again. (21%)
         </li>
       </ol>
-      <cite>Based on a user research survey.</cite>
-    </div>
-  </div>
-</div>
-
-<div class="work_body--section">
-  <div class="container grid_column_container col_6">
-    <div class="col">
-      <h2>
-        Sprinting to test our concepts
-      </h2>
       <p>
-        I reframed these JTBDs as opportunities our team can tackle to help our
-  users better accomplish their goals. I kicked it off with a three-week
-  full-cycle design sprint to align on these known problems with my team, generate
-  ideas, and continuously narrow in on them with validation with real people
-  during usability testing.
+        I reframed these JTBDs as opportunities for us to take on:
       </p>
       <ul>
         <li>
@@ -91,19 +76,37 @@ find the help they needed.
   don’t like?
         </li>
       </ul>
-    </div>
-    <div class="col">
-      <figure>
-        <img src="./images/team_brainstorm.jpg" alt="team brainstorm" />
-      </figure>
+      <cite>* Based on a user research survey</cite>
     </div>
   </div>
 </div>
 
 <div class="work_body--section">
   <div class="container--column">
+    <p>
+    These prompts helped kick off a design sprint with where I led my team
+    from aligning on these problems, generating and exploring concepts, then
+    validating them with real users — within three weeks. Here’s what that looked
+    like.
+    </p>
+    <figure>
+      <img src="./images/team_brainstorm.jpg" alt="team brainstorm" />
+    </figure>
+  </div>
+</div>
+
+<div class="work_body--section">
+  <div class="container--column">
+    <p>
+      Responding to those two prompts, I began sketching end-to-end user flows
+to bring our collective vision to reality. The goal of this exercise was to get
+all of the various ideas out of our system, so that we can see what types of
+concepts could succeed the most. We began asking ourselves some critical
+questions, like:
+    </p>
     <h2>
-      Responding to those two prompts, I sketched out an end-to-end user flow concepts that facilitated the jobs-to-be done above. What if reporting leaned into helping people protect their others from seeing inappropriate content, and it was about ease and efficiency?
+      What if reporting leaned into helping people protect their others from
+seeing inappropriate content, and it was about ease and efficiency?
     </h2>
   </div>
 </div>
@@ -237,16 +240,14 @@ Facebook, like normal videos, photos, and posts.
   <figure>
     <img src="./images/final_flow.png" />
     <figcaption class="text_align--center">
+      The improved product experience helping our users get their voice heard.
+    </figcaption>
+  </figure>
+  <figure>
+    <img src="./images/card_img-2.png" />
+    <figcaption class="text_align--center">
       We launched this flow on Android, iOS, desktop, and mobile web.
     </figcaption>
   </figure>
 </div>
 
-<div class="work_body--section">
-  <div class="container bg_card">
-  <div class="container--column p_tb_s text_align--center">
-    <p class="null_m_b">
-      More detailed case study available upon request.
-    </p>
-  </div>
-</div>

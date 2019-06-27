@@ -45,8 +45,8 @@
 
 .primary,
 .emphasis {
-  padding-top: 8em;
-  padding-bottom: 8em;
+  padding-top: 4em;
+  font-weight: 800;
 
   h2 {
     color: $color_accent_complementary;
@@ -58,7 +58,7 @@
   ul li,
   ol li {
     font-family: $tf_sans_serif;
-    font-size: $base_font_size * 1.75;
+    font-size: 22pt;
   }
 
   li {
