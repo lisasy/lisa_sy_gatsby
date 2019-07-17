@@ -23,18 +23,6 @@ body {
   @include flex_gutter();
 }
 
-.container--column {
-  margin: 0 auto 2em;
-
-  @include media_tablet_landscape() {
-    width: 44rem;
-  }
-
-  @include media_desktop() {
-    width: 48rem;
-  }
-}
-
 .page_container {
   @include flex_gutter();
   @include flex_display();

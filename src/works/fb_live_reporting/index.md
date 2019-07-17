@@ -16,182 +16,172 @@ type: "work"
 
 ---
 
-<div class="work_body--section primary">
-  <div class="container--column">
-    <p>
-      In Spring 2016, I led product design to improve Facebook's reporting
-      platform so that people can flag inappropriate, sensitive content streaming on
-      Live Videos. This allowed Facebook to <strong>intake 574% more reports and
-      remove 157% more objectionable content than previously</strong>. This enables
-      Facebook to become a safer platform for people to be their authentic selves.
-    </p>
-  </div>
-</div>
+#  In Spring 2016, I led product design to improve Facebook's reporting platform so that people can flag inappropriate, sensitive content streaming on Live Videos.
 
-<div class="work_body--section">
-  <div class="container--column">
-    <h2>
-      People are struggling to get their voice heard.
-    </h2>
-    <p>
-      When they see inappropriate content on Facebook, they can report it to get
-      it removed. However, there were ample problems  with our existing reporting
-      flow, making it challenging for people to iscover, express their problem, and
-      find the help they needed.
-    </p>
-  </div>
-  <figure>
-    <img src="./images/product_problems.png" />
-  </figure>
-</div>
+### This allowed Facebook to intake 574% more reports and remove 157% more objectionable content than previously. This enables Facebook to become a safer platform for people to be their authentic selves.
 
-<div class="work_body--section">
-  <div class="container bg_card">
-    <div class="container--column p_tb_l">
-      <h2>
-        Our users' goals
-      </h2>
-      <p>
-        When people use the reporting flow, they’re trying to accomplish some key
-        jobs-to-be-done, including:
-      </p>
-      <ol>
-        <li>
-          Protect other people from seeing this on Facebook. (37%*)
-        </li>
-        <li>
-          Tell Facebook that I don’t want to see things like this again. (21%)
-        </li>
-      </ol>
-      <p>
-        I reframed these JTBDs as opportunities for us to take on:
-      </p>
-      <ul>
-        <li>
-          How might we help people protect others from seeing objectionable,
-          sensitive content on Facebook?
-        </li>
-        <li>
-          How might we help people tell us that they’re seeing things that they
-  don’t like?
-        </li>
-      </ul>
-      <cite>* Based on a user research survey</cite>
+---
+
+## People are struggling to get their voice heard.
+When they see inappropriate content on Facebook, they can report it to get
+it removed. However, there were ample problems  with our existing reporting
+flow, making it challenging for people to iscover, express their problem, and
+find the help they needed.
+
+<figure>
+  <img src="./images/product_problems.png" />
+</figure>
+
+  <div class="work_body--section">
+    <div class="container bg_card">
+      <div class="container--column p_tb_l">
+        <h2>
+          Our users' goals
+        </h2>
+        <p>
+          When people use the reporting flow, they’re trying to accomplish some key
+          jobs-to-be-done, including:
+        </p>
+        <ol>
+          <li>
+            Protect other people from seeing this on Facebook. (37%*)
+          </li>
+          <li>
+            Tell Facebook that I don’t want to see things like this again. (21%)
+          </li>
+        </ol>
+        <p>
+          I reframed these JTBDs as opportunities for us to take on:
+        </p>
+        <ul>
+          <li>
+            How might we help people protect others from seeing objectionable,
+            sensitive content on Facebook?
+          </li>
+          <li>
+            How might we help people tell us that they’re seeing things that they
+    don’t like?
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="work_body--section">
-  <div class="container--column">
-    <p>
-    These prompts helped kick off a design sprint with where I led my team
-    from aligning on these problems, generating and exploring concepts, then
-    validating them with real users — within three weeks. Here’s what that looked
-    like.
-    </p>
+  <div class="work_body--section">
+    <div class="container--column">
+      <p>
+      These prompts helped kick off a design sprint with where I led my team
+      from aligning on these problems, generating and exploring concepts, then
+      validating them with real users — within three weeks. Here’s what that looked
+      like.
+      </p>
+      <figure>
+        <img src="./images/team_brainstorm.jpg" alt="team brainstorm" />
+      </figure>
+    </div>
+  </div>
+
+  <div class="work_body--section">
+    <div class="container--column">
+      <p>
+        Responding to those two prompts, I began sketching end-to-end user flows
+  to bring our collective vision to reality. The goal of this exercise was to get
+  all of the various ideas out of our system, so that we can see what types of
+  concepts could succeed the most. We began asking ourselves some critical
+  questions, like:
+      </p>
+      <h2>
+        What if reporting leaned into helping people protect their others from
+  seeing inappropriate content, and it was about ease and efficiency?
+      </h2>
+    </div>
+  </div>
+
+  <div class="work_body--section">
     <figure>
-      <img src="./images/team_brainstorm.jpg" alt="team brainstorm" />
+      <img src="./images/ideation_one_click_reporting.png" />
+      <figcaption>
+        Concept wireframe of making reporting one-click
+      </figcaption>
     </figure>
   </div>
-</div>
 
-<div class="work_body--section">
-  <div class="container--column">
-    <p>
-      Responding to those two prompts, I began sketching end-to-end user flows
-to bring our collective vision to reality. The goal of this exercise was to get
-all of the various ideas out of our system, so that we can see what types of
-concepts could succeed the most. We began asking ourselves some critical
-questions, like:
-    </p>
-    <h2>
-      What if reporting leaned into helping people protect their others from
-seeing inappropriate content, and it was about ease and efficiency?
-    </h2>
+  <div class="work_body--section">
+    <div class="container--column p_tb_m">
+      <h2>
+        ... or what if it was more about empowering the user to tell Facebook what
+        they like or didn't like seeing?
+      </h2>
+    </div>
   </div>
-</div>
 
-<div class="work_body--section">
-  <figure>
-    <img src="./images/ideation_one_click_reporting.png" />
-    <figcaption>
-      Concept wireframe of making reporting one-click
-    </figcaption>
-  </figure>
-</div>
-
-<div class="work_body--section">
-  <div class="container--column p_tb_m">
-    <h2>
-      ... or what if it was more about empowering the user to tell Facebook what
-      they like or didn't like seeing?
-    </h2>
+  <div class="work_body--section">
+    <figure>
+      <img src="./images/ideation_manage_content.png" />
+      <figcaption>
+        Concept wireframe of people needing to hide a post first before reporting
+        it
+      </figcaption>
+    </figure>
   </div>
-</div>
 
-<div class="work_body--section">
-  <figure>
-    <img src="./images/ideation_manage_content.png" />
-    <figcaption>
-      Concept wireframe of people needing to hide a post first before reporting
-      it
-    </figcaption>
-  </figure>
-</div>
-
-<div class="work_body--section">
-  <div class="container--column">
-    <p>
-      I brought these flows into higher fidelity explorations and began looking
-at different ways people can access this flow...
-    </p>
+  <div class="work_body--section">
+    <div class="container--column">
+      <p>
+        I brought these flows into higher fidelity explorations and began looking
+  at different ways people can access this flow...
+      </p>
+    </div>
   </div>
-</div>
 
-<div class="work_body--section">
-  <figure>
-    <img src="./images/concept_explorations_entrypoint.png" />
-  </figure>
-</div>
-
-<div class="work_body--section">
-  <div class="container--column">
-    <p>
-      I worked in process, zooming in and out of my explorations to discover,
-then narrow in, on the optimal solutions that the team and I had the most
-confidence in. These are explorations of user flows:
-    </p>
+  <div class="work_body--section">
+    <figure>
+      <img src="./images/concept_explorations_entrypoint.png" />
+    </figure>
   </div>
-</div>
 
-<div class="work_body--section">
-  <figure>
-    <img src="./images/concept_explorations_flows.png" />
-  </figure>
-</div>
+  <div class="work_body--section">
+    <div class="container--column">
+      <p>
+        I worked in process, zooming in and out of my explorations to discover,
+  then narrow in, on the optimal solutions that the team and I had the most
+  confidence in. These are explorations of user flows:
+      </p>
+    </div>
+  </div>
 
-<div class="work_body--section">
-  <div class="container--column">
-    <p>
-      By the middle of week two, I had narrow possible concepts to two
-directional prototypes I’d made in Framer:
+  <div class="work_body--section">
+    <figure>
+      <img src="./images/concept_explorations_flows.png" />
+    </figure>
+  </div>
+
+  <div class="work_body--section">
+    <div class="container--column">
+      <p>
+        By the middle of week two, I had narrow possible concepts to two
+  directional prototypes I’d made in Framer:
+      </p>
+    </div>
+  </div>
+  <div class="work_body--section">
+    <div class="container--column">
+      <p>
+        <iframe src="https://drive.google.com/file/d/1_8eqJi-zFC8AkcuzF0KFhCiBHGFzNDT3/preview" width="780" height="480"></iframe>
+      <figcaption>
+        1. Concept demo of one-click reporting
+      </figcaption>
     </p>
   </div>
 </div>
 <div class="work_body--section">
   <div class="container--column">
-    <iframe src="https://drive.google.com/file/d/1_8eqJi-zFC8AkcuzF0KFhCiBHGFzNDT3/preview" width="780" height="480"></iframe>
-    <figcaption>
-      1. Concept demo of one-click reporting
-    </figcaption>
-  </div>
-</div>
-<div class="work_body--section">
-  <div class="container--column">
-    <iframe src="https://drive.google.com/file/d/1AEJVOwHrgHiNMnRYcQcWYapli5VzcQgl/preview" width="780" height="480"></iframe>
-    <figcaption>
-      2. Concept demo of hiding, then reporting
-    </figcaption>
+    <p>
+      <iframe src="https://drive.google.com/file/d/1AEJVOwHrgHiNMnRYcQcWYapli5VzcQgl/preview" width="780" height="480"></iframe>
+      <figcaption>
+        2. Concept demo of hiding, then reporting
+      </figcaption>
+    </p>
   </div>
 </div>
 

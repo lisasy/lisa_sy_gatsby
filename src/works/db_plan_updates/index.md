@@ -17,9 +17,11 @@ type: "work"
 ---
 
 <div class="work_body--section primary p_b_null">
-  <div class="container">
+  <div class="container--column">
     <p>
-      At Dropbox, I paired with another product designer to help announce Dropbox's new plan and pricing updates to its existing customers. Launched in Spring 2019, our in-product announcement flow:
+      At Dropbox, I paired with another product designer to help announce
+Dropbox's new plan and pricing updates to its existing customers. Launched in
+Spring 2019, our in-product announcement flow:
     </p>
     <ol>
       <li>
@@ -33,14 +35,8 @@ type: "work"
         Gives people ways to change or cancel their plan
       </li>
     </ol>
-  </div>
-</div>
-
-<div class="work_body--section">
-  <div class="container bg_card">
-  <div class="container--column p_tb_s text_align--center">
-    <p class="null_m_b">
-      More detailed case study available upon request.
+    <p>
+      More detailed case study coming soon...
     </p>
   </div>
 </div>
