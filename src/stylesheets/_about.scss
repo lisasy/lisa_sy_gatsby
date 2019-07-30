@@ -12,7 +12,7 @@
   max-width: 100%;
 
   @include flex_height_display();
-  @include no_flex_display();
+  @include flex_display_false();
 }
 
 .design_approach_content {

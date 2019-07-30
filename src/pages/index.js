@@ -99,7 +99,7 @@ export const query = graphql`
             layout
             card_image {
               childImageSharp {
-                fixed(width: 800) {
+                fixed(width: 800, quality: 90) {
                   src
                 }
               }

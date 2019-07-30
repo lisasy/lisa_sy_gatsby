@@ -28,6 +28,12 @@ body {
   @include flex_display();
 }
 
+.page_container_block {
+  @include flex_gutter();
+  @include flex_display_false();
+
+}
+
 img {
   height: auto;
   object-fit: cover;

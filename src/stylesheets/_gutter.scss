@@ -11,7 +11,7 @@
 
   @include media_desktop() {
     margin: 2em auto;
-    max-width: 88em;
+    max-width: 80em;
   }
 }
 
@@ -23,7 +23,7 @@
   }
 }
 
-@mixin no_flex_display() {
+@mixin flex_display_false() {
   display: block;
 }
 

@@ -24,7 +24,7 @@ type: "work"
 
 ---
 
-## Understanding the problem
+###### Understanding the problem
 
 ### When people go onto Facebook and unexpectedly encounter sensitive content, it is a jarring experience that bothers them.
 
@@ -45,6 +45,7 @@ offer a remedial experience?
 
 ---
 
+###### Opportunity
 ## How might we give more control to people over sensitive content that can’t be removed on Facebook?
 
 <figure>
@@ -53,6 +54,7 @@ offer a remedial experience?
   </figcaption>
 </figure>
 
+###### Requirements
 While Facebook's machine-learning technology could detect nudity, pornography,
 or sexually suggestive photos and videos, it was less equipped at capturing
 graphic violence or hate speech. For the time being, we decided that our content
@@ -271,10 +273,10 @@ After interviews with 200 people in focus groups, one-on-one interviews, market
 experts, and usability test sessions, our main insights were:
 
 
-### “Community” is subjective
+#### “Community” is subjective
 “Community” varies and changes meaning during different circumstances. This challenges the business aim to have a “community” define a person’s default setting because a community is pretty… hard to define.
 
-### What’s considered “inappropriate” on Facebook is also subjective.
+#### What’s considered “inappropriate” on Facebook is also subjective.
 Not only do people define their "community" subjectively, but so too is what they consider to be flagrant on Facebook. We’d already validated the need for this project; this was further proof that people want more control over what they see or don’t want to see on Facebook.
 
 Other insights from the UX/UI were:
