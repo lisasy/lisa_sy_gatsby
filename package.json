@@ -5,7 +5,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@material-ui/core": "^4.4.3",
-    "gatsby": "^2.0.19",
+    "gatsby": "^2.17.8",
     "gatsby-image": "^2.0.0-rc.4",
     "gatsby-plugin-catch-links": "^2.0.8",
     "gatsby-plugin-google-analytics": "^2.0.8",
@@ -34,7 +34,7 @@
     "remark-html": "^9.0.0",
     "remark-preset-lint-recommended": "^3.0.2",
     "sharp": "^0.22.1",
-    "showdown": "^1.9.0",
+    "showdown": "^1.9.1",
     "url-loader": "^1.1.2"
   },
   "keywords": [
