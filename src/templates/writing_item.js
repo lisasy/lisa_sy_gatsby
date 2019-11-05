@@ -1,38 +1,40 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import SiteNavDark from '../components/site_nav_dark'
 
 const WritingItem  = ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
-      <section class="writing_container">
-        <article class="article_container">
-          <header class="article_header">
-            <div class="article_header_content">
+
+      <SiteNavDark />
+
+      <section class="article_container">
+          <header class="article_header_container">
+            <div class="article_header_content_container">
+
               <h3 class="article_date">
                 { post.frontmatter.date }
               </h3>
               <h1 class="article_title">
                 { post.frontmatter.title }
               </h1>
-              <h3 class="article_subtitle">
+              <p class="article_subtitle">
                 { post.frontmatter.subtitle }
-              </h3>
+              </p>
             </div>
           </header>
 
-          <hr />
-
-          <div class="article_body_content">
-            <p>
-              <img
-                src={post.frontmatter.featured_image.childImageSharp.sizes.src}
-              />
-            </p>
+          <div class="article_body_content_container">
+            <img
+              src={post.frontmatter.featured_image.childImageSharp.sizes.src}
+            />
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
+            <footer class="article_end_footer">
+              <a href="">See all blog entries</a>
+            </footer>
           </div>
-        </article>
       </section>
     </Layout>
   )

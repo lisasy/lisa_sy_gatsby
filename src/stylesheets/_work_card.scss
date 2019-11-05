@@ -7,92 +7,146 @@ $card_border_radius: 4px;
   @include flex_display();
 }
 
-.work_card_container {
-  background: $color_highlight;
-  box-sizing: border-box;
-  display: block;
-  padding: 1em;
-
-  text-decoration: none;
-  transition: all 0.25s ease-in;
-  border-radius: $card_border_radius;
-  margin-bottom: 2em;
-  color: $color_base;
-
+.work_index {
   @include media_tablet_portrait() {
-    align-items: center;
-    padding: 2em;
+    margin-bottom: 160px;
   }
 
-  &:hover {
-    color: $color_base;
-    transform: translateY(-0.25em);
-  }
+  header {
+    margin: 24px auto;
+    text-align: left;
 
-  > div {
-    box-sizing: content-box;
-    flex-basis: calc(50% - 40px);
-  }
-
-  .card_content {
-    @include media_tablet_portrait() {
-      padding: 4em;
-    }
-  }
-
-  .card_img {
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    min-height: $card_height_mobile;
 
     @include media_tablet_portrait() {
-      min-height: $card_height_desktop;
-    }
-  }
-
-  .card-source__container {
-    display: block;
-    margin-bottom: 1em;
-
-    @include media_tablet_portrait() {
-      margin-bottom: 2em;
-    }
-
-    .card-source__title {
-      color: $color_base;
-      margin: 0;
-      font-weight: 600;
-      font-size: 14pt;
+      margin: 120px auto;
       text-align: center;
     }
 
-    .card-source__subtitle {
-      color: $color_base;
-      margin: 0;
-      font-weight: 400;
-      font-size: 14pt;
-      text-align: center;
-    }
+    h2 {
+      font-weight: 900;
+      font-family: $display_serif;
 
-    .card_source_detail {
-      font-weight: 400;
-      margin: 0;
+      @include media_tablet_portrait() {
+        font-size: 48px;
+        line-height: 56px;
+      }
     }
   }
-
-  .card_body_container {
-    margin-bottom: 1em;
+  caption {
+    padding-top: 12px;
+    margin-bottom: 40px;
 
     @include media_tablet_portrait() {
-      margin-bottom: 2em;
+      margin-bottom: 0;
     }
 
-    .card_title {
-      color: $color_base;
-      font-weight: 800;
-      font-family: $tf_serif;
+    p {
+      font-family: $tf_sans_serif;
+      font-size: 18px;
+      line-height: 24px;
+      margin: 0 auto 0 0;
+      text-align: left;
+      width: 100%;
+
+      @include media_tablet_portrait() {
+        width: 75%;
+      }
     }
   }
 }
 
+.dropbox {
+  background-image: url("../images/dropbox.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px;
+  height: 400px;
+  max-height: 1000px;
+  width: 100%;
+
+  @include media_tablet_portrait() {
+    height: 1000px;
+  }
+}
+
+.facebook_reporting {
+  background-image: url("../images/facebook_reporting.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  width: 100%;
+
+  @include media_tablet_portrait() {
+    height: 800px;
+  }
+}
+
+.facebook_music {
+  background-image: url("../images/facebook_music.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 340px;
+  width: 100%;
+
+  @include media_tablet_portrait() {
+    height: 640px;
+  }
+}
+
+.facebook_content_warnings {
+  background-image: url("../images/facebook_content_warnings.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 340px;
+  width: 100%;
+
+  @include media_tablet_portrait() {
+    height: 640px;
+  }
+}
+
+.facebook_authenticity {
+  background-image: url("../images/facebook_authenticity.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 340px;
+  width: 100%;
+
+  @include media_tablet_portrait() {
+    height: 640px;
+  }
+}
+
+.values_card {
+  display: flex;
+  align-items: center;
+  background-color: #FAF7EF;
+  height: 340px;
+  width: 100%;
+
+  .values_card_content {
+    padding: 64px;
+  }
+
+  h3 {
+    color: #102442;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 24px;
+    line-height: 30px;
+    color: #102442;
+    opacity: 0.8;
+  }
+
+  @include media_tablet_portrait() {
+    margin-top: 320px;
+    height: 640px;
+  }
+}

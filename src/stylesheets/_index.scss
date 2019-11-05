@@ -3,10 +3,6 @@
 }
 
 .index_section_container {
-  @include flex_gutter();
-  display: flex;
-  align-items: center;
-  flex-direction: column-reverse;
 
   @include media_tablet_portrait() {
     flex-direction: row;
@@ -57,7 +53,6 @@
     }
 
     blockquote {
-      font-family: $tf_serif;
       font-size: 14pt;
       margin: 0 0 1em;
 
@@ -78,4 +73,10 @@
 .index_site_header {
   font-family: $tf_sans_serif;
   margin-bottom: 0.15em;
+}
+
+.row_container {
+  @include media_tablet_portrait() {
+    margin-bottom: 96px;
+  }
 }

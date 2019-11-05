@@ -1,9 +1,9 @@
 // Variables
-$media_phone: 599px;
-$media_tablet_portrait: 600px;
-$media_tablet_landscape: 900px;
-$media_desktop: 1200px;
-$media_desktop_large: 1800px;
+$media_phone: 360px;
+$media_tablet_portrait: 768px;
+$media_tablet_landscape: 1024px;
+$media_desktop: 1280px;
+$media_desktop_large: 1600px;
 
 // Definition
 @mixin media_phone {

@@ -4,6 +4,7 @@
 @import "gutter";
 @import "links";
 @import "typography";
+@import "caption";
 @import "button";
 @import "layout";
 @import "figure";
@@ -12,7 +13,8 @@
 @import "list";
 @import "gatsby_override";
 
-@import "header";
+@import "site_nav";
+@import "hero";
 @import "footer";
 @import "index";
 @import "about";

@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import favicon from "../images/favicon.ico"
 
-import Header from './header'
+import SiteNav from './site_nav'
 import Footer from './footer'
 import '../stylesheets/main.css.scss'
 
@@ -25,7 +25,7 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Lisa Sy is an interdisciplinary product designer, illustrator, and artist based in the San Francisco Bay Area.' },
+            { name: 'description', content: 'Lisa Sy is a product designer, illustrator, and artist based in California.' },
             { name: 'keywords', content: 'Lisa Sy, design, California' },
           ]}
         >
@@ -33,10 +33,13 @@ const Layout = ({ children }) => (
           <link rel="icon" href={favicon} />
           <link rel="stylesheet" href="https://use.typekit.net/fjj2fpt.css" />
           <link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css" />
+          <link href="https://fonts.googleapis.com/css?family=Archivo:400,600,700&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Spectral:400,700,800&display=swap" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Alegreya:400,500,800&display=swap" rel="stylesheet" />
           <body className="body_container" />
 
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
+
         {children}
         <Footer />
       </>

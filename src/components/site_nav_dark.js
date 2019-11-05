@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
-class Header extends Component {
+class SiteNavDark extends Component {
 
   state = { showMobileMenu: false }
   toggleMobileMenu = () => {
@@ -14,7 +14,7 @@ class Header extends Component {
     const mobileMenuActive = this.state.showMobileMenu ? 'is-active' : '';
 
     return (
-      <header class="site_header">
+      <header class="site_header dark">
         <div className="site_menu__mobile">
           <h1 class="site_menu__logo">
             <Link to="/" >
@@ -30,19 +30,18 @@ class Header extends Component {
                 <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
                 <line class="menuicon__bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
                 <line class="menuicon__bar" x1="13" y1="32.5" x2="37" y2="32.5"/>
-                <circle class="menuicon__circle" r="23" cx="25" cy="25" />
               </g>
             </svg>
           </a>
         </div>
 
         <nav className={mobileMenuActive + " site_menu"} id="nav">
-          <h1 class="site_menu__logo header_title_h3">
-            <Link to="/" >
-              Lisa Sy
-            </Link>
-          </h1>
-          <div class="site_menu__pages">
+          <div class="site_menu__pages container">
+            <h1 class="site_menu__logo">
+              <Link to="/" >
+                Lisa Sy
+              </Link>
+            </h1>
             <ul>
               <li className="page__index">
                 <Link to="/">
@@ -60,16 +59,6 @@ class Header extends Component {
                 </a>
               </li>
               <li>
-                <Link to={`/writing/`}>
-                  Writing
-                </Link>
-              </li>
-              <li>
-                <Link to="/about/">
-                  About
-                </Link>
-              </li>
-              <li>
                 <a href="mailto:hello@lisasy.com">
                   Contact
                 </a>
@@ -82,4 +71,4 @@ class Header extends Component {
   }
 }
 
-export default Header
+export default SiteNavDark

@@ -1,8 +1,50 @@
+.page_header.writing{
+  background-image: url("../images/page_header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  min-height: 300px;
+
+  @include media_tablet_portrait() {
+    min-height: 640px;
+  }
+
+  .h1_jumbo {
+    display: block;
+  }
+}
+
+.page_header_container {
+  padding-top: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+
+
+  @include media_tablet_portrait() {
+    padding-top: 120px;
+    padding-bottom: 0;
+  }
+}
+
+
+
 .writing_container {
   max-width: 100%;
-  padding-left: 1em;
-  padding-right: 1em;
   margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  margin-top: -40px;
+
+  @include media_tablet_portrait() {
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
+
+  @include media_tablet_landscape() {
+    padding-top: 0;
+    padding-bottom: 80px;
+  }
 }
 
 .article_container {
@@ -10,12 +52,17 @@
   margin: 0 0 1em;
 
   @include media_tablet_portrait() {
-    margin: 0 auto 4em;
-    width: 44rem;
   }
 
-  .article_header {
-    margin-bottom: 1em;
+  .article_header_container {
+    padding-top: 1em;
+    padding-bottom: 3em;
+    background: #369F84;
+    margin-bottom: 1.5em;
+
+    @include media_tablet_portrait() {
+      margin-top: 0;
+    }
   }
 
   .article_title,
@@ -26,76 +73,123 @@
   }
 
   .article_title {
-    font-family: $tf_serif;
+    font-size: 40px;
+    line-height: 44px;
+    //color: #002865;
+    color: #ffffff;
+    font-family: $display_serif;
+    text-align: left;
+    margin: 0 auto 2px;
+
+    @include media_tablet_portrait() {
+      font-size: 48px;
+      line-height: 56px;
+    }
   }
 
   .article_date {
-    color: #777;
-    font-size: 14pt;
-    font-weight: 400;
-    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 22px;
+    //color: #6F7B78;
+    color: #7fffd6;
+    font-family: $display_serif;
+    text-align: left;
+    margin: 0 auto 2px;
+
+    @include media_tablet_portrait() {
+      font-size: 20px;
+      line-height: 22px;
+    }
   }
 
   .article_subtitle {
-    font-weight: 400;
-    font-size: 16pt;
+    font-size: 20px;
+    line-height: 28px;
+    //color: #002865;
+    color: #ffffff;
+    text-align: left;
+    font-family: $tf_sans_serif;
+
+    @include media_tablet_portrait() {
+      font-size: 20px;
+      line-height: 28px;
+    }
   }
 }
 
-.article_body_content {
-  font-family: $tf_serif;
+.article_body_content_container {
   line-height: 1.65;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $tf_sans_serif;
+    margin-bottom: 4px;
+  }
+
+  img {
+    margin-bottom: 1.25em;
+  }
+
+  @include flex_gutter();
+
+  @include media_tablet_portrait() {
+    max-width: 40em;
+  }
+
+  @include media_tablet_landscape() {
+    max-width: 32em;
+  }
+}
+
+.article_header_content_container {
+  @include flex_gutter();
+
+  @include media_tablet_portrait() {
+    max-width: 40em;
+  }
+
+  @include media_tablet_landscape() {
+    max-width: 32em;
+  }
 }
 
 .article_card_container {
   box-sizing: border-box;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
   text-decoration: none;
   transition: all 0.25s ease-in;
-  padding: 1em;
   border-radius: 4px;
 
+  .card_image {
+    opacity: 0.8;
+  }
+
   &:hover {
-    background: rgba(0,0,0,0.07);
+
+    .card_image {
+      opacity: 1.0
+    }
+
+    .caption_metatag {
+      color: #369F84;
+    }
   }
 
   .card_image {
     border-radius: 4px;
-    margin-bottom: 0.5em;
     object-fit: cover;
     height: 240px;
     width: 100%;
   }
 
-  .card_title_section {
-    margin-bottom: 0.75em;
+  .card_caption {
+    text-align: left;
+    padding-top: 12px;
+    margin-bottom: 40px;
   }
 
-  .card_source,
-  .card_title,
-  .card_subtitle {
-    display: block;
-    margin: 0;
-  }
-
-  .card_source {
-    border: 0;
-    margin: 0;
-    padding: 0;
-    color: #777;
-    font-weight: 400;
-    font-size: 12pt;
-  }
-
-  .card_title {
-    color: $color_base;
-    font-size: 18pt;
-    font-weight: 800;
-  }
-
-  .card_subtitle {
-    color: $color_base;
-    font-size: 12pt;
-    font-weight: 400;
+  .caption_metatag {
+    color: #6F7B78;
   }
 }

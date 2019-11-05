@@ -1,5 +1,5 @@
-$tf_serif: "miller-text", serif;
-$tf_sans_serif:"SF Text", "helvetica", sans-serif;
+$display_serif: "filicudi-solid", sans-serif;
+$tf_sans_serif: "ff-tisa-sans-web-pro", sans-serif;
 
 // Sizing
 $base_font_size: 18pt;
@@ -8,14 +8,27 @@ $base_line_height: 1.55;
 $base_leading: $base_line_height;
 $scale: 1.414;
 
+$charcoalgray: #002865;
+$slategray: #4E4F56;
+$lightgray: #F5F5F5;
+
+$forestgreen: #015C4C;
+$tealgreen: #08A78A;
+
+$deeporange: #CB9403;
+$sunorange: #F6C137;
+
+$crytalwhite: #FFFFFF;
+
+
 // Color
-$color_base: #0F1311;
-$color_secondary: #8a8a8a;
-$color_accent: #143de2;
-$color_accent_secondary: #3a5dea;
+$color_base: $charcoalgray;
+$color_secondary: $forestgreen;
+$color_accent: $sunorange;
+$color_accent_secondary: $deeporange;
 $color_accent_complementary: #c672f3;
 $color_highlight: #f5f5f5;
 
 // Mapping Variables
-$link_color: $color_accent;
-$link_hover_color: $color_accent_secondary;
+$link_color: $color_accent_secondary;
+$link_hover_color: $color_accent;

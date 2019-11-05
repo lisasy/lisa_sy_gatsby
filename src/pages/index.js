@@ -1,121 +1,121 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { graphql } from 'gatsby'
-import PortraitImage from '../components/portrait_image'
-import EmailSignUp from '../components/email_sign_up'
+import SiteNav from '../components/site_nav'
+import Hero from '../components/hero_section'
+import Img from "gatsby-image"
 
 import Layout from '../components/layout'
+import PortraitImage from '../components/portrait_image'
 
-const IndexPage = ({data}) => {
-  const {edges: posts} = data.allMarkdownRemark;
+const IndexPage = () => {
   return (
     <Layout>
       <section class="index_container">
-        <article class="index_section_container p_b_m">
-          <div class="col_primary">
-            <h1 class="index_site_header">
-              Hello <i class="em em-wave emoji"></i> I'm a product
-              designer, illustrator, and artist based in California.
-            </h1>
-            <p>
-              Previously at <a href="http://dropbox.com" target="_blank"
-                rel="noopener noreferrer">Dropbox</a>, <a
-                href="http://facebook.com" target="_blank" rel="noopener
-    noreferrer">Facebook</a>, and <a href="http://thoughtbot.com"
-    target="_blank" rel="noopener noreferrer">thoughtbot</a>. Interested in
-  working together? Drop me a line at <a
-    href="mailto:hello@lisasy.com">hello[at]lisasy.com</a>.
-            </p>
+        <Hero />
+
+          <article id="work" class="work_index container">
+            <div class="inner_container">
+              <header>
+                <h2>
+                  A smattering of past work
+                </h2>
+              </header>
+
+            <section class="row_container">
+                <div class="tall_poppy"></div>
+                <caption>
+                  <h4 class="caption_metatag">
+                    Tall Poppy · 2019
+                  </h4>
+                  <h3 class="caption_title">
+                    giving people and businesses tools to stay safe online
+                  </h3>
+                  <p class="caption_subtitle">
+                    I partnered with their Growth team to help announce a  new plan and price to their customers.
+                  </p>
+                </caption>
+            </section>
+
+            <section class="row_container">
+                <div class="dropbox"></div>
+                <caption>
+                  <h4 class="caption_metatag">
+                    Dropbox · 2019
+                  </h4>
+                  <h3 class="caption_title">
+                    Announcing new plan updates
+                  </h3>
+                  <p class="caption_subtitle">
+                    I partnered with their Growth team to help announce a  new plan and price to their customers.
+                  </p>
+                </caption>
+            </section>
+
+
+            <section class="row_container">
+              <div class="facebook_content_warnings"></div>
+                <caption>
+                  <h4 class="caption_metatag">
+                    Facebook · 2017
+                  </h4>
+                  <h3 class="caption_title">
+                    Protecting people with content warnings
+                  </h3>
+                  <p class="caption_subtitle">
+                    I led product design to help millions of people deal with unexpected, sensitive content they see on Facebook.
+                  </p>
+                </caption>
+          </section>
+
+            <section class="row_container">
+              <div class="facebook_reporting"></div>
+              <caption>
+                <h4 class="caption_metatag">
+                  Facebook · 2016
+                </h4>
+                <h3 class="caption_title">
+                  Reporting content that don't belong online
+                </h3>
+                <p class="caption_subtitle">
+                  I led product design to improve Facebook's reporting platform so that people can flag inappropriate, sensitive content.
+                </p>
+              </caption>
+            </section>
+
+            <section class="row_container col_2">
+              <div class="row_container_col">
+                <div class="facebook_music"></div>
+                <caption>
+                  <h4 class="caption_metatag">
+                    Facebook · 2018
+                  </h4>
+                  <h3 class="caption_title">
+                    Connecting fans and artists around ticket sales
+                  </h3>
+                  <p class="caption_subtitle">
+                    I designed how to better connect musicians with their fans through ticket countdowns to drive excitement and virality.
+                  </p>
+                </caption>
+              </div>
+              <div class="row_container_col">
+                <div class="facebook_authenticity"></div>
+                <caption>
+                  <h4 class="caption_metatag">
+                    Facebook · 2015
+                  </h4>
+                  <h3 class="caption_title">
+                    An authentic identity online
+                  </h3>
+                  <p class="caption_subtitle">
+                    I drove product direction on how people from marginalized communities can remain on Facebook with their authentic names.
+                  </p>
+                </caption>
+              </div>
+            </section>
           </div>
-          <div class="col_secondary">
-            <figure class="round_img">
-              <PortraitImage />
-            </figure>
-          </div>
-        </article>
-
-        <article id="work" class="container">
-          {posts.map (({node: post}) => {
-            const {frontmatter} = post;
-            const {fields} = post;
-            const cardImage = frontmatter.card_image.childImageSharp.fixed.src;
-            return (
-
-            <div class="">
-              <Link to={fields.slug} className={frontmatter.reference + " " + frontmatter.layout + " work_card_container"}>
-
-
-                  <div class="card_img" style={{backgroundImage: `url(${cardImage})`}}>
-                  </div>
-                  <caption class="card-source__container text_align--center">
-                    <figcaption class="card-source__title">
-                      {frontmatter.source} · {frontmatter.title}
-                    </figcaption>
-                    <figcaption class="card-source__subtitle">
-                      {frontmatter.role}
-                    </figcaption>
-                  </caption>
-              </Link>
-            </div>
-            );
-          })}
-        </article>
-
-        <article class="index_section_container quotation">
-          <figure>
-            <blockquote>
-              The precise role of the artist, then, is to illuminate that
-              darkness, blaze roads through that vast forest, so that we will
-              not, in all our doing, lose sight of its purpose, which is, after
-              all, to make the world a more human dwelling place.
-            </blockquote>
-            <figcaption>
-              James Baldwin
-            </figcaption>
-          </figure>
-        </article>
-        <article class="index_section_container email_sign_up">
-        </article>
+          </article>
       </section>
     </Layout>
-  );
-};
-
-export const query = graphql`
-  query IndexWorkQuery {
-    allMarkdownRemark (
-      filter: { frontmatter: { type: { eq: "work" }, visible: { eq: true } } }
-    ) {
-      edges {
-        node {
-          id
-          frontmatter {
-            title
-            order
-            subtitle
-            source
-            duration
-            role
-            layout
-            card_image {
-              childImageSharp {
-                fixed(width: 800, quality: 90) {
-                  src
-                }
-              }
-            }
-            card_image_alt
-            card_cta
-            reference
-            type
-          }
-          fields {
-            slug
-          }
-        }
-      }
-    }
-  }
-`;
+  )};
 
 export default IndexPage

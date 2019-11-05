@@ -31,7 +31,20 @@ body {
 .page_container_block {
   @include flex_gutter();
   @include flex_display_false();
+}
 
+.col_2 {
+  @include media_tablet_landscape() {
+    display: flex;
+
+    .row_container_col {
+      margin-right: 1em;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
 }
 
 img {
@@ -39,4 +52,3 @@ img {
   object-fit: cover;
   width: 100%;
 }
-
