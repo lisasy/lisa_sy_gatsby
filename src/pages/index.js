@@ -22,21 +22,6 @@ const IndexPage = () => {
               </header>
 
             <section class="row_container">
-                <div class="tall_poppy"></div>
-                <caption>
-                  <h4 class="caption_metatag">
-                    Tall Poppy · 2019
-                  </h4>
-                  <h3 class="caption_title">
-                    giving people and businesses tools to stay safe online
-                  </h3>
-                  <p class="caption_subtitle">
-                    I partnered with their Growth team to help announce a  new plan and price to their customers.
-                  </p>
-                </caption>
-            </section>
-
-            <section class="row_container">
                 <div class="dropbox"></div>
                 <caption>
                   <h4 class="caption_metatag">
