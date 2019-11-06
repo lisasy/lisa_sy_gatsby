@@ -33,12 +33,7 @@
 
   &.is-active  {
     display: flex;
-    position: absolute;
     top: 88px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: #FFEDDD;
     z-index: 3270;
   }
 

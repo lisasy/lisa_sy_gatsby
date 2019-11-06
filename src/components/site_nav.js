@@ -54,6 +54,11 @@ class SiteNav extends Component {
                 </Link>
               </li>
               <li>
+                <Link to={`/writing`}>
+                  Blog
+                </Link>
+              </li>
+              <li>
                 <a href="http://lisasy.bigcartel.com" target="_blank" rel="noopener noreferrer">
                   Shop
                 </a>

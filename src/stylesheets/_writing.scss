@@ -3,10 +3,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  min-height: 300px;
+  min-height: 240px;
 
   @include media_tablet_portrait() {
-    min-height: 640px;
+    min-height: 360px;
+  }
+
+  @include media_tablet_landscape() {
+    min-height: 480px;
   }
 
   .h1_jumbo {
@@ -161,8 +165,31 @@
   transition: all 0.25s ease-in;
   border-radius: 4px;
 
+  @include media_tablet_portrait() {
+    flex-direction: row;
+    margin-bottom: 1em;
+    align-items: center;
+  }
+
+  @include media_tablet_landscape() {
+    margin-bottom: 2em;
+  }
+
   .card_image {
     opacity: 0.8;
+    border-radius: 4px;
+    object-fit: cover;
+    height: 240px;
+    width: 100%;
+
+    @include media_tablet_portrait() {
+      width: 240px;
+    }
+
+    @include media_tablet_landscape() {
+      height: 304px;
+      width: 540px;
+    }
   }
 
   &:hover {
@@ -176,17 +203,16 @@
     }
   }
 
-  .card_image {
-    border-radius: 4px;
-    object-fit: cover;
-    height: 240px;
-    width: 100%;
-  }
-
   .card_caption {
     text-align: left;
     padding-top: 12px;
     margin-bottom: 40px;
+
+    @include media_tablet_portrait() {
+      padding-top: 0;
+      padding-left: 1em;
+      margin-bottom: 0;
+    }
   }
 
   .caption_metatag {
