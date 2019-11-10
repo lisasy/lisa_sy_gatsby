@@ -1,37 +1,35 @@
-$card_height_desktop: 720px;
-$card_height_mobile: 320px;
-$card_border_radius: 4px;
-
-.work_section_container {
-  @include flex_gutter();
-  @include flex_display();
-}
-
-.work_index {
-  @include media_tablet_portrait() {
-    margin-bottom: 160px;
-  }
+.work_inner_container {
 
   header {
-    margin: 24px auto;
+    padding-top: $margin_mobile * 4;
+    margin: 0 auto ($margin_mobile * 4);
     text-align: left;
 
-
     @include media_tablet_portrait() {
-      margin: 120px auto;
-      text-align: center;
+      padding-top: $margin_tablet_portrait * 4;
+      margin: 0 auto ($margin_tablet_portrait * 4);
     }
+
+    @include media_tablet_landscape() {
+      padding-top: $margin_tablet_landscape * 4;
+      margin: 0 auto ($margin_tablet_landscape * 4);
+      max-width: 48em;
+    }
+
 
     h2 {
       font-weight: 900;
-      font-family: $display_serif;
+      text-align: left;
+      font-family: $sans_serif;
 
       @include media_tablet_portrait() {
-        font-size: 48px;
-        line-height: 56px;
+        font-size: 56px;
+        line-height: 64px;
       }
     }
   }
+
+
   caption {
     padding-top: 12px;
     margin-bottom: 40px;
@@ -41,7 +39,6 @@ $card_border_radius: 4px;
     }
 
     p {
-      font-family: $tf_sans_serif;
       font-size: 18px;
       line-height: 24px;
       margin: 0 auto 0 0;

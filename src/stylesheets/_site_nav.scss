@@ -6,23 +6,9 @@
 
 .site_header {
   background-color: transparent;
-  padding: 12px 24px;
 
   @include media_tablet_portrait() {
     padding: 0;
-  }
-}
-
-.site_header.dark {
-  background: #369F84;
-  .site_menu__logo a,
-  .site_menu__pages a,
-  .menuicon {
-    color: #FFFFFF;
-  }
-
-  .site_menu {
-    background: #369F84;
   }
 }
 
@@ -53,17 +39,18 @@
   @include media_tablet_portrait() {
   display: flex;
   font-weight: 800;
-  font-family: $display_serif;
+  font-family: $sans_serif;
   line-height: 18px;
   margin-right: 8px;
+  margin-bottom: 0;
+  margin-top: 0;
   width: inherit;
 
     a {
-      color: #002865;
+      color: $color_base;
       text-decoration: none;
 
       &:hover {
-        color: #777;
         text-decoration: underline;
       }
     }
@@ -109,15 +96,10 @@
         text-align: center;
 
         padding: 12px;
-        border-radius: 5px;
 
-        color: #113F75;
+        color: $color_base;
         margin-right: 1em;
         text-decoration: none;
-
-        &:hover {
-          background: rgba(0,0,0,0.05);
-        }
 
         @include media_tablet_portrait() {
           display: inline;
@@ -126,7 +108,6 @@
           border-radius: 0;
 
           &:hover {
-            color: #777;
             color: $color_base;
             text-decoration: underline;
           }
@@ -137,6 +118,20 @@
 }
 
 .site_menu__pages {
+  margin-left: $margin_mobile;
+  margin-right: $margin_mobile;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  border-bottom: $base_border_style;
+
+  @include media_tablet_portrait() {
+    margin: 0 $margin_tablet_portrait;
+    padding: 0.5em 0;
+  }
+
+  @include media_tablet_landscape() {
+    margin: 0 $margin_tablet_landscape;
+  }
 
   .page__index {
     display: block;
@@ -145,6 +140,10 @@
       display: none;
     }
   }
+
+  ul {
+    margin: 0;
+  }
 }
 
 .site_menu__mobile {
@@ -152,6 +151,8 @@
   display: flex;
   justify-content: space-between;
   height: 64px;
+  margin: auto $margin_mobile $margin_mobile;
+  border-bottom: $base_border_style;
 
   @include media_tablet_portrait() {
     display: none;
@@ -162,6 +163,7 @@
 
     a {
       color: $color_base;
+      font-family: $sans_serif;
       text-decoration: none;
     }
   }

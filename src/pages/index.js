@@ -14,7 +14,7 @@ const IndexPage = () => {
         <Hero />
 
           <article id="work" class="work_index container">
-            <div class="inner_container">
+            <div class="work_inner_container">
               <header>
                 <h2>
                   A smattering of past work
@@ -30,9 +30,6 @@ const IndexPage = () => {
                   <h3 class="caption_title">
                     Announcing new plan updates
                   </h3>
-                  <p class="caption_subtitle">
-                    I partnered with their Growth team to help announce a  new plan and price to their customers.
-                  </p>
                 </caption>
             </section>
 
@@ -46,9 +43,6 @@ const IndexPage = () => {
                   <h3 class="caption_title">
                     Protecting people with content warnings
                   </h3>
-                  <p class="caption_subtitle">
-                    I led product design to help millions of people deal with unexpected, sensitive content they see on Facebook.
-                  </p>
                 </caption>
           </section>
 
@@ -61,9 +55,6 @@ const IndexPage = () => {
                 <h3 class="caption_title">
                   Reporting content that don't belong online
                 </h3>
-                <p class="caption_subtitle">
-                  I led product design to improve Facebook's reporting platform so that people can flag inappropriate, sensitive content.
-                </p>
               </caption>
             </section>
 
@@ -77,9 +68,6 @@ const IndexPage = () => {
                   <h3 class="caption_title">
                     Connecting fans and artists around ticket sales
                   </h3>
-                  <p class="caption_subtitle">
-                    I designed how to better connect musicians with their fans through ticket countdowns to drive excitement and virality.
-                  </p>
                 </caption>
               </div>
               <div class="row_container_col">
@@ -91,9 +79,6 @@ const IndexPage = () => {
                   <h3 class="caption_title">
                     An authentic identity online
                   </h3>
-                  <p class="caption_subtitle">
-                    I drove product direction on how people from marginalized communities can remain on Facebook with their authentic names.
-                  </p>
                 </caption>
               </div>
             </section>

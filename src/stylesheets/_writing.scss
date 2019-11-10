@@ -59,9 +59,9 @@
   }
 
   .article_header_container {
-    padding-top: 1em;
+    padding-top: 3em;
     padding-bottom: 3em;
-    background: #369F84;
+
     margin-bottom: 1.5em;
 
     @include media_tablet_portrait() {
@@ -79,26 +79,26 @@
   .article_title {
     font-size: 40px;
     line-height: 44px;
-    //color: #002865;
-    color: #ffffff;
-    font-family: $display_serif;
+    color: #120302;
+    font-family: $sans_serif;
     text-align: left;
     margin: 0 auto 2px;
 
     @include media_tablet_portrait() {
       font-size: 48px;
       line-height: 56px;
+      margin-bottom: 0.5em;
     }
   }
 
   .article_date {
     font-size: 18px;
     line-height: 22px;
-    //color: #6F7B78;
-    color: #7fffd6;
-    font-family: $display_serif;
+    color: #120302;
+    font-family: $sans_serif;
     text-align: left;
     margin: 0 auto 2px;
+    font-weight: 400;
 
     @include media_tablet_portrait() {
       font-size: 20px;
@@ -110,9 +110,8 @@
     font-size: 20px;
     line-height: 28px;
     //color: #002865;
-    color: #ffffff;
+    color: #120302;;
     text-align: left;
-    font-family: $tf_sans_serif;
 
     @include media_tablet_portrait() {
       font-size: 20px;
@@ -125,7 +124,6 @@
   line-height: 1.65;
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: $tf_sans_serif;
     margin-bottom: 4px;
   }
 
@@ -148,11 +146,11 @@
   @include flex_gutter();
 
   @include media_tablet_portrait() {
-    max-width: 40em;
+    max-width: 32em;
   }
 
   @include media_tablet_landscape() {
-    max-width: 32em;
+    max-width: 28em;
   }
 }
 

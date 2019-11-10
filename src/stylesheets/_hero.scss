@@ -1,36 +1,21 @@
-.hero_header {
-  //position: relative;
-  background-image: url("../images/hero_background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: bottom;
-  min-height: 720px;
-
-  @include media_tablet_portrait() {
-    min-height: 1200px;
-  }
-}
-
-.hero_header_container {
+.hero_header_inner_content {
   position: relative;
+  padding-top: $margin_mobile;
 
   @include media_tablet_portrait() {
-    padding-top: 2em;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding-top: $margin_tablet_portrait;
   }
 
   @include media_tablet_landscape() {
-    padding-left: 8em;
-    padding-right: 8em;
+    margin: $margin_tablet_landscape auto;
+    max-width: 64em;
   }
 }
 
 .h1_jumbo {
-  color: #002865;
-  font-family: $display_serif;
-  font-weight: 800;
-  letter-spacing: -1px;
+  color: $color_base;
+  font-family: $sans_serif;
+  font-weight: 700;
   margin-bottom: 0;
 
   font-size: 40px;
@@ -42,14 +27,14 @@
   }
 
   @include media_tablet_landscape() {
-    font-size: 96px;
-    line-height: 108px;
+    font-size: 5rem;
+    line-height: 5.35rem;
   }
 }
 
 .h2_jumbo {
   color: #002865;
-  font-family: $display_serif;
+  font-family: $serif;
   font-size: 32px;
   line-height: 36px;
   font-weight: 600;
@@ -64,16 +49,19 @@
 
 .hero_description_container {
   padding-bottom: 1em;
+
   p {
-    color: #002865;
-    font-weight: 500;
-    font-family: $tf_sans_serif;
+    color: $color_base;
+    font-weight: 400;
+    font-family: $body_type_serif;
     font-size: 24px;
     line-height: 30px;
 
     @include media_tablet_portrait() {
       font-size: 32px;
       line-height: 40px;
+      max-width: 24em;
+      margin-left: 0;
     }
   }
 

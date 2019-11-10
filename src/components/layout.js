@@ -5,7 +5,6 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import favicon from "../images/favicon.ico"
 
-import SiteNav from './site_nav'
 import Footer from './footer'
 import '../stylesheets/main.css.scss'
 
@@ -31,11 +30,8 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
           <link rel="icon" href={favicon} />
-          <link rel="stylesheet" href="https://use.typekit.net/fjj2fpt.css" />
+          <link rel="stylesheet" href="https://use.typekit.net/nix0hnc.css" />
           <link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css" />
-          <link href="https://fonts.googleapis.com/css?family=Archivo:400,600,700&display=swap" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css?family=Spectral:400,700,800&display=swap" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css?family=Alegreya:400,500,800&display=swap" rel="stylesheet" />
           <body className="body_container" />
 
         </Helmet>

@@ -1,14 +1,19 @@
-$display_serif: "filicudi-solid", sans-serif;
-$tf_sans_serif: "ff-tisa-sans-web-pro", sans-serif;
+$serif: "starling", georgia, serif;
+$sans_serif: "forma-djr-display", helvetica, sans-serif;
+$sans_serif_body: "forma-djr-text", helvetica, sans-serif;
+
+$display_type: $sans_serif;
+$body_type_serif: $serif;
+$body_type_sans_serif: $sans_serif_body;
 
 // Sizing
-$base_font_size: 18pt;
-$base_font_size_mobile: 14pt;
+$base_font_size: 1.2rem;
+$base_font_size_mobile: 1rem;
 $base_line_height: 1.55;
 $base_leading: $base_line_height;
 $scale: 1.414;
 
-$charcoalgray: #002865;
+$charcoalgray: #120302;
 $slategray: #4E4F56;
 $lightgray: #F5F5F5;
 
@@ -32,3 +37,7 @@ $color_highlight: #f5f5f5;
 // Mapping Variables
 $link_color: $color_accent_secondary;
 $link_hover_color: $color_accent;
+
+// Border list-style
+$base_border_width: 4px;
+$base_border_style: 4px solid $color_base;

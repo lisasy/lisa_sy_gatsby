@@ -1,13 +1,17 @@
 html {
  -webkit-font-smoothing: antialiased;
   color: $color_base;
-  font-family: $tf_sans_serif;
   line-height: $base_leading;
   font-size: $base_font_size_mobile;
   text-rendering: optimizeLegibility;
 
   @include media_tablet_portrait() {
     font-size: $base_font_size;
+  }
+
+  body {
+    font-family: $body_type_sans_serif;
+    font-size: 16pt;
   }
 }
 
@@ -16,7 +20,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $display_serif;
+  font-family: $display_type;
   font-weight: 900;
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
@@ -126,11 +130,21 @@ h6 {
 p {
   margin-top: 0;
   margin-bottom: 1.25em;
+  font-family: $body_type_serif;
 
   font-size: $base_font_size_mobile;
 
   @include media_tablet_portrait() {
     font-size: $base_font_size;
+  }
+
+  &.paragraph_larger {
+    font-weight: 400;
+    font-size: $base_font_size * 1.1;
+  }
+
+  &.paragraph_smaller {
+    font-size: smaller;
   }
 }
 

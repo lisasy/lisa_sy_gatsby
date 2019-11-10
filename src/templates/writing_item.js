@@ -1,14 +1,14 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import SiteNavDark from '../components/site_nav_dark'
+import SiteNav from '../components/site_nav'
 
 const WritingItem  = ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
 
-      <SiteNavDark />
+      <SiteNav />
 
       <section class="article_container">
           <header class="article_header_container">

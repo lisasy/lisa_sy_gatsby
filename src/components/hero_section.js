@@ -2,18 +2,18 @@ import React from 'react'
 import { Link } from 'gatsby'
 import SiteNav from './site_nav'
 
-import { Container, Row, Col } from 'react-grid-system';
-
 const Hero = () => {
   return (
 
     <section class="hero_header">
       <SiteNav />
-      <section class="hero_header_container container">
+      <section class="hero_header_inner_content container">
 
         <div class="hero_title">
           <h1 class="h1_jumbo">
-            I’m Lisa — an independent product designer & strategist who also illustrates.
+            I’m Lisa 👋🏼
+            <br />
+            An independent product designer & strategist who frequently draws.
           </h1>
         </div>
         <div class="hero_description_container">

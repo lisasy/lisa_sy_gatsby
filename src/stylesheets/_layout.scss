@@ -33,12 +33,24 @@ body {
   @include flex_display_false();
 }
 
+
+.row_container {
+  @include media_tablet_portrait() {
+    margin-bottom: $margin_tablet_portrait * 3;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
 .col_2 {
   @include media_tablet_landscape() {
     display: flex;
 
     .row_container_col {
       margin-right: 1em;
+      width: 100%;
 
       &:last-child {
         margin-right: 0;
