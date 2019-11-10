@@ -13,27 +13,27 @@
 }
 
 .caption_title {
-  font-size: 20px;
+  font-size: 2em;
   line-height: 22px;
-  color: #120302;
   font-family: $sans_serif;
+  color: $color_base;
   text-align: left;
   margin: 0 auto 2px;
 
   @include media_tablet_portrait() {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: $base_font_size * 2;
+    line-height: $base_font_size * 2;
   }
 }
 
 .caption_subtitle {
   font-size: 14px;
+  color: $color_base;
   line-height: 18px;
-  color: #002865;
   text-align: left;
 
   @include media_tablet_portrait() {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: $base_font_size * 1.2;
+    line-height: $base_font_size * 1.2;
   }
 }

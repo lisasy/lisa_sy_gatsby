@@ -13,15 +13,14 @@ const Writing = ({data}) => {
 
         <SiteNav />
 
-        <div class="page_header_container container">
+        <div class="page_header_inner_content">
           <h1 class="h1_jumbo">Blog</h1>
         </div>
 
-
       </section>
 
-      <section class="writing_container">
-        <section class="row_container container">
+      <section class="writing_index_inner_content">
+        <section class="row_container">
             {posts.map (({node: post}) => {
               const {frontmatter} = post;
               const {fields} = post;

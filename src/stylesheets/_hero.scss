@@ -5,7 +5,7 @@
   @include media_tablet_portrait() {
     padding-top: $margin_tablet_portrait;
   }
-
+  
   @include media_tablet_landscape() {
     margin: $margin_tablet_landscape auto;
     max-width: 64em;
