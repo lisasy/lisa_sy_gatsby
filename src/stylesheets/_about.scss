@@ -1,3 +1,28 @@
+.about_inner_container {
+  @include media_tablet_portrait() {
+    padding-top: $margin_tablet_portrait;
+  }
+
+  @include media_tablet_landscape() {
+    margin: $margin_tablet_landscape auto;
+    max-width: 64em;
+  }
+
+  .row_container {
+    @include media_tablet_landscape() {
+      min-height: 900px;
+    }
+  }
+}
+
+.flex_start {
+  align-self: flex-start;
+}
+
+.flex_end {
+  align-self: flex-end;
+}
+
 .about_container {
   margin-bottom: 2em;
 }

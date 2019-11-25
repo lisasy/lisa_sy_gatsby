@@ -1,47 +1,61 @@
 import React from 'react'
 import Layout from '../components/layout'
 import PortraitImage from '../components/portrait_image'
+import SiteNav from '../components/site_nav'
 
 const About = () => (
   <Layout>
-    <section class="about_container">
-      <div class="about_section_container">
-        <div class="col_primary p_b_m">
-          <h1>
-            Crafting products & services to make people's lives a little bit
-            easier
-          </h1>
-
-          <p>
-            Hello <i class="em em-wave emoji"></i> I'm a software/product
-            designer, strategist, and illustrator based in the San Francisco Bay
-  Area in California.  I have designed and built product experiences
-  at places like <a href="http://facebook.com" target="_blank" rel="noopener
-    noreferrer">Facebook</a>, <a href="http://dropbox.com" target="_blank"
-    rel="noopener noreferrer">Dropbox</a>, and <a href="http://thoughtbot.com"
-  target="_blank" rel="noopener noreferrer">thoughtbot</a>.
-          </p>
-          <p>
-            As an independent designer, I'm eager to collaborate with good,
-            curious folks working on compelling projects and initiatives. If you
-            think we can work well together, feel free to reach out to me at <a
-  href="mailto:hello@lisasy.com">hello[at]lisasy.com</a>.
-          </p>
-          <a href="mailto:hello@lisasy.com" target="_blank" rel="noopener noreferrer" class="button_primary">
-            <p class="button_title">Contact Me</p>
-          </a>
-        </div>
-        <div class="col_secondary">
-          <figure class="round_img">
-            <PortraitImage />
-          </figure>
-        </div>
+    <section class="page_header about">
+      <SiteNav />
+      <div class="page_header_inner_content container">
+        <h1 class="h1_jumbo">
+          Hi, I'm <em class="highlight">Lisa Sy</em>, and I'm a digital product designer, illustrator, and artist based in Los Angeles, CA.
+        </h1>
       </div>
+    </section>
+
+    <section class="about_inner_container container">
+      <section class="row_container col_2">
+        <div class="row_container_col flex_start">
+          <h1>
+            I partner with startups, established companies, and everything in-between to help bring their businesses to the next level.
+          </h1>
+        </div>
+        <div class="row_container_col flex_end">
+          <p class="paragraph_larger">
+            Specializing in building thoughtful product experiences with measurable and meaningful results, I'm happy to solve some of these common bottlenecks, whether you:
+          </p>
+          <p class="paragraph_larger">
+            <ul>
+              <li>
+                Have an idea in your head, but need to flesh it out into a tangible prototype that you funding.
+              </li>
+              <li>
+                Need to optimize your existing product or service to reach the next phase of growth.
+              </li>
+              <li>
+                Know that there are some key pain points with your product or service, but aren't sure where to start.
+              </li>
+            </ul>
+          </p>
+          <p>
+            <a href="mailto:hello@lisasy.com">
+              <button class="button_primary">
+                Let's work together
+              </button>
+            </a>
+          </p>
+        </div>
+        <div class="row_container">
+        </div>
+      </section>
+
+
+
 
       <div class="about_section_container secondary">
         <div class="col_primary">
->
-          <p>
+      <p>
           Outside of my professional design practice, I maintain a visual arts
           practice, write and draw graphic stories, climb, curate art and literary
           events with local Bay Area artists, and volunteer with my local

@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SiteNav from '../components/site_nav'
-import { Link } from `gatsby`
+import { Link } from 'gatsby'
 
 const WritingItem  = ({ data }) => {
   const post = data.markdownRemark
