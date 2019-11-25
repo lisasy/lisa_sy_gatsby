@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SiteNav from '../components/site_nav'
+import { Link } from `gatsby`
 
 const WritingItem  = ({ data }) => {
   const post = data.markdownRemark
@@ -10,7 +11,7 @@ const WritingItem  = ({ data }) => {
 
       <SiteNav />
 
-      <section class="article_container">
+      <section class="article_container container">
           <header class="article_header_container">
             <div class="article_header_content_container">
 
@@ -32,7 +33,11 @@ const WritingItem  = ({ data }) => {
             />
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <footer class="article_end_footer">
-              <a href="">See all blog entries</a>
+              <button class="button_primary">
+                <Link to={`/writing`}>
+                  See all blog entries
+                </Link>
+              </button>
             </footer>
           </div>
       </section>
