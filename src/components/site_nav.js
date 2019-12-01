@@ -54,6 +54,11 @@ class SiteNav extends Component {
                 </Link>
               </li>
               <li>
+                <Link to={`/about`}>
+                  About
+                </Link>
+              </li>
+              <li>
                 <Link to={`/writing`}>
                   Blog
                 </Link>

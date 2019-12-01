@@ -8,9 +8,9 @@
     max-width: 64em;
   }
 
-  .row_container {
+  .flex_vertical_push {
     @include media_tablet_landscape() {
-      min-height: 900px;
+      min-height: 800px;
     }
   }
 }
@@ -30,14 +30,6 @@
 .about_section_container {
   @include flex_gutter();
   @include flex_display();
-}
-
-.about_section_container.highlight {
-  background-color: #fcebeb;
-  max-width: 100%;
-
-  @include flex_height_display();
-  @include flex_display_false();
 }
 
 .design_approach_content {

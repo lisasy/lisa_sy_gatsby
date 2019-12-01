@@ -63,6 +63,13 @@ body {
   }
 }
 
+.col_centered {
+  @include media_tablet_portrait() {
+    max-width: 36em;
+    margin: 0 auto;
+  }
+}
+
 img {
   height: auto;
   object-fit: cover;

@@ -1,33 +1,37 @@
 @mixin button($color: $color_base) {
+  background: white;
+  border-radius: 8px;
+  border: 4px solid $color_base;
   box-sizing: border-box;
+  color: $color_base;
   display: block;
   font-family: $body_type_sans_serif;
   font-size: 1.1em;
   font-weight: 600;
   line-height: 22px;
+  margin-bottom: 0;
+  padding: 1em 1.25em;
   text-align: center;
+  text-decoration: none;
   width: 100%;
+
+  a {
+    color: $color_base;
+    text-decoration: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background: -webkit-linear-gradient(45deg, #e6a30d, #dc167a);
+    border-color: #E15A45;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
   @include media_tablet_portrait() {
     display: inline-flex;
     text-align: left;
     width: auto;
-  }
-
-  color: $color_base;
-  background: white;
-  border: 4px solid $color_base;
-  border-radius: 8px;
-
-  text-decoration: none;
-
-  padding: 1em 1.25em;
-  margin-bottom: 0;
-  transition: all 0.25s ease;
-
-  &:hover {
-    background: #FAC63E;
-    cursor: pointer;
   }
 }
 

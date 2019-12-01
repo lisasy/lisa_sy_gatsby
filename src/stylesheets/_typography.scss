@@ -208,9 +208,18 @@ blockquote {
   width: 1em;
 }
 
-em.highlight {
+em {
   font-style: normal;
-  color: #03b999;
+
+  &.highlight {
+    color: #03b999;
+  }
+
+  &.gradient {
+    background: -webkit-linear-gradient(45deg, #e6a30d, #dc167a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
 
 strong {
@@ -227,3 +236,4 @@ p.large {
   line-height: 40px;
   margin-bottom: 8px;
 }
+
