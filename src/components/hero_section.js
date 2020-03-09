@@ -18,7 +18,7 @@ const Hero = () => {
         </div>
         <div class="hero_description_container">
           <p>
-            Based in sunny Los Angeles & remotely, I partner with startups, established companies, and everything in-between to help bring their businesses to the next level. Interested in working together? Reach me at at <strong>hello[at]lisasy.com</strong>. 🌴
+            Based in sunny Los Angeles, I'm a lead product designer at <a href="http://dev.to" target="_blank">DEV</a> — it's pretty sweet. You can reach me at at <strong>hello[at]lisasy.com</strong>. 🌴
           </p>
 
           <div class="inline_button_group">
