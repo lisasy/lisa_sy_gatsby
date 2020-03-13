@@ -16,7 +16,7 @@
     "gatsby-plugin-page-transitions": "^1.0.7",
     "gatsby-plugin-react-helmet": "^3.0.1",
     "gatsby-plugin-sass": "^2.0.4",
-    "gatsby-plugin-sharp": "^2.0.0-rc.7",
+    "gatsby-plugin-sharp": "^2.4.12",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-remark-embed-video": "^1.7.1",
     "gatsby-remark-images": "^2.0.6",
