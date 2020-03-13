@@ -13,23 +13,14 @@ const Hero = () => {
           <h1 class="h1_jumbo">
             I’m Lisa 👋🏼
             <br />
-            An independent product designer & strategist who frequently draws.
+            A product designer who frequently draws a lot.
           </h1>
         </div>
         <div class="hero_description_container">
           <p>
-            Based in sunny Los Angeles, I'm a lead product designer at <a href="http://dev.to" target="_blank">DEV</a> — it's pretty sweet. You can reach me at at <strong>hello[at]lisasy.com</strong>. 🌴
+            Based in sunny Los Angeles, I'm leading product design at <a href="http://dev.to" target="_blank">DEV</a> — it's pretty sweet. You can reach me at at <strong>hello[at]lisasy.com</strong>. 🌴
           </p>
-
-          <div class="inline_button_group">
-            <a href="mailto:hello@lisasy.com">
-              <button class="button_primary">
-                Contact Me
-              </button>
-            </a>
-          </div>
         </div>
-
       </section>
     </section>
   );

@@ -16,12 +16,13 @@ const About = () => (
     </section>
 
     <section class="about_inner_container container">
-
-
       <section class="row_container col_centered">
         <h4>
-          In a nutshell
+          About me
         </h4>
+        <p class="paragraph_larger">
+          For almost a decade, I've gotten to work as a designer at places like Dropbox, Facebook, thoughtbot, and now, DEV. I've worked at both large companies, small startups, and everything in-between. What I've loved most has been working with a humble group of curious people who challenge each other to rise up.
+        </p>
         <p class="paragraph_larger">
           Outside of my professional design practice, I draw, paint, and write —
           all of which translates into my illustrations, comics and graphic
