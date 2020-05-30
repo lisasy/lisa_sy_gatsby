@@ -7,19 +7,17 @@ const Footer = () => {
   return (
     <footer class="site_footer">
       <section class="site_footer_inner_content">
-        <div class="row_container col_2">
+        <div class="col_2">
           <span class="row_container_col">
-            This site is made with Gatsby.js and hosted on Netlify. <br />
-            All design and development by Lisa Sy. ♥️
+            This site is made with <strong>Gatsby.js</strong> and hosted on Netlify. <br />
+            All <a href="https://github.com/lisasy/lisa_sy_gatsby" target="_blank">design and development</a> by Lisa Sy. ♥️
           </span>
-         <div class="row_container col_2">
-          <span class="row_container_col">
-            <ul class="social-contacts>
+        </div>
+        <div class="row_container col_2">
+          <div class="row_container_col">
+            <ul class="social-contacts">
               <li>
-                <a href="mailto:hello@lisasy.com">Email</a>
-              </li>
-              <li>
-                <a href="http://twitter.com/lisasy" target="_blank">Twitter</a>
+                <a href="http://twitter.com/lisasy" target="_blank"> Twitter</a>
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/lisasy/" target="_blank">LinkedIn</a>
@@ -28,8 +26,7 @@ const Footer = () => {
                 <a href="http://instagram.com/lisasyart" target="_blank">Instagram</a>
               </li>
             </ul>
-          </span>
-        </div>
+          </div>
         </div>
       </section>
     </footer>
