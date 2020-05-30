@@ -41,9 +41,6 @@ const About = () => (
           which led me to UX, interaction, and product design. The rest is history.
         </p>
       </section>
-
-      <section class="row_container">
-      </section>
     </section>
   </Layout>
 )
