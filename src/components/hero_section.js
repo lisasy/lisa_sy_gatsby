@@ -18,7 +18,12 @@ const Hero = () => {
         </div>
         <div class="hero_description_container">
           <p>
-            Based in sunny Los Angeles, I'm leading product design at <a href="http://dev.to" target="_blank">DEV</a> — it's pretty sweet. You can reach me at at <strong>hello[at]lisasy.com</strong>. 🌴
+          I design digital products and services, paint, draw, code, climb, bike,
+        read, write, and sing karaoke.
+          </p>
+          <p>
+            Based in sunny Los Angeles, I’m leading product design at DEV — it’s
+    pretty sweet.
           </p>
         </div>
       </section>
