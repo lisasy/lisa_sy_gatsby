@@ -1,18 +1,14 @@
 .work_inner_container {
-
   header {
-    padding-top: $margin_mobile * 4;
-    margin: 0 auto ($margin_mobile * 4);
+    margin: 0 auto ($margin_mobile);
     text-align: left;
 
     @include media_tablet_portrait() {
-      padding-top: $margin_tablet_portrait * 4;
-      margin: 0 auto ($margin_tablet_portrait * 4);
+      margin: 0 auto ($margin_tablet_portrait);
     }
 
     @include media_tablet_landscape() {
-      padding-top: $margin_tablet_landscape * 4;
-      margin: 0 auto ($margin_tablet_landscape * 4);
+      margin: 0 auto ($margin_tablet_landscape);
       max-width: 64em;
     }
 
@@ -23,8 +19,8 @@
       font-family: $sans_serif;
 
       @include media_tablet_portrait() {
-        font-size: 56px;
-        line-height: 64px;
+        font-size: 2rem;
+        line-height: 125%;
       }
     }
   }
@@ -146,4 +142,9 @@
     margin-top: 320px;
     height: 640px;
   }
+}
+
+.caption_title {
+  font-size: 1.75rem;
+  line-height: 125%;
 }

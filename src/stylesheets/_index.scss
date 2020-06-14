@@ -1,11 +1,11 @@
 .index_container {
-  margin-bottom: $margin_mobile * 2;
+  margin-bottom: $margin_mobile;
 
   @include media_tablet_portrait() {
-    margin-bottom: $margin_tablet_portrait * 4;
+    margin-bottom: $margin_tablet_portrait;
   }
 
   @include media_tablet_landscape() {
-    margin-bottom: $margin_tablet_landscape * 4;
+    margin-bottom: $margin_tablet_landscape;
   }
 }

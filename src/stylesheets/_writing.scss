@@ -12,7 +12,7 @@
   margin: ($margin_mobile * 2) auto ($margin_mobile * 2);
 
   @include media_tablet_landscape() {
-    margin: ($margin_tablet_landscape * 3) auto ($margin_tablet_landscape * 2);
+    margin: ($margin_tablet_landscape) auto;
     max-width: 64em;
   }
 }

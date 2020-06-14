@@ -27,23 +27,8 @@
   }
 
   @include media_tablet_landscape() {
-    font-size: 5rem;
-    line-height: 5.35rem;
-  }
-}
-
-.h2_jumbo {
-  color: #002865;
-  font-family: $serif;
-  font-size: 32px;
-  line-height: 36px;
-  font-weight: 600;
-  margin: 0;
-
-
-  @include media_tablet_portrait() {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 3rem;
+    line-height: 125%;
   }
 }
 
@@ -53,9 +38,10 @@
   p {
     color: $color_base;
     font-weight: 400;
-    font-family: $body_type_serif;
+    font-family: $body_type_sans_serif;
     font-size: 24px;
     line-height: 30px;
+    margin-bottom: 0.5em;
 
     @include media_tablet_portrait() {
       font-size: 32px;
