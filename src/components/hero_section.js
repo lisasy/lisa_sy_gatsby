@@ -11,9 +11,7 @@ const Hero = () => {
 
         <div class="hero_title">
           <h1 class="h1_jumbo">
-            I’m Lisa 👋🏼
-            <br />
-            A product designer who frequently draws a lot.
+            Hello, I’m Lisa 👋🏼
           </h1>
         </div>
         <div class="hero_description_container">
