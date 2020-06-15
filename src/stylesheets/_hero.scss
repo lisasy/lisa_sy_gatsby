@@ -1,6 +1,5 @@
 .hero_header_inner_content {
   position: relative;
-  padding-top: $margin_mobile;
 
   @include media_tablet_portrait() {
     padding-top: $margin_tablet_portrait;

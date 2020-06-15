@@ -59,11 +59,6 @@ class SiteNav extends Component {
                 </Link>
               </li>
               <li>
-                <Link to={`/writing`}>
-                  Blog
-                </Link>
-              </li>
-              <li>
                 <a href="mailto:hello@lisasy.com">
                   Contact
                 </a>

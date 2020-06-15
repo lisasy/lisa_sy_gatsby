@@ -12,7 +12,6 @@ const IndexPage = () => {
     <Layout>
       <section class="index_container">
         <Hero />
-
           <article id="work" class="work_index container">
             <div class="work_inner_container">
               <header>
@@ -59,7 +58,7 @@ const IndexPage = () => {
             </section>
 
             <section class="row_container col_2">
-              <div class="row_container_col">
+              <div>
                 <div class="facebook_music"></div>
                 <caption>
                   <h4 class="caption_metatag">
@@ -70,7 +69,7 @@ const IndexPage = () => {
                   </h3>
                 </caption>
               </div>
-              <div class="row_container_col">
+              <div>
                 <div class="facebook_authenticity"></div>
                 <caption>
                   <h4 class="caption_metatag">
