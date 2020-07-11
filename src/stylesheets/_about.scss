@@ -5,7 +5,7 @@
 
   @include media_tablet_landscape() {
     margin: $margin_tablet_landscape auto ($margin_tablet_landscape * 2);
-    max-width: 64em;
+    max-width: var(--site-display-width);
   }
 
   .flex_vertical_push {

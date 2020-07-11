@@ -60,10 +60,11 @@
   }
 
   a {
-    text-decoration: none;
+    color: var(--base-body-text);
+    text-decoration: underline;
 
     &:hover {
-      text-decoration: none;
+      color: #1e3c8f;
     }
   }
 }
