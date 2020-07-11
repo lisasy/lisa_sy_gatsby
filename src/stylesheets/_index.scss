@@ -1,5 +1,6 @@
 .index_container {
   margin-bottom: $margin_mobile;
+  overflow-x: hidden;
 
   @include media_tablet_portrait() {
     margin-bottom: $margin_tablet_portrait;

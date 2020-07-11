@@ -80,7 +80,7 @@
 
       @include media_tablet_portrait() {
         display: inline;
-        margin-right: 8px;
+        margin-right: var(--su-m);
 
         &:last-child {
           margin-right: 0;
@@ -94,11 +94,8 @@
         font-size: 20px !important;
         line-height: 40px;
         text-align: center;
-
         padding: 12px;
-
         color: $color_base;
-        margin-right: 1em;
         text-decoration: none;
 
         @include media_tablet_portrait() {
@@ -130,7 +127,8 @@
   }
 
   @include media_tablet_landscape() {
-    margin: 0 $margin_tablet_landscape;
+    max-width: var(--site-display-width);
+    margin: 0 auto;
   }
 
   .page__index {

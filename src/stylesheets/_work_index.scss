@@ -1,15 +1,15 @@
 .work_inner_container {
   header {
-    margin: 0 auto ($margin_mobile);
+    margin: calc(var(--su-m) * 2) auto var(--su-m);
     text-align: left;
 
     @include media_tablet_portrait() {
-      margin: 0 auto ($margin_tablet_portrait);
+      margin: calc(var(--su-l) * 2) auto var(--su-l);
     }
 
     @include media_tablet_landscape() {
-      margin: 0 auto ($margin_tablet_landscape);
-      max-width: 64em;
+      margin: calc(var(--su-xl) * 2) auto var(--su-l);
+      max-width: var(--site-display-width);
     }
 
 

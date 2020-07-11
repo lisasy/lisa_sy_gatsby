@@ -1,6 +1,6 @@
 html {
  -webkit-font-smoothing: antialiased;
-  color: $color_base;
+  color: var(--base-body-text);
   line-height: $base_leading;
   font-size: $base_font_size_mobile;
   text-rendering: optimizeLegibility;
@@ -20,7 +20,7 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $display_type;
+  font-family: var(--type-display);
   font-weight: 900;
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;

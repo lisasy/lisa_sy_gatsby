@@ -2,6 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 import SiteNav from './site_nav'
 
+import HeroImage1 from '../images/hero_1.jpg'
+import HeroImage2 from '../images/hero_2.jpg'
+import HeroImage3 from '../images/hero_3.jpg'
+
 const Hero = () => {
   return (
 
@@ -16,16 +20,22 @@ const Hero = () => {
         </div>
         <div class="hero_description_container">
           <p>
-          I design digital products and services, paint, draw, code, climb, bike,
-        read, write, and sing karaoke.
+          I design digital products and services, paint, draw, code, climb,
+    bike, read, write, and sing karaoke.
           </p>
           <p>
-            Based in sunny Los Angeles, I’m leading product design at DEV — it’s
+            Based in sunny Los Angeles, I’m leading product design with some awesome people at <a href="http://forem.com" target="_blank">Forem</a> — it’s
     pretty sweet.
           </p>
         </div>
       </section>
+      <section class="hero-gallery"> 
+        <img src={HeroImage1} alt="Black" />
+        <img src={HeroImage2} alt="Lives" />
+        <img src={HeroImage3} alt="Matter" />
+      </section>
     </section>
+
   );
 }
 

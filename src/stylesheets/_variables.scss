@@ -41,3 +41,43 @@ $link_hover_color: $color_accent;
 // Border list-style
 $base_border_width: 2px;
 $base_border_style: $base_border_width solid $color_base;
+
+:root {
+  // Typography
+  --typeface-serif: "williams-caslon-text", georgia, serif;
+  --typeface-sans-serif-display: "forma-djr-display", helvetica, sans-serif;
+  --typeface-sans-serif-text: "forma-djr-text", helvetica, sans-serif;
+
+  --type-display: var(--typeface-sans-serif-display);
+  --type-body-serif: var(--typeface-serif);
+  --type-body-sans-serif: var(--typeface-sans-serif-text);
+
+  // Color : Declaration
+  --color-rose: #F5D0D2;
+  --color-charcoal: #120302;
+
+  // Color: Applied
+  --base-body-text: var(--color-charcoal);
+
+  // Values
+  --v-1: 0.25em; // 4px
+  --v-2: 0.50em; // 8px
+  --v-3: 0.75em; // 12px
+  --v-4: 1.00em; // 16px
+  --v-5: 1.50em; // 24px
+  --v-6: 2.00em; // 32px
+  --v-7: 2.50em; // 40px;
+  --v-8: 3.00em; // 48px;
+
+  // Spacing
+  --su-xs: var(--v-1);
+   --su-s: var(--v-2);
+   --su-m: var(--v-4);
+   --su-l: var(--v-5);
+  --su-xl: var(--v-8);
+
+  --su-default: var(--su-m);
+
+  // Site-Width
+  --site-display-width: 64em;
+}
