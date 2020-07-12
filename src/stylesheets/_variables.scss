@@ -2,16 +2,9 @@ $serif: "williams-caslon-text", georgia, serif;
 $sans_serif: "forma-djr-display", helvetica, sans-serif;
 $sans_serif_body: "forma-djr-text", helvetica, sans-serif;
 
-$display_type: $sans_serif;
 $body_type_serif: $serif;
 $body_type_sans_serif: $sans_serif_body;
 
-// Sizing
-$base_font_size: 1.33rem;
-$base_font_size_mobile: 1.33rem;
-$base_line_height: 1.55;
-$base_leading: $base_line_height;
-$scale: 1.414;
 
 $charcoalgray: #120302;
 $slategray: #4E4F56;
@@ -42,6 +35,13 @@ $link_hover_color: $color_accent;
 $base_border_width: 2px;
 $base_border_style: $base_border_width solid $color_base;
 
+// Sizing
+$base_font_size: 1.33rem;
+$base_font_size_mobile: 1.33rem;
+$base_line_height: 1.55;
+$base_leading: $base_line_height;
+$scale: 1.414;
+
 :root {
   // Typography
   --typeface-serif: "williams-caslon-text", georgia, serif;
@@ -51,6 +51,11 @@ $base_border_style: $base_border_width solid $color_base;
   --type-display: var(--typeface-sans-serif-display);
   --type-body-serif: var(--typeface-serif);
   --type-body-sans-serif: var(--typeface-sans-serif-text);
+
+  // Typography: Sizing
+  --type-font-size: 1.33rem;
+  --type-line-height: 1.55;
+  --type-scale: 1.414;
 
   // Color : Declaration
   --color-rose: #F5D0D2;
@@ -80,4 +85,5 @@ $base_border_style: $base_border_width solid $color_base;
 
   // Site-Width
   --site-display-width: 64em;
+
 }
