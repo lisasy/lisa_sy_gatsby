@@ -39,7 +39,6 @@
   @include media_tablet_portrait() {
   display: flex;
   font-weight: 800;
-  font-family: $sans_serif;
   line-height: 18px;
   margin-right: 8px;
   margin-bottom: 0;
@@ -47,12 +46,7 @@
   width: inherit;
 
     a {
-      color: $color_base;
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
+      @include link-style--no-underline();
     }
   }
 }
@@ -65,8 +59,8 @@
 
   ul {
     margin-top: 0.75em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: var(--su-default);
+    padding-right: var(--su-default);
     width: 100%;
 
     @include media_tablet_portrait() {
@@ -88,26 +82,18 @@
       }
 
       a {
+        @include link-style--no-underline();
+
         box-sizing: border-box;
         display: block;
         width: 100%;
-        font-size: 20px !important;
-        line-height: 40px;
         text-align: center;
-        padding: 12px;
-        color: $color_base;
-        text-decoration: none;
 
         @include media_tablet_portrait() {
           display: inline;
           width: inherit;
           padding: 0;
           border-radius: 0;
-
-          &:hover {
-            color: $color_base;
-            text-decoration: underline;
-          }
         }
       }
     }
@@ -115,15 +101,15 @@
 }
 
 .site_menu__pages {
-  margin-left: $margin_mobile;
-  margin-right: $margin_mobile;
-  padding-top: 0.25em;
-  padding-bottom: 0.25em;
-  border-bottom: $base_border_style;
+  margin-left: var(--su-default);
+  margin-right: var(--su-default);
+  padding-top: var(--su-s);
+  padding-bottom: var(--su-s);
+  border-bottom: var(--border-style);
 
   @include media_tablet_portrait() {
-    margin: 0 $margin_tablet_portrait;
-    padding: 0.5em 0;
+    margin: 0 var(--v-6);
+    padding: var(--su-default) 0;
   }
 
   @include media_tablet_landscape() {
@@ -150,7 +136,7 @@
   justify-content: space-between;
   height: 64px;
   margin: auto $margin_mobile $margin_mobile;
-  border-bottom: $base_border_style;
+  border-bottom: var(--border-style);
 
   @include media_tablet_portrait() {
     display: none;
@@ -160,16 +146,13 @@
     display: block;
 
     a {
-      color: $color_base;
-      font-family: $sans_serif;
-      text-decoration: none;
+      font-family: var(--type-display);
     }
   }
 }
 
 .menuicon {
   display: block;
-  color: $color_base;
 
   &__circle,
   &__bar {

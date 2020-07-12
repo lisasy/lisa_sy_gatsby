@@ -1,0 +1,23 @@
+// Keep underlined; color change on hover
+
+@mixin link-style--underline ($text-style: underline) {
+  color: var(--base-body-text);
+  text-decoration: $text-style;
+  transition: all 0.15s ease-in;
+
+  &:hover {
+    color: var(--link-accent-color);
+  }
+}
+
+// No underline; show change on  hover
+
+@mixin link-style--no-underline() {
+  color: var(--base-body-text);
+  text-decoration: none;
+  transition: all 0.15s ease-in;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

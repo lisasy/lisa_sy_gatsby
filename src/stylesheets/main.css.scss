@@ -1,9 +1,11 @@
 @import "sanfrancisco-font";
 @import "variables";
 
+@import "mixins/font-sizing";
+@import "mixins/link-styling";
+
 @import "media_queries";
 @import "gutter";
-@import "links";
 @import "typography";
 @import "caption";
 @import "button";
@@ -19,5 +21,4 @@
 @import "footer";
 @import "index";
 @import "about";
-@import "writing";
 @import "work_index";

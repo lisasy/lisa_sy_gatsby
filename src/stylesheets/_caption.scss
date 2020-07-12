@@ -1,8 +1,4 @@
 .caption_metatag {
-  font-size: $base_font_size;
-  line-height: $base_font_size * 1.1;
-  color: #6F7B78;
-  font-family: $sans_serif;
   text-align: left;
   margin: 0 auto 2px;
 
@@ -13,30 +9,11 @@
 }
 
 .caption_title {
-  font-family: $sans_serif;
-  color: $color_base;
   text-align: left;
   margin: 0 auto 4px;
-
-  font-size: $base_font_size * 1.5;
-  line-height: $base_font_size * 1.5;
-
-  @include media_tablet_portrait() {
-    font-size: $base_font_size * 2;
-    line-height: $base_font_size * 2;
-  }
 }
 
 .caption_subtitle {
-  color: $color_base;
   line-height: 18px;
   text-align: left;
-
-  font-size: $base_font_size * 1.1;
-  line-height: $base_font_size * 1.1;
-
-  @include media_tablet_portrait() {
-    font-size: $base_font_size * 1.1;
-    line-height: $base_font_size * 1.1;
-  }
 }

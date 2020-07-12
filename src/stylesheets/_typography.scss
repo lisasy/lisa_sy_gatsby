@@ -7,6 +7,7 @@ html {
 
   body {
     font-family: var(--type-body-sans-serif);
+    font-size: 16pt;
   }
 }
 
@@ -18,29 +19,16 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.45;
 }
 
-@mixin font-sizing($mobile-scale, $tablet-scale, $desktop-scale, $base-size:
-16pt) {
-  font-size: $base-size * $mobile-scale;
-
-  @include media_tablet_portrait() {
-    font-size: $base-size * $tablet-scale;
-  }
-
-  @include media_desktop() {
-    font-size: $base-size * $desktop-scale;
-  }
-}
-
 h1 {
   @include font-sizing(1.5, 1.75, 2.25);
 }
 
 h2 {
-  @include font-sizing(1.0, 1.15, 1.35);
+  @include font-sizing(1.15, 1.5, 1.75);
 }
 
 h3 {
-  @include font-sizing(1.0, 1.15, 1.35);
+  @include font-sizing(1.0, 1.35, 1.5);
 }
 
 h4 {
@@ -74,7 +62,7 @@ p {
 }
 
 a {
-  @include link-style();
+  @include link-style--underline();
 }
 
 

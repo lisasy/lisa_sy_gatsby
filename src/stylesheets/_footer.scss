@@ -1,5 +1,5 @@
 .site_footer {
-  border-top: $base_border_style;
+  border-top: var(--border-style);
   margin-left: $margin_mobile;
   margin-right: $margin_mobile;
 
@@ -20,10 +20,6 @@
   max-width: 100%;
   padding-top: $margin_mobile;
   padding-bottom: $margin_mobile;
-
-  p {
-    font-family: $body_type_sans_serif;
-  }
 }
 
 .footer__contact-info {
@@ -41,12 +37,7 @@
     margin-right: $margin_mobile;
 
     a {
-      color: $color_base;
-      text-decoration: none;
-
-      &:hover {
-        text-decoration: underline;
-      }
+      @include link-style--no-underline();
     }
 
     &:last-child {

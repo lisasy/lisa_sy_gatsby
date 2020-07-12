@@ -16,12 +16,6 @@
     h2 {
       font-weight: 900;
       text-align: left;
-      font-family: $sans_serif;
-
-      @include media_tablet_portrait() {
-        font-size: 2rem;
-        line-height: 125%;
-      }
     }
   }
 
@@ -113,38 +107,4 @@
   @include media_tablet_portrait() {
     height: 640px;
   }
-}
-
-.values_card {
-  display: flex;
-  align-items: center;
-  background-color: #FAF7EF;
-  height: 340px;
-  width: 100%;
-
-  .values_card_content {
-    padding: 64px;
-  }
-
-  h3 {
-    color: #102442;
-    margin-bottom: 0;
-  }
-
-  p {
-    font-size: 24px;
-    line-height: 125%;
-    color: #102442;
-    opacity: 0.8;
-  }
-
-  @include media_tablet_portrait() {
-    margin-top: 320px;
-    height: 640px;
-  }
-}
-
-.caption_title {
-  font-size: 1.75rem;
-  line-height: 125%;
 }

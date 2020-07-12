@@ -1,47 +1,3 @@
-$serif: "williams-caslon-text", georgia, serif;
-$sans_serif: "forma-djr-display", helvetica, sans-serif;
-$sans_serif_body: "forma-djr-text", helvetica, sans-serif;
-
-$body_type_serif: $serif;
-$body_type_sans_serif: $sans_serif_body;
-
-
-$charcoalgray: #120302;
-$slategray: #4E4F56;
-$lightgray: #F5F5F5;
-
-$forestgreen: #015C4C;
-$tealgreen: #08A78A;
-
-$deeporange: #CB9403;
-$sunorange: #F6C137;
-
-$crytalwhite: #FFFFFF;
-
-
-// Color
-$color_base: $charcoalgray;
-$color_secondary: $forestgreen;
-$color_accent: $sunorange;
-$color_accent_secondary: $deeporange;
-$color_accent_complementary: #c672f3;
-$color_highlight: #f5f5f5;
-
-// Mapping Variables
-$link_color: $color_accent_secondary;
-$link_hover_color: $color_accent;
-
-// Border list-style
-$base_border_width: 2px;
-$base_border_style: $base_border_width solid $color_base;
-
-// Sizing
-$base_font_size: 1.33rem;
-$base_font_size_mobile: 1.33rem;
-$base_line_height: 1.55;
-$base_leading: $base_line_height;
-$scale: 1.414;
-
 :root {
   // Typography
   --typeface-serif: "williams-caslon-text", georgia, serif;
@@ -59,10 +15,15 @@ $scale: 1.414;
 
   // Color : Declaration
   --color-rose: #F5D0D2;
+  --color-navy: #1E3C8F;
   --color-charcoal: #120302;
 
   // Color: Applied
   --base-body-text: var(--color-charcoal);
+  --link-accent-color: var(--color-navy);
+
+  // Border
+  --border-style: 2px solid var(--base-body-text);
 
   // Values
   --v-1: 0.25em; // 4px
@@ -85,5 +46,4 @@ $scale: 1.414;
 
   // Site-Width
   --site-display-width: 64em;
-
 }

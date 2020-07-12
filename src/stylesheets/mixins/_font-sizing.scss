@@ -1,0 +1,13 @@
+@mixin font-sizing($mobile-scale, $tablet-scale, $desktop-scale, $base-size:
+16pt) {
+  font-size: $base-size * $mobile-scale;
+
+  @include media_tablet_portrait() {
+    font-size: $base-size * $tablet-scale;
+  }
+
+  @include media_desktop() {
+    font-size: $base-size * $desktop-scale;
+  }
+}
+
