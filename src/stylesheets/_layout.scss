@@ -1,5 +1,4 @@
 body {
-  background: #ffffff;
   margin: 0 auto;
   display: block;
 
@@ -13,10 +12,6 @@ body {
     content: "";
     display: block;
   }
-}
-
-.body_container {
-  max-width: 100%;
 }
 
 .container {
@@ -41,32 +36,6 @@ body {
     &:last-child {
       margin-bottom: 0;
     }
-  }
-}
-
-.col_2 {
-  @include media_tablet_landscape() {
-    display: flex;
-
-    .row_container_col {
-      margin-right: $margin_mobile;
-      width: 100%;
-
-      @include media_tablet_portrait() {
-        margin-right: $margin_tablet_portrait*2;
-
-        &:last-child {
-          margin-right: 0;
-        }
-      }
-    }
-  }
-}
-
-.col_centered {
-  @include media_tablet_portrait() {
-    max-width: 36em;
-    margin: 0 auto;
   }
 }
 

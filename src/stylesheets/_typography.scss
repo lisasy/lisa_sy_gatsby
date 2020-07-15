@@ -1,13 +1,13 @@
 html {
  -webkit-font-smoothing: antialiased;
   color: var(--base-body-text);
-  line-height: var(--base-line-height);
   font-size: var(--base-font-size);
   text-rendering: optimizeLegibility;
 
   body {
     font-family: var(--type-body-sans-serif);
     font-size: 16pt;
+    line-height: var(--base-line-height);
   }
 }
 

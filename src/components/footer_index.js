@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'gatsby'
 import ReactDOM from 'react-dom';
 
-const Footer = () => {
+const FooterIndex = () => {
   return (
-    <footer class="site_footer">
+    <footer class="site_footer index">
       <section class="site_footer_inner_content">
         <span class="footer__attribution">
           This site is made with <strong>Gatsby.js</strong> and hosted on Netlify. <br />
@@ -26,4 +26,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default FooterIndex

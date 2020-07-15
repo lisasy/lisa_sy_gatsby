@@ -1,9 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import SiteNav from '../components/site_nav'
+import FooterIndex from '../components/footer_index'
 import Hero from '../components/hero_section'
 import Img from "gatsby-image"
-
 import Layout from '../components/layout'
 import PortraitImage from '../components/portrait_image'
 
@@ -84,6 +83,7 @@ const IndexPage = () => {
           </div>
           </article>
       </section>
+      <FooterIndex />
     </Layout>
   )};
 

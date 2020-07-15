@@ -1,25 +1,21 @@
 .site_footer {
   border-top: var(--border-style);
-  margin-left: $margin_mobile;
-  margin-right: $margin_mobile;
+  margin: 0 auto;
+  max-width: var(--site-display-width);
+}
 
-  @include media_tablet_portrait {
-    margin-left: $margin_tablet_portrait;
-    margin-right: $margin_tablet_portrait;
-  }
-
-  @include media_tablet_landscape {
-    margin-left: $margin_tablet_landscape;
-    margin-right: $margin_tablet_landscape;
-  }
+.site_footer.index {
+  margin-left: var(--v-6);
+  margin-right: var(--v-6);
+  max-width: 100%;
 }
 
 .site_footer_inner_content {
   box-sizing: border-box;
-  margin: 0 auto;
-  max-width: 100%;
-  padding-top: $margin_mobile;
-  padding-bottom: $margin_mobile;
+  display: flex;
+  justify-content: space-between;
+  padding-top: var(--su-default);
+  padding-bottom: var(--su-default);
 }
 
 .footer__contact-info {

@@ -37,13 +37,12 @@
   font-size: 24px;
 
   @include media_tablet_portrait() {
-  display: flex;
-  font-weight: 800;
-  line-height: 18px;
-  margin-right: 8px;
-  margin-bottom: 0;
-  margin-top: 0;
-  width: inherit;
+    display: flex;
+    font-weight: 800;
+    margin-right: 8px;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: inherit;
 
     a {
       @include link-style--no-underline();
