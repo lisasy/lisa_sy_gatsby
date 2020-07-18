@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import SiteNav from './site_nav'
 
 import HeroImage1 from '../images/hero_1.jpg'
@@ -15,7 +14,7 @@ const Hero = () => {
 
         <div class="hero_title">
           <h1 class="h1_jumbo">
-            Hello, I’m Lisa 👋🏼
+            Hello, I’m Lisa <span role="img" aria-label="wave">👋</span>
           </h1>
         </div>
         <div class="hero_description_container">
@@ -24,7 +23,7 @@ const Hero = () => {
     bike, read, write, and sing karaoke. Black lives matter.
           </p>
           <p>
-            Based in sunny Los Angeles, I’m leading product design with some awesome people at <a href="http://forem.com" target="_blank">Forem</a> — it’s
+            Based in sunny Los Angeles, I’m leading product design with some awesome people at <a href="http://forem.com" target="_blank" rel="noreferrer">Forem</a> — it’s
     pretty sweet.
           </p>
         </div>

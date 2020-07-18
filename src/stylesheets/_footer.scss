@@ -1,21 +1,10 @@
-.site_footer {
-  border-top: var(--border-style);
-  margin: 0 auto;
-  max-width: var(--site-display-width);
-}
-
-.site_footer.index {
-  margin-left: var(--v-6);
-  margin-right: var(--v-6);
-  max-width: 100%;
-}
-
 .site_footer_inner_content {
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   padding-top: var(--su-default);
   padding-bottom: var(--su-default);
+  border-top: var(--border-style);
 }
 
 .footer__contact-info {
@@ -30,7 +19,7 @@
 
   li {
     display: inline;
-    margin-right: $margin_mobile;
+    margin-right: var(--su-default);
 
     a {
       @include link-style--no-underline();

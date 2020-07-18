@@ -1,12 +1,12 @@
 .index_container {
-  margin-bottom: $margin_mobile;
+  margin-bottom: var(--su-default);
   overflow-x: hidden;
 
   @include media_tablet_portrait() {
-    margin-bottom: $margin_tablet_portrait;
+    margin-bottom: var(--su-tablet-portrait);
   }
 
   @include media_tablet_landscape() {
-    margin-bottom: $margin_tablet_landscape;
+    margin-bottom: var(--su-tablet-landscape);
   }
 }

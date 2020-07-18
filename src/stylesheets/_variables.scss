@@ -44,6 +44,8 @@
 
   --su-default: var(--su-m);
 
-  // Site-Width
+  // Layout
   --site-display-width: 64em;
+  --su-tablet-portrait: var(--su-l);
+  --su-tablet-landscape: var(--su-xl);
 }

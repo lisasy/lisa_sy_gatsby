@@ -26,7 +26,7 @@ const Styleguide = () => (
         <li>Fourth</li>
       </ol>
       <figure>
-        <img src="" />
+        <img src="" alt="" />
         <figcaption>Figure 3.2 caption text to describe the media</figcaption>
       </figure>
       <figure>

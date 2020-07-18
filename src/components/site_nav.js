@@ -21,7 +21,7 @@ class SiteNav extends Component {
               Lisa Sy
             </Link>
           </h1>
-          <a href="" class="nav_toggle" role="button" aria-expanded="false"
+          <a href="/" class="nav_toggle" role="button" aria-expanded="false"
             aria-controls="menu" onClick={this.toggleMobileMenu}>
             <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
               <title>Toggle Menu</title>
@@ -35,8 +35,8 @@ class SiteNav extends Component {
           </a>
         </div>
 
-        <nav className={mobileMenuActive + " site_menu"} id="nav">
-          <div class="site_menu__pages container">
+        <nav className={mobileMenuActive + " site_menu container"} id="nav">
+          <div class="site_menu__pages">
             <h1 class="site_menu__logo">
               <Link to="/" >
                 Lisa Sy
@@ -58,6 +58,13 @@ class SiteNav extends Component {
                   About
                 </Link>
               </li>
+              {/*
+              <li>
+                <Link to={`/writing`}>
+                  Writing
+                </Link>
+              </li>
+              */}
               <li>
                 <a href="mailto:hello@lisasy.com">
                   Contact

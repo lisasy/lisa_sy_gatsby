@@ -30,6 +30,7 @@ const WritingItem  = ({ data }) => {
           <div class="article_body_content_container">
             <img
               src={post.frontmatter.featured_image.childImageSharp.sizes.src}
+              alt="this is something I'll populate"
             />
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <footer class="article_end_footer">

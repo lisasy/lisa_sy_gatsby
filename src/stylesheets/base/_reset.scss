@@ -1,0 +1,21 @@
+body {
+  margin: 0 auto;
+  display: block;
+
+  @include media_tablet_portrait() {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+}
+
+img {
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}

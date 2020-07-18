@@ -1,24 +1,24 @@
 @import "sanfrancisco-font";
 @import "variables";
 
+@import "mixins/media_queries";
 @import "mixins/font-sizing";
 @import "mixins/link-styling";
 
-@import "media_queries";
-@import "gutter";
-@import "typography";
+@import "base/reset";
+@import "base/container";
+@import "base/typography";
+
+
 @import "caption";
 @import "button";
-@import "layout";
 @import "figure";
 @import "column";
 @import "card";
-@import "list";
 @import "gatsby_override";
 
 @import "site_nav";
 @import "hero";
 @import "footer";
 @import "index";
-@import "about";
 @import "work_index";

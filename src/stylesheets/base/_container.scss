@@ -1,0 +1,26 @@
+.container {
+  max-width: 100%;
+  padding-left: var(--su-default);
+  padding-right: var(--su-default);
+  margin: 0;
+
+  @include media_tablet_portrait() {
+    padding-left: var(--su-tablet-portrait);
+    padding-right: var(--su-tablet-portrait);
+    max-width: var(--site-display-width);
+  }
+
+  @include media_tablet_landscape() {
+    padding-left: var(--su-tablet-landscape);
+    padding-right: var(--su-tablet-landscape);
+  }
+
+  @include media_desktop() {
+    margin: var(--su-default) auto;
+  }
+}
+
+.page-container {
+  margin-top: var(--su-default);
+  margin-bottom: var(--su-default);
+}

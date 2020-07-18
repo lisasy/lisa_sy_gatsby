@@ -9,14 +9,12 @@ const Writing = ({data}) => {
   const {edges: posts} = data.allMarkdownRemark;
   return (
     <Layout>
-      <section class="page_header writing">
+      <header class="page_header writing">
         <SiteNav />
-        <div class="page_header_inner_content container">
-          <h1 class="h1_jumbo">Blog</h1>
-        </div>
-      </section>
+        <h1 class="h1_jumbo">Blog</h1>
+      </header>
 
-      <section class="writing_index_inner_content container">
+      <section class="page-container container">
         <section class="row_container">
             {posts.map (({node: post}) => {
               const {frontmatter} = post;
@@ -26,6 +24,7 @@ const Writing = ({data}) => {
                     <img
                       src={frontmatter.featured_image.childImageSharp.sizes.src}
                       class="card_image"
+                      alt="this is something i'll replace"
                     />
                     <caption class="card_caption">
                       <h4 class="caption_metatag">
