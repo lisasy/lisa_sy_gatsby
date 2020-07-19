@@ -20,7 +20,10 @@
   }
 }
 
-.page-container {
-  margin-top: var(--su-default);
+.row_container {
   margin-bottom: var(--su-default);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }

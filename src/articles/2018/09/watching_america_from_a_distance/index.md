@@ -6,6 +6,7 @@ date: "2018-09-28"
 featured_image: "./images/featured_image.jpg"
 image_description: "Christine Blasey Ford"
 subtitle: "Reflecting on American politics while in France"
+published: true
 
 ---
 

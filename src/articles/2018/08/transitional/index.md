@@ -7,6 +7,7 @@ tags: ""
 featured_image: "./images/featured_image.jpg"
 image_description: "Broc Bar in Lyon, France"
 subtitle: "I quit my job to live in France for 2.5 months."
+published: false
 
 ---
 

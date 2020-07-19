@@ -25,24 +25,32 @@ h1 {
 
 h2 {
   @include font-sizing(1.15, 1.5, 1.75);
+  line-height: var(--secondary-line-height);
 }
 
 h3 {
   @include font-sizing(1.0, 1.35, 1.5);
+  line-height: var(--secondary-line-height);
 }
 
 h4 {
   @include font-sizing(1.0, 1.0, 1.15);
+  line-height: var(--secondary-line-height);
 }
 
 h5 {
   @include font-sizing(1.0, 1.0, 1.0);
+  line-height: var(--secondary-line-height);
 }
 
 h6 {
   @include font-sizing(0.8, 0.8, 0.8);
-
+  line-height: var(--secondary-line-height);
   text-transform: uppercase;
+}
+
+a {
+  @include link-style--underline();
 }
 
 p {
@@ -63,12 +71,11 @@ p {
   &.paragraph--smaller {
     font-size: smaller;
   }
-}
 
-a {
-  @include link-style--underline();
+  a {
+    background: rgba(3, 185, 153, 0.25);
+  }
 }
-
 
 em {
   font-style: normal;
@@ -77,15 +84,25 @@ em {
     color: #03b999;
   }
 
-  &.gradient {
-    background: -webkit-linear-gradient(45deg, #e6a30d, #dc167a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
 }
 
 strong {
   font-weight: 800;
+}
+
+.gradient {
+  background: -webkit-linear-gradient(111deg, var(--color-teal),
+  var(--color-navy));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.flipped {
+  display: inline;
+  background: var(--color-charcoal);
+  color: white;
+  padding-left: var(--su-xs);
+  padding-right: var(--su-xs);
 }
 
 caption {

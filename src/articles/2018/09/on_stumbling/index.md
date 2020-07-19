@@ -6,6 +6,7 @@ date: "2018-09-13"
 featured_image: "./images/featured_image.jpg"
 image_description: "Trees in Lyon"
 subtitle: "Pushing oneself towards the edge of their comfort zone when learning a new language in a foreign country"
+published: true
 
 ---
 

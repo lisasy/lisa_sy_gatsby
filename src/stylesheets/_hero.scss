@@ -25,11 +25,10 @@
   margin-bottom: 0;
 
   font-size: 40px;
-  line-height: 44px;
+  line-height: 1.25;
 
   @include media_tablet_portrait {
     font-size: 64px;
-    line-height: 72px;
   }
 
   @include media_tablet_landscape() {
@@ -46,6 +45,10 @@
     font-size: 24px;
     line-height: 30px;
     margin-bottom: 0.5em;
+
+    a {
+      background: rgba(252, 10, 116, 0.25);
+    }
 
     @include media_tablet_portrait() {
       font-size: 32px;

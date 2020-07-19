@@ -9,38 +9,38 @@ const Writing = ({data}) => {
   const {edges: posts} = data.allMarkdownRemark;
   return (
     <Layout>
-      <header class="page_header writing">
-        <SiteNav />
-        <h1 class="h1_jumbo">Blog</h1>
-      </header>
+      <SiteNav />
 
-      <section class="page-container container">
-        <section class="row_container">
+      <section class="page--container container">
+        <div class="col_5">
+          <section class="span--3">
             {posts.map (({node: post}) => {
               const {frontmatter} = post;
               const {fields} = post;
               return (
-                <Link to={fields.slug} className="article_card_container">
+                <article class="journal-entry--item">
+                  <h3 class="journal-entry--date">
+                    {frontmatter.date}
+                  </h3>
+                  <h2 class="journal-entry--title flipped">
+                    {frontmatter.title}
+                  </h2>
+                  <figure class="journal-entry--cover-container">
                     <img
                       src={frontmatter.featured_image.childImageSharp.sizes.src}
-                      class="card_image"
+                      class="journal-entry--cover-media"
                       alt="this is something i'll replace"
                     />
-                    <caption class="card_caption">
-                      <h4 class="caption_metatag">
-                        {frontmatter.date}
-                      </h4>
-                      <h3 class="caption_title">
-                        {frontmatter.title}
-                    </h3>
-                    <p class="caption_subtitle">
-                          {frontmatter.subtitle}
-                    </p>
-                  </caption>
-                </Link>
+                  </figure>
+                  <div
+                    class= "journal-entry--body"
+                    dangerouslySetInnerHTML={{ __html: post.html }}
+                  />
+                </article>
               );
             })}
-        </section>
+          </section>
+        </div>
       </section>
     </Layout>
   );
@@ -50,12 +50,13 @@ export const query = graphql`
   query WritingQuery {
     allMarkdownRemark (
       sort: { fields: [frontmatter___date], order: DESC },
-      filter: { frontmatter: { type: { eq: "writing" } } }
+      filter: { frontmatter: { type: { eq: "writing" }, published: { eq: true } } }
     ) {
       totalCount
       edges {
         node {
           id
+          html
           frontmatter {
             title
             date(formatString: "MMMM DD, YYYY")

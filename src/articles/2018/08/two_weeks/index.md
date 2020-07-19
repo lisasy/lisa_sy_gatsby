@@ -7,6 +7,7 @@ tags: france
 featured_image: "./images/featured_image.jpg"
 image_description: "Lyon"
 subtitle: "The initial hurdle of transitioning to a new country"
+published: true
 
 ---
 

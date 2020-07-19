@@ -1,0 +1,13 @@
+.page--container {
+  margin-top: var(--su-default);
+  margin-bottom: var(--su-default);
+
+  @include media_tablet_portrait() {
+    margin-top: var(--su-xl);
+    margin-bottom: var(--su-xl);
+  }
+}
+
+.page--header {
+  margin-bottom: var(--su-default);
+}

@@ -3,7 +3,6 @@
 @mixin link-style--underline ($text-style: underline) {
   color: var(--base-body-text);
   text-decoration: $text-style;
-  transition: all 0.15s ease-in;
 
   &:hover {
     color: var(--link-accent-color);
