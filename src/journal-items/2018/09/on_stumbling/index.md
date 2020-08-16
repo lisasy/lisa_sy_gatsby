@@ -1,7 +1,7 @@
 ---
 
 title: On Stumbling
-type: "writing"
+type: "journal"
 date: "2018-09-13"
 featured_image: "./images/featured_image.jpg"
 image_description: "Trees in Lyon"

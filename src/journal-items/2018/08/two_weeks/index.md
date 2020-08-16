@@ -1,7 +1,7 @@
 ---
 
 title: "Two Weeks Living in Lyon, France"
-type: "writing"
+type: "journal"
 date: "2018-08-18"
 tags: france
 featured_image: "./images/featured_image.jpg"

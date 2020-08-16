@@ -1,7 +1,7 @@
 ---
 
 title: "Watching America From a Distance #BelieveChristine"
-type: "writing"
+type: "journal"
 date: "2018-09-28"
 featured_image: "./images/featured_image.jpg"
 image_description: "Christine Blasey Ford"

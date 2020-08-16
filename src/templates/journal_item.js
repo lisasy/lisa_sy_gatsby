@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SiteNav from '../components/site_nav'
 import { Link } from 'gatsby'
 
-const WritingItem  = ({ data }) => {
+const JournalItem  = ({ data }) => {
   const post = data.markdownRemark
   return (
     <Layout>
@@ -35,7 +35,7 @@ const WritingItem  = ({ data }) => {
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
             <footer class="article_end_footer">
               <button class="button_primary">
-                <Link to={`/writing`}>
+                <Link to={`/journal`}>
                   See all blog entries
                 </Link>
               </button>
@@ -67,4 +67,4 @@ export const query = graphql`
   }
 `
 
-export default WritingItem
+export default JournalItem

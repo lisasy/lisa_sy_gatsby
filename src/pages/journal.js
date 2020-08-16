@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 import SiteNav from '../components/site_nav'
 
 
-const Writing = ({data}) => {
+const Journal = ({data}) => {
   const {edges: posts} = data.allMarkdownRemark;
   return (
     <Layout>
@@ -18,22 +18,22 @@ const Writing = ({data}) => {
               const {frontmatter} = post;
               const {fields} = post;
               return (
-                <article class="journal-entry--item">
-                  <h3 class="journal-entry--date">
+                <article class="journal-entry">
+                  <h3 class="journal-entry__date">
                     {frontmatter.date}
                   </h3>
-                  <h2 class="journal-entry--title flipped">
+                  <h2 class="journal-entry__title">
                     {frontmatter.title}
                   </h2>
-                  <figure class="journal-entry--cover-container">
+                  <figure class="journal-entry__cover-container">
                     <img
                       src={frontmatter.featured_image.childImageSharp.sizes.src}
-                      class="journal-entry--cover-media"
+                      class="journal-entry__cover-media"
                       alt="this is something i'll replace"
                     />
                   </figure>
                   <div
-                    class= "journal-entry--body"
+                    class= "journal-entry__body"
                     dangerouslySetInnerHTML={{ __html: post.html }}
                   />
                 </article>
@@ -47,10 +47,10 @@ const Writing = ({data}) => {
 };
 
 export const query = graphql`
-  query WritingQuery {
+  query JournalQuery {
     allMarkdownRemark (
       sort: { fields: [frontmatter___date], order: DESC },
-      filter: { frontmatter: { type: { eq: "writing" }, published: { eq: true } } }
+      filter: { frontmatter: { type: { eq: "journal" }, published: { eq: true } } }
     ) {
       totalCount
       edges {
@@ -79,4 +79,4 @@ export const query = graphql`
   }
 `;
 
-export default Writing
+export default Journal

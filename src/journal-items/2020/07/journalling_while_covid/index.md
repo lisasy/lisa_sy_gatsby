@@ -1,7 +1,7 @@
 ---
 
 title: journalling while covid-19
-type: "writing"
+type: "journal"
 date: "2020-07-21"
 featured_image: "./featured_image.jpg"
 image_description: "Griffith Park, Los Angeles"

@@ -1,6 +1,6 @@
 ---
 
-type: "writing"
+type: "journal"
 title: Transitionally
 date: "2018-08-06"
 tags: ""
