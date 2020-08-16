@@ -46,10 +46,6 @@
     line-height: 30px;
     margin-bottom: 0.5em;
 
-    a {
-      background: rgba(252, 10, 116, 0.25);
-    }
-
     @include media_tablet_portrait() {
       font-size: 32px;
       line-height: 40px;

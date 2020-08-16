@@ -73,7 +73,12 @@ p {
   }
 
   a {
-    background: rgba(3, 185, 153, 0.25);
+    text-decoration: none;
+    box-shadow: inset 0 -3px 0 0 var(--color-teal);
+
+    &:hover {
+      box-shadow: inset 0 -3px 0 0 var(--color-navy);
+    }
   }
 }
 
