@@ -129,6 +129,7 @@
   justify-content: space-between;
   height: 64px;
   margin: auto var(--su-default) var(--su-default);
+  text-decoration: none;
   border-bottom: var(--border-style);
 
   @include media_tablet_portrait() {

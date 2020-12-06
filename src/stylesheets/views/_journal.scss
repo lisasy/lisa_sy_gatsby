@@ -3,6 +3,11 @@
   margin-bottom: calc(var(--su-xl) * 1.5);
   position: relative;
 
+  @include media_tablet_portrait() {
+    padding-left: var(--su-default);
+    padding-right: var(--su-default);
+  }
+
   &:after {
     content: "";
     position: absolute;
@@ -40,11 +45,11 @@
   }
 
   &__cover-media {
-    object-fit: contain;
+    object-fit: cover;
   }
 
   &__date {
-    @include font-sizing(0.85,0.85,0.85);
+    @include font-sizing(0.75,0.85,0.85);
 
     font-weight: 400;
     margin: 0;
@@ -59,7 +64,9 @@
   &__body {
     p {
       font-family: var(--type-body-serif);
-      font-size: larger;
+      @include media_tablet_portrait() {
+        font-size: larger;
+      }
     }
 
     img {
