@@ -15,8 +15,8 @@ $column_values: 1, 2, 3, 4, 5, 6;
   }
 }
 
-.span--2-3 {
-  grid-column: span 2 / 3;
+.start-2-span-3 {
+  grid-column: 2 / span 3;
 }
 
 .span--3 {

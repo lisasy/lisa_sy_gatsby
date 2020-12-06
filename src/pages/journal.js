@@ -13,7 +13,7 @@ const Journal = ({data}) => {
 
       <section class="page--container container">
         <div class="col_5">
-          <section class="span--3">
+          <section class="start-2-span-3">
             {posts.map (({node: post}) => {
               const {frontmatter} = post;
               const {fields} = post;
