@@ -9,7 +9,7 @@ const About = () => (
       <SiteNav />
       <section class="page--container container">
         <div class="col_3">
-          <article class="span--2-3">
+          <article class="span--2">
             <header class="page--header">
               <h1 class="h1_jumbo">
                 Hi, I'm <em class="flipped">Lisa Sy</em>, and I'm a digital

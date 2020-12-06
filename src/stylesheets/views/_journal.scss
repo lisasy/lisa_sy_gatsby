@@ -1,3 +1,5 @@
+
+
 .journal-entry {
   padding-bottom: calc(var(--su-xl) * 1.5);
   margin-bottom: calc(var(--su-xl) * 1.5);
@@ -51,21 +53,22 @@
   &__date {
     @include font-sizing(0.75,0.85,0.85);
 
-    font-weight: 400;
+    font-weight: bold;
     margin: 0;
     letter-spacing: 0.5px;
   }
 
   &__title {
-    font-family: var(--type-body-serif);
+    font-family: var(--type-display);
     margin-top: 0;
   }
 
   &__body {
     p {
       font-family: var(--type-body-serif);
+
       @include media_tablet_portrait() {
-        font-size: larger;
+        font-size: 16pt * 1.25;
       }
     }
 
