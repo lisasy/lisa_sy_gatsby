@@ -138,11 +138,15 @@
 
   .site_menu__logo {
     display: block;
+    margin: 0;
 
     a {
       font-family: var(--type-display);
-      text-decoration: none;
     }
+  }
+
+  a {
+    box-shadow: none;
   }
 }
 

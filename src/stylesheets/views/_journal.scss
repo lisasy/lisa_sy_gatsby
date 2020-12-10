@@ -64,6 +64,8 @@
   }
 
   &__body {
+    width: 60ch;
+
     p {
       font-family: var(--type-body-serif);
 
@@ -73,7 +75,11 @@
     }
 
     img {
-      margin-bottom: var(--su-default);
+      margin-bottom: var(--su-default) !important;
+    }
+    
+    .gatsby-resp-image-link {
+      margin-bottom: var(--su-default) !important;
     }
   }
 }
