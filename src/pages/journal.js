@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
 import SiteNav from '../components/site_nav'
+import Footer from '../components/footer'
 
 
 const Journal = ({data}) => {
@@ -22,14 +23,16 @@ const Journal = ({data}) => {
                   <h3 class="journal-entry__date">
                     {frontmatter.date}
                   </h3>
-                  <h2 class="journal-entry__title">
-                    {frontmatter.title}
-                  </h2>
+                  <Link to={fields.slug}>
+                    <h2 class="journal-entry__title">
+                      {frontmatter.title}
+                    </h2>
+                  </Link>
                   <figure class="journal-entry__cover-container">
                     <img
                       src={frontmatter.featured_image.childImageSharp.sizes.src}
                       class="journal-entry__cover-media"
-                      alt="this is something i'll replace"
+                      alt="journal cover"
                     />
                   </figure>
                   <div
@@ -42,6 +45,7 @@ const Journal = ({data}) => {
           </section>
         </div>
       </section>
+      <Footer />
     </Layout>
   );
 };

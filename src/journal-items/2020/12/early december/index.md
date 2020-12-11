@@ -15,11 +15,11 @@ every December, I think about my most desperate December of all, the one that I 
 
 three weeks was all it took. 
 
-time felt grander when there was no time to be anywhere, and all I needed to do was follow either the bus or train schedule. without shame I lugged around my heavy luggage as the only Asian face walking into a southern restaurant in Nashville. I got the best meal I could: chicken liver, Mac n cheese, fried green tomatoes, grits, and a brownie. it was my first time eating fried green tomatoes.
+time felt grander when there was nowhere to be except anyway. all I needed to do was follow bus or train schedule. without shame I lugged around my heavy luggage as the only Asian face walking into a southern restaurant in Nashville. I got the best meal I could: chicken liver, Mac n cheese, fried green tomatoes, grits, and a brownie. it was my first time eating fried green tomatoes.
 
 <img src="./images/food.png" alt="food" /> 
 
-three weeks of moments — *of traveling!* — and it’s cliche to say but it changes you. it changed me. criss-crossing through different cities and through music in america. The banjo was stolen from the Black slaves that white people created out of Africans they uprooted them from their home — from this history and ancestory and heritage. standing under the moon in nashville, when i wasn't sitting in a bougie coffee shop, i marched w other during the inaugural season of Black Lives Matter protests in response to Eric Garner’s death and that of so many other Black Americans. 
+three weeks of moments — *of traveling!* — and it’s cliche to say but it changes you. it changed me. criss-crossing through different cities and music history in america. The banjo was stolen from the Black slaves that white people created out of Africans they uprooted them from their home — from this history and ancestory and heritage. standing under the moon in nashville, when i wasn't sitting in a bougie coffee shop, i marched w other during the inaugural season of Black Lives Matter protests in response to Eric Garner’s death and that of so many other Black Americans. 
 
 <img src="./images/museum.png" alt="museum" />
 
@@ -33,11 +33,11 @@ After the trip I would re-read the obsessive entries in the journal I’d scribb
 
 <img src="./images/reflection.png" alt="mirror" />
 
-six years later, there are days where i need to remind myself that i am enough, that i am good as i am. even though I’ve spent every December since happily reminiscing about this trip and happily anticipating the upcoming new year, this december feels much different. the December of the pandemic. I've been really feeling *it*. It's a different sort of *it* than the one I experienced last year. typically I imagine the promises. and I guess I'm *really* excited for the vaccine and for the prospect of seeing & hugging & touching friends and family again.
+six years later, there are days where i need to remind myself that i am enough, that i am good as i am. even though I’ve spent every December since happily reminiscing about this trip and anticipating the upcoming new year, this december feels much different. the December of the pandemic. I've been really feeling *it*. It's a different sort of *it* than the one I experienced last year. typically I hope. and I guess I'm *really* excited for the vaccine and for the prospect of seeing & hugging & touching friends and family again.
 
 <img src="./images/mask.png" alt="mask" />
 
-back when we first entered quarantine in march (really?), i knew we and i might be entering a dark, challenging space. it was not clear how long this would last, and it's only now that we're beginning to see the shape of the end. that's still many months away. maybe by next december, i can ride a train with people.
+back when we first entered quarantine in march (really?), i knew we might be entering a dark, challenging space. it was not clear how long this would last, and it's only now that we're beginning to see the shape of the end. that's still many months away. maybe by next december, i can ride a train with people.
 
 <img src="./images/park.png" alt="park" />
 
@@ -49,6 +49,6 @@ all i really want is connection. the one that came so freely during that decembe
 
 <img src="./images/more.png" alt="more" />
 
-what i *can* do is to just surrender to the idle moments of sitting in a novel place, looking outwards and witness the subtle edges of everything and everyone around me. even from a six feet distance.
+what i *can* do is to just surrender to the idle moments of sitting in a novel place, looking outwards and witnessing the subtle edges of everything and everyone around me. even from a six feet distance.
 
 <img src="./images/cat.png" alt="cat" />

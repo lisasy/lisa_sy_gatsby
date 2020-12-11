@@ -19,8 +19,7 @@ const Hero = () => {
         </div>
         <div class="hero_description_container">
           <p>
-          I design digital products and services, paint, draw, code, climb,
-    bike, read, write, and sing karaoke. Black lives matter.
+            Welcome to my little corner on the internet.
           </p>
           <p>
             Based in sunny Los Angeles, I’m leading product design with some awesome people at <a href="http://forem.com" target="_blank" rel="noreferrer">Forem</a> — it’s
