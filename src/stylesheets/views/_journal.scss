@@ -1,14 +1,12 @@
-
-
 .journal-entry {
   padding-bottom: calc(var(--su-xl) * 1.5);
   margin-bottom: calc(var(--su-xl) * 1.5);
   position: relative;
 
-  @include media_tablet_portrait() {
-    padding-left: var(--su-default);
-    padding-right: var(--su-default);
-  }
+  // @include media_tablet_portrait() {
+  //   padding-left: var(--su-xl);
+  //   padding-right: var(--su-xl);
+  // }
 
   &:after {
     content: "";
@@ -65,10 +63,16 @@
   }
 
   &__body {
-    width: 60ch;
+    margin: 0 auto;
+
+    @include media_tablet_landscape() {
+      width: 60ch;
+      max-width: 100%;
+    }
+
 
     p {
-      font-family: var(--type-body-serif);
+      font-family: var(--type-body-serif);      
 
       @include media_tablet_portrait() {
         font-size: 16pt * 1.25;
@@ -76,11 +80,7 @@
     }
 
     img {
-      margin-bottom: var(--su-default) !important;
-    }
-    
-    .gatsby-resp-image-link {
-      margin-bottom: var(--su-default) !important;
+      margin-bottom: 0 !important;
     }
   }
 }
