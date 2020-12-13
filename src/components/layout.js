@@ -30,6 +30,7 @@ const Layout = ({ children }) => (
           <html lang="en" />
           <meta property="og:title" content="Lisa Sy"></meta>
           <meta property="og:image" content="https://lisasy.com/static/hero_3-9585aeb60e0ad871f4e315aa5776a3c5.jpg"></meta>
+          <meta property="og:article" content=""></meta>
           <meta property="og:description" content="<p>Lisa Sy is a product designer, illustrator, and artist based in California.</p>"></meta>
           <link rel="icon" href={favicon} />
           <link rel="stylesheet" href="https://use.typekit.net/nix0hnc.css" />
