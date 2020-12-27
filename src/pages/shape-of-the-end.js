@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
+import { Helmet } from "react-helmet"
 import SiteNav from '../components/site_nav'
 import Footer from '../components/footer'
 
@@ -12,9 +13,14 @@ import shapeP4 from "../images/shape-of-the-end/shape-end_p4@0.5x.jpg"
 const ShapeOfTheEnd = () => {
   return (
     <Layout>
+        <Helmet>
+        <meta charSet="utf-8" />
+        <title>Shape of the End by Lisa Sy</title>
+        <link rel="canonical" href="http://lisasy.com/shape-of-the-end" />
+        </Helmet>
     <section class="comic--page">
       <SiteNav />
-      <section class="page--container container">
+      <section class="page--container container p-0">
         <img src={shapeP1} alt="SHAPE OF THE END, a quarantine comic by Lisa Sy. For awhile, we could not see the end..." />
         <img src={shapeP2} alt="For awhile, I was more preoccupied with the
         shape of towering eucalyptus trees guarding slanted grassy horizons,

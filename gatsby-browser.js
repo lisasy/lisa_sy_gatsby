@@ -6,4 +6,6 @@
 
 // You can delete this file if you're not using it
 
-import './src/styles/global.css';
+import "tailwindcss/base.css"
+import "tailwindcss/components.css"
+import "tailwindcss/utilities.css"
