@@ -4,10 +4,10 @@ import SiteNav from '../components/site_nav'
 import Footer from '../components/footer'
 
 // Webpack Assets
-import shapeP1 from "../images/shape-of-the-end/shape-end_p1.png"
-import shapeP2 from "../images/shape-of-the-end/shape-end_p2.png"
-import shapeP3 from "../images/shape-of-the-end/shape-end_p3.png"
-import shapeP4 from "../images/shape-of-the-end/shape-end_p4.png"
+import shapeP1 from "../images/shape-of-the-end/shape-end_p1@0.5x.jpg"
+import shapeP2 from "../images/shape-of-the-end/shape-end_p2@0.5x.jpg"
+import shapeP3 from "../images/shape-of-the-end/shape-end_p3@0.5x.jpg"
+import shapeP4 from "../images/shape-of-the-end/shape-end_p4@0.5x.jpg"
 
 const ShapeOfTheEnd = () => {
   return (

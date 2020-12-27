@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import favicon from "../images/favicon.ico"
 
+import '../styles/global.css'
 import '../stylesheets/main.css.scss'
 
 const Layout = ({ children }) => (
