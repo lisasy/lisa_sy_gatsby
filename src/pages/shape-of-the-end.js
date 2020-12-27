@@ -15,8 +15,9 @@ const ShapeOfTheEnd = () => {
     <Layout>
         <Helmet>
         <meta charSet="utf-8" />
-        <title>Shape of the End by Lisa Sy</title>
+        <meta property="og:title" content="Shape of the End by Lisa Sy"></meta>
         <link rel="canonical" href="http://lisasy.com/shape-of-the-end" />
+        <meta property="og:image" content={shapeP3}></meta>
         </Helmet>
     <section class="comic--page">
       <SiteNav />
