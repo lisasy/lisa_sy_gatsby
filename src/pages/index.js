@@ -32,7 +32,7 @@ const IndexPage = () => {
                 </Link>
               </h3>
               <h3>
-                <Link to={`https://pluralsandnoun.com/`}>
+                <Link to={"https://pluralsandnoun.com/"}>
                   — Plurals and Noun
                 </Link>
               </h3>
