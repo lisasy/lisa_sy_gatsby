@@ -3,6 +3,7 @@ module.exports = {
     title: "Lisa Sy",
     titleTemplate: "%s · Designer & Artist",
     description: "Lisa Sy is a product designer, illustrator, and visual artist.",
+    keywords: "Lisa Sy, lisa, design, product design, illustration, illustrator, artist, Los Angeles, CA",
     url: "https://lisasy.com/",
     image: "https://lisasy.com/static/hero_3-9585aeb60e0ad871f4e315aa5776a3c5.jpg",
     twitterUsername: "@lisasy",
@@ -73,6 +74,8 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
+        icon: 'src/images/icon.png',
+        icons: []
       },
     },
     {

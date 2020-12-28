@@ -12,8 +12,8 @@
     "gatsby-image": "^2.0.0-rc.4",
     "gatsby-plugin-catch-links": "^2.0.8",
     "gatsby-plugin-google-analytics": "^2.0.8",
-    "gatsby-plugin-manifest": "^2.0.5",
-    "gatsby-plugin-netlify": "^2.0.6",
+    "gatsby-plugin-manifest": "^2.9.1",
+    "gatsby-plugin-netlify": "^2.8.0",
     "gatsby-plugin-offline": "^2.0.11",
     "gatsby-plugin-page-transitions": "^1.0.7",
     "gatsby-plugin-postcss": "^3.4.0",
@@ -22,7 +22,7 @@
     "gatsby-plugin-sharp": "^2.4.12",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-remark-embed-video": "^1.7.1",
-    "gatsby-remark-images": "^2.0.6",
+    "gatsby-remark-images": "3.5.1",
     "gatsby-remark-normalize-paths": "^1.0.0",
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-transformer-remark": "^2.1.12",
@@ -42,7 +42,7 @@
     "showdown": "^1.9.1",
     "tailwindcss": "^2.0.2",
     "typescript": "^3.8.3",
-    "url-loader": "^1.1.2"
+    "url-loader": "^4.1.1"
   },
   "keywords": [
     "gatsby"
