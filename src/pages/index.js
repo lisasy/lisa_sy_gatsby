@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from '../components/footer'
 import Hero from '../components/hero_section'
 import Layout from '../components/layout'
+import { Link } from 'gatsby'
 
 const IndexPage = () => {
   return (
@@ -9,6 +10,34 @@ const IndexPage = () => {
       <section class="index_container">
         <Hero />
           <article id="work" class="work_index container">
+            <div class="work_inner_container">
+            <header>
+                <h2>
+                  Comics
+                </h2>
+              </header>     
+              <h3>
+                <Link to={`/shape-of-the-end`}>
+                  — Shape of the End (2020)
+                </Link>
+              </h3>
+              <h3>
+                <Link to={`/waiting`}>
+                  — Waiting (2019)
+                </Link>
+              </h3>
+              <h3>
+                <Link to={`/two-minutes`}>
+                  — Two Minutes (2019)
+                </Link>
+              </h3>
+              <h3>
+                <Link to={`https://pluralsandnoun.com/`}>
+                  — Plurals and Noun
+                </Link>
+              </h3>
+
+            </div>
             <div class="work_inner_container">
               <header>
                 <h2>
