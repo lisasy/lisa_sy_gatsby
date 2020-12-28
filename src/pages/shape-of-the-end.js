@@ -5,6 +5,7 @@ import SiteNav from '../components/site_nav'
 import Footer from '../components/footer'
 
 // Webpack Assets
+import shapeCover from "../images/shape-of-the-end/cover.png"
 import shapeP1 from "../images/shape-of-the-end/shape-end_p1@0.5x.jpg"
 import shapeP2 from "../images/shape-of-the-end/shape-end_p2@0.5x.jpg"
 import shapeP3 from "../images/shape-of-the-end/shape-end_p3@0.5x.jpg"
@@ -14,10 +15,11 @@ const ShapeOfTheEnd = () => {
   return (
     <Layout>
         <Helmet>
-        <meta charSet="utf-8" />
-        <meta property="og:title" content="Shape of the End by Lisa Sy"></meta>
-        <link rel="canonical" href="http://lisasy.com/shape-of-the-end" />
-        <meta property="og:image" content={shapeP3}></meta>
+          <meta charSet="utf-8" />
+          <meta property="og:title" content="Shape of the End by Lisa Sy"></meta>
+          <link rel="canonical" href="http://lisasy.com/shape-of-the-end" />
+          <meta property="og:image" content={shapeCover}></meta>
+          <meta property="twitter:image" content={shapeCover}></meta>
         </Helmet>
     <section class="comic--page">
       <SiteNav />

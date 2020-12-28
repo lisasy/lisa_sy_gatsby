@@ -28,12 +28,6 @@ const Layout = ({ children }) => (
           <meta property="og:type" content="website"></meta>
           <meta property="og:description" content="Lisa Sy is a product designer, illustrator, and artist based in California."></meta>
 
-          <meta property="og:type" content="website"></meta>
-          <meta property="og:url" content="https://lisasy.com/"></meta>
-          <meta property="og:title" content="Lisa Sy"></meta>
-          <meta property="og:description" content="Lisa Sy is a product designer, illustrator, and visual artist."></meta>
-          <meta property="og:image" content="https://lisasy.com/static/hero_3-9585aeb60e0ad871f4e315aa5776a3c5.jpg"></meta>
-
           <meta property="twitter:card" content="summary_large_image"></meta>
           <meta property="twitter:url" content="https://lisasy.com/"></meta>
           <meta property="twitter:title" content="Lisa Sy"></meta>
