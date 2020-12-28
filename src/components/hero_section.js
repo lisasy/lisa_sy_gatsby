@@ -22,8 +22,8 @@ const Hero = () => {
             Welcome to my little corner on the internet.
           </p>
           <p>
-            Based in sunny Los Angeles, I’m leading product design with some awesome people at <a href="http://forem.com" target="_blank" rel="noreferrer">Forem</a> — it’s
-    pretty sweet.
+            Based in sunny Los Angeles, I’m leading product design with some
+            awesome people at <a href="http://forem.com" target="_blank" rel="noreferrer">Forem</a>. I also draw a lot.
           </p>
         </div>
       </section>
