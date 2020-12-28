@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: 'Lisa Sy',
-    author: 'Lisa Sy'
+    title: "Lisa Sy",
+    titleTemplate: "%s · Designer & Artist",
+    description: "Lisa Sy is a product designer, illustrator, and visual artist.",
+    url: "https://lisasy.com/",
+    image: "https://lisasy.com/static/hero_3-9585aeb60e0ad871f4e315aa5776a3c5.jpg",
+    twitterUsername: "@lisasy",
   },
 
   plugins: [
