@@ -5,7 +5,7 @@ module.exports = {
     description: "Lisa Sy is a product designer, illustrator, and visual artist.",
     keywords: "Lisa Sy, lisa, design, product design, illustration, illustrator, artist, Los Angeles, CA",
     url: "https://lisasy.com/",
-    image: "../public/static/hero_3-9585aeb60e0ad871f4e315aa5776a3c5.jpg",
+    image: "/static/hero_3-9585aeb60e0ad871f4e315aa5776a3c5.jpg",
     twitterUsername: "@lisasy",
   },
 
