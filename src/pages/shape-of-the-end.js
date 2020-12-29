@@ -5,7 +5,7 @@ import SiteNav from '../components/site_nav'
 import Footer from '../components/footer'
 
 // Webpack Assets
-import shapeCover from "../images/shape-of-the-end/cover.png"
+import shapeCover from "../images/shape-of-the-end/shape-end-cover.jpg"
 import shapeP1 from "../images/shape-of-the-end/shape-end_p1@0.5x.jpg"
 import shapeP2 from "../images/shape-of-the-end/shape-end_p2@0.5x.jpg"
 import shapeP3 from "../images/shape-of-the-end/shape-end_p3@0.5x.jpg"
