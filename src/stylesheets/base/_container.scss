@@ -23,6 +23,10 @@
 .row_container {
   margin-bottom: var(--su-default);
 
+  @include media_tablet_landscape() {
+    margin-bottom: var(--su-l);
+  }
+
   &:last-child {
     margin-bottom: 0;
   }
