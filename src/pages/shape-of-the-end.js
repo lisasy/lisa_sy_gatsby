@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout'
 import { Helmet } from "react-helmet"
+import SEO from '../components/seo'
 import SiteNav from '../components/site_nav'
 import Footer from '../components/footer'
 
@@ -14,9 +15,8 @@ import shapeP4 from "../images/shape-of-the-end/shape-end_p4@0.5x.jpg"
 const ShapeOfTheEnd = () => {
   return (
     <Layout>
+        <SEO title="Shape of the End by Lisa Sy" />
         <Helmet>
-          <meta charSet="utf-8" />
-          <meta property="og:title" content="Shape of the End by Lisa Sy"></meta>
           <link rel="canonical" href="http://lisasy.com/shape-of-the-end" />
           <meta property="og:image" content={shapeCover}></meta>
           <meta property="twitter:image" content={shapeCover}></meta>
