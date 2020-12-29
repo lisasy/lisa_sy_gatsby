@@ -31,6 +31,7 @@ const SEO = ({ title, description, keywords, image, article }) => {
       <meta name="description" content={seo.description} />
       <meta name="keywords" content={seo.keywords} />
       <meta name="image" content={seo.image} />
+      <meta property="og:type" content="website" />
 
       {seo.url && <meta property="og:url" content={seo.url} />}
 

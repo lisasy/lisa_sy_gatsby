@@ -14,10 +14,11 @@ import shapeP4 from "../images/shape-of-the-end/shape-end_p4@0.5x.jpg"
 const ShapeOfTheEnd = () => {
   return (
     <Layout>
-      <SEO title="Shape of the End by Lisa Sy" />
-      <SEO description="A quarantine comic (December 2020)" />
-      <SEO url="http://lisasy.com/shape-of-the-end" />
-      <SEO image={shapeCover} />
+      <SEO 
+        title="Shape of the End by Lisa Sy"
+        description="A quarantine comic (December 2020)"
+        image={shapeCover}
+      />
     <section class="comic--page">
       <SiteNav />
       <section class="page--container container p-0">
