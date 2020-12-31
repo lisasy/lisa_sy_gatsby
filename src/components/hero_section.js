@@ -7,7 +7,6 @@ import HeroImage3 from '../images/hero_3.jpg'
 
 const Hero = () => {
   return (
-
     <section class="hero_header">
       <SiteNav />
       <section class="hero_header_inner_content container">
