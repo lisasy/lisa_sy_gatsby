@@ -21,7 +21,7 @@
 }
 
 .h1_jumbo {
-  font-weight: 700;
+  font-weight: 500;
   margin-bottom: 0;
 
   font-size: 40px;
@@ -41,6 +41,7 @@
   padding-bottom: 1em;
 
   p {
+    font-family: var(--type-body-sans-serif);
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;

@@ -5,7 +5,7 @@ html {
   text-rendering: optimizeLegibility;
 
   body {
-    font-family: var(--type-body-sans-serif);
+    font-family: var(--type-body-serif);
     font-size: 16pt;
     line-height: var(--base-line-height);
   }
@@ -13,7 +13,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--type-display);
-  font-weight: 900;
+  font-weight: 400;
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
   line-height: 1.45;

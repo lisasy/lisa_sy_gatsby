@@ -61,9 +61,14 @@ const IndexPage = () => {
             <section class="row_container">
               <div class="facebook_content_warnings"></div>
                 <caption>
-                  <h4 class="caption_metatag">
-                    Facebook · 2017
-                  </h4>
+                  <div className="flex align-center gap-4">
+                    <h4 class="caption_metatag mb-0">
+                      Facebook
+                    </h4>
+                    <h4 class="caption_metatag mb-0">
+                      2017
+                    </h4>
+                  </div>
                   <h3 class="caption_title">
                     Protecting people with content warnings
                   </h3>

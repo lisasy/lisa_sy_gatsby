@@ -4,7 +4,10 @@
   --typeface-sans-serif-display: "forma-djr-display", helvetica, sans-serif;
   --typeface-sans-serif-text: "forma-djr-text", helvetica, sans-serif;
 
-  --type-display: var(--typeface-sans-serif-display);
+  --typeface-serif-display: "new-spirit", georgia, serif;
+  --typeface-serif-condensed-display: "new-spirit-condensed", georgia, serif;
+
+  --type-display: var(--typeface-serif-display);
   --type-body-serif: var(--typeface-serif);
   --type-body-sans-serif: var(--typeface-sans-serif-text);
 
