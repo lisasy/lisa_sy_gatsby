@@ -15,8 +15,8 @@
   }
 
   @include media_tablet_landscape() {
-    padding-bottom: calc(var(--su-xl) * 1.5);
-    padding-top: calc(var(--su-xl) * 1.5);
+    padding-bottom: var(--su-xl);
+    padding-top: var(--su-xl);
   }
 }
 
