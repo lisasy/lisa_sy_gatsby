@@ -1,6 +1,8 @@
 .caption_metatag {
   color: rgb(103, 103, 103);
   text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
 
   @include media_tablet_portrait() {
     font-size: 20px;
@@ -10,6 +12,8 @@
 
 .caption_title {
   font-family: var(--typeface-serif-condensed-display);
+  margin-top: 0;
+  margin-bottom: 0;
   text-align: left;
 }
 

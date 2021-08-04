@@ -18,17 +18,30 @@
   --type-scale: 1.414;
 
   // Color : Declaration
-  --color-rose: #F5D0D2;
-  --color-teal: #03b999;
-  --color-navy: #1E3C8F;
-  --color-charcoal: #120302;
+--color-midnight: #041E19;
+--color-forest: #0E362F;
+--color-seafoam: #C4D6D2;
+--color-salmon: #FF7171;
+--color-petal: #F5D0D2;
+--color-peach: #FFE5D7;
+--color-grass: #008C4E;
+--color-sunshine: #F5CB5F;
+
+--base-00: var(--color-midnight);
+--base-01: var(--color-forest);
+--base-02: var(--color-seafoam);
+--complement-00: var(--color-salmon);
+--complement-01: var(--color-petal);
+--complement-02: var(--color-peach);
+--accent-dark: var(--color-grass);
+--accent-light: var(--color-sunshine);
 
   // Color: Applied
-  --base-body-text: var(--color-charcoal);
-  --link-accent-color: var(--color-navy);
+  --base-body-text: var(--base-00);
+  --link-accent-color: var(--accent-dark);
 
   // Border
-  --border-style: 2px solid var(--base-body-text);
+  --border-style: 2px solid var(--base-00);
 
   // Values
   --v-1: 0.25em; // 4px

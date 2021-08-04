@@ -29,16 +29,25 @@
     }
 
     p {
-      font-size: 18px;
-      line-height: 24px;
+      line-height: 1.33;
       margin: 0 auto 0 0;
       text-align: left;
-      width: 100%;
-
-      @include media_tablet_portrait() {
-        width: 75%;
-      }
     }
+  }
+}
+
+.tallpoppy_ui {
+  background-image: url("../images/tall-poppy-ui.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px;
+  height: 400px;
+  max-height: 640px;
+  width: 100%;
+
+  @include media_tablet_portrait() {
+    height: 1000px;
   }
 }
 
@@ -50,6 +59,21 @@
   min-height: 400px;
   height: 400px;
   max-height: 1000px;
+  width: 100%;
+
+  @include media_tablet_portrait() {
+    height: 1000px;
+  }
+}
+
+.tallpoppy_illustrations {
+  background-image: url("../images/tall-poppy-illustrations.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px;
+  height: 400px;
+  max-height: 500px;
   width: 100%;
 
   @include media_tablet_portrait() {

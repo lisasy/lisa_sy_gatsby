@@ -1,6 +1,6 @@
 .hero_header {
-  background: var(--color-rose);
-  border-bottom: 2px solid var(--color-charcoal);
+  background: var(--complement-01);
+  border-bottom: var(--border-style);
 }
 
 .hero_header_inner_content {
@@ -65,7 +65,7 @@
   }
 
   img {
-    border: 2px solid var(--color-charcoal);
+    border: var(--border-style);
 
     &:first-child {
       transform: rotateZ(-5deg);

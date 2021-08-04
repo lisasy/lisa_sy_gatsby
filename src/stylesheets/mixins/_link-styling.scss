@@ -3,11 +3,10 @@
 @mixin link-style--underline() {
   color: var(--base-body-text);
   text-decoration: none;
-  box-shadow: inset 0 -3px 0 0 var(--color-teal);
 
   &:hover {
     color: var(--link-accent-color);
-    box-shadow: inset 0 -3px 0 0 var(--link-accent-color);
+    box-shadow: inset 0 -3px 0 0 var(--base-00);
   }
 }
 

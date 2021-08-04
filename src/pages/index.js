@@ -13,7 +13,7 @@ const IndexPage = () => {
             <div class="work_inner_container">
             <header>
                 <h2>
-                  Comics
+                  Comics & graphic narratives
                 </h2>
               </header>     
               <h3>
@@ -46,32 +46,68 @@ const IndexPage = () => {
               </header>
 
             <section class="row_container">
+                <div class="tallpoppy_ui"></div>
+                <caption class="md:w-1/2">
+                  <h4 class="caption_metatag">
+                    Tall Poppy · 2019
+                  </h4>
+                  <h3 class="caption_title">
+                    Rehauling how to proactively support people who
+                    experience harassment and/or security breaches online
+                  </h3>
+                  <p>
+                    With user research, product design, and product strategy,
+                    I helped the Tall Poppy team overhaul their product that
+                    provides tool and resources for people experiencing
+                    online harassment and/or security breaches.
+                  </p>
+                </caption>
+            </section>
+
+            <section class="row_container">
                 <div class="dropbox"></div>
-                <caption>
+                <caption class="md:w-1/2">
                   <h4 class="caption_metatag">
                     Dropbox · 2019
                   </h4>
                   <h3 class="caption_title">
                     Announcing new plan updates
                   </h3>
+                  <p>
+                    I partnered with their Growth team to help announce a new
+                    plan and price to their customers.
+                  </p>
+                </caption>
+            </section>
+            
+            <section class="row_container">
+                <div class="tallpoppy_illustrations"></div>
+                <caption>
+                  <h4 class="caption_metatag">
+                    Tall Poppy · 2019
+                  </h4>
+                  <h3 class="caption_title">
+                    Tall Poppy's Brand Illustrations
+                  </h3>
+                  <p>
+                  </p>
                 </caption>
             </section>
 
 
             <section class="row_container">
               <div class="facebook_content_warnings"></div>
-                <caption>
-                  <div className="flex align-center gap-4">
-                    <h4 class="caption_metatag mb-0">
-                      Facebook
-                    </h4>
-                    <h4 class="caption_metatag mb-0">
-                      2017
-                    </h4>
-                  </div>
+                <caption class="md:w-1/2">
+                  <h4 class="caption_metatag mb-0">
+                    Facebook · 2017
+                  </h4>
                   <h3 class="caption_title">
                     Protecting people with content warnings
                   </h3>
+                  <p>
+                    I led product design to help millions of people deal with
+                    unexpected, sensitive content they see on Facebook.
+                  </p>
                 </caption>
           </section>
 
